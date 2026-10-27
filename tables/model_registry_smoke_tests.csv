@@ -1,0 +1,15 @@
+model_name,dataset,training_rows,probe_rows,fit_seconds,predict_seconds,predict_proba_seconds,threadpool_limit,valid_quality_predictions,valid_probabilities,status
+dummy,synthetic only; not wine data,144,36,0.0013652089983224869,0.0006637910264544189,0.0005120839923620224,1,True,True,passed
+logistic_regression,synthetic only; not wine data,144,36,0.005217417026869953,0.0008717920281924307,0.0007626659935340285,1,True,True,passed
+knn,synthetic only; not wine data,144,36,0.0031777910189703107,0.001444249995984137,0.0009703329997137189,1,True,True,passed
+gaussian_nb,synthetic only; not wine data,144,36,0.0019362500170245767,0.0007515000179409981,0.0008023750269785523,1,True,True,passed
+lda,synthetic only; not wine data,144,36,0.0022140410146676004,0.0007576660136692226,0.0007643749704584479,1,True,True,passed
+decision_tree,synthetic only; not wine data,144,36,0.002170792024116963,0.0006537499721162021,0.0006130840047262609,1,True,True,passed
+random_forest,synthetic only; not wine data,144,36,0.05487087497022003,0.0034071250120177865,0.0031460830359719694,1,True,True,passed
+extra_trees,synthetic only; not wine data,144,36,0.03815620800014585,0.0034775829990394413,0.0031376660335808992,1,True,True,passed
+gradient_boosting,synthetic only; not wine data,144,36,0.23483066697372124,0.001537167001515627,0.0012291250168345869,1,True,True,passed
+hist_gradient_boosting,synthetic only; not wine data,144,36,0.11094687500735745,0.003139750042464584,0.0028159579960629344,1,True,True,passed
+svm,synthetic only; not wine data,144,36,0.020087416982278228,0.0018267499981448054,0.001509334018919617,1,True,True,passed
+xgboost,synthetic only; not wine data,144,36,0.07272658299189061,0.0020558329997584224,0.0010520839714445174,1,True,True,passed
+lightgbm,synthetic only; not wine data,144,36,0.052094959013629705,0.002341583021916449,0.002149250009097159,1,True,True,passed
+catboost,synthetic only; not wine data,144,36,0.30104308295994997,0.0015067500062286854,0.0007411660044454038,1,True,True,passed

@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate \u2014 RBF SVM nested search",
+  "completed_utc": "2026-10-12T18:33:30.967184+00:00",
+  "total_fits": 7280,
+  "outer_evaluations": 80,
+  "elapsed_seconds": 163.33957449998707,
+  "files": {
+    "inner_assignments.csv": "3ac468776bba274e189cf9eec2af0cd7b5a4427555bafe47217026fb54470651",
+    "inner_candidate_scores.csv": "94da8297b953cd67cbfec714cdf281e5e8e2f7f8a740a8ab5f2c40451e13ea53",
+    "inner_class_support.csv": "dd7de70bcf7cc46bc1b56211989dc9d0f7ca365ea8b375d49915c0909a4a52cc",
+    "inner_fold_scores.csv": "8a441ff8e27674c463025996588e66a7e6e59c23416656d4f09d414c1133cf05",
+    "lda_training_audits.json": "977ad12598769caa379c374517778562b796c72765c7c3351e128b51867e70fb",
+    "metric_comparison.csv": "3955d322180890414c7190b03b5ae0e45d719f3fabdcc08d82a92c0afe417603",
+    "outer_assignments.csv": "e8309d76716988ecb07080244d1afa40fe85563f06391d1d659fbffb85f89bb2",
+    "outer_class_support.csv": "2211bc8d9d02ace5edac7c850f94d9c0eb35e22ea075766576582fb32f9a010e",
+    "outer_fold_metrics.csv": "81ba3cd08a7b68d36b2a01162673c99a6650d870a91f15b97c2e9a38625141c5",
+    "outer_oof_predictions.csv": "6813ee9490865e75fca69c2285680415318e83f1eb76565c661b8e0950c6149c",
+    "outer_per_class.csv": "9babafda788ebc512be8d60747a50c0708ea6ba695e91ddca9946c9e6ee17e18",
+    "paired_fold_differences.csv": "f3f5cbb5ab0d580745173282e4f5161bc1895c6fc59223e84c871c7770ba7888",
+    "per_class_comparison.csv": "7fbc17651f84fff3231cd8cab90bad2ca8503183746b2fd809967484f88f4514",
+    "plan.json": "3bd8b7d8f62735e41e452af8db41358feb7642d6ac3a38f5f95bf0c6819817f2",
+    "progress.json": "7c03caf73924d6d0461f8e6a2e1957ef825775c3e1e1b1bd745fad9b3610ab96",
+    "repeat_metrics.csv": "844d27dc74b582526afb2e0a9eaf792eda55315869d237cf80b340f12e1b14ea",
+    "runtime_comparison.csv": "0a5d5a9afa3ed580954362c7a56f5c0a0065380617241ac751c31ff7d56cb859",
+    "svm_training_audits.csv": "9670f990eb90c14422756b29db58c6089ccbcc11d738d943c6599310f63bc680",
+    "warnings.json": "1646a80bdbc97348d3cc288a8fb7fa7e1c6f8658eab7102f711d2f606c1bc911"
+  }
+}

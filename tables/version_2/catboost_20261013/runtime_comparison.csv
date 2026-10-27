@@ -1,0 +1,5 @@
+model,inner_search_seconds,outer_fit_seconds,outer_score_seconds,outer_fit_mean_seconds,prediction_mean_ms_per_sample,measured_model_seconds,estimate_label
+unweighted,311.0502510390943,6.999536121904384,0.7616345850401558,0.1749884030476096,0.005977301044780969,318.81142174603883,Experiment Version 2 — Development CV Estimate — CatBoost multiclass comparison
+Balanced,316.3691656239098,7.327934873115737,0.7549119609757327,0.18319837182789342,0.005643413285587417,324.45201245800126,Experiment Version 2 — Development CV Estimate — CatBoost multiclass comparison
+SqrtBalanced,313.74984862684505,5.432589961099438,0.8076755020301789,0.13581474902748597,0.0055656256571793,319.99011408997467,Experiment Version 2 — Development CV Estimate — CatBoost multiclass comparison
+custom,315.0882099569426,4.253241124970373,0.7601692067692056,0.10633102812425932,0.0055837835210698,320.10162028868217,Experiment Version 2 — Development CV Estimate — CatBoost multiclass comparison

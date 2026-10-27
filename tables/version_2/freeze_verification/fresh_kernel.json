@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "guards": {
+    "development_load": 1,
+    "source_reads": 1,
+    "wrapper_fit": 1,
+    "scaler_fit": 1,
+    "smote": 1,
+    "tomek": 1,
+    "lda_fit": 1,
+    "holdout_evaluations": 0
+  },
+  "src_imports_blocked": true,
+  "notebook_helpers_executed": true,
+  "freeze_replay_passed": true
+}

@@ -1,0 +1,14 @@
+{
+  "status": "LOCKED",
+  "split_manifest_sha256": "9e90c4b1563b483b972f2be1dc5918c43c44ab0f7d5249d545af822189d3517b",
+  "test_size": 0.2,
+  "random_state": 42,
+  "primary_selection_metric": "macro_f1",
+  "forbidden_test_uses": [
+    "feature selection",
+    "hyperparameter selection",
+    "resampling decisions",
+    "algorithm selection"
+  ],
+  "release_policy": "Final evaluation only, after model selection and configuration are frozen."
+}

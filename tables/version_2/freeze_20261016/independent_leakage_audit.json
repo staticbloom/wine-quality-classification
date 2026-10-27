@@ -1,0 +1,195 @@
+{
+  "status": "passed_within_read_only_scope_pending_root_duplicate_and_final_fit_checks",
+  "raw_dataset_reads": 0,
+  "historical_holdout_result_reads": 0,
+  "model_fits": 0,
+  "threshold_optimizations": 0,
+  "checks": {
+    "immutable_saved_evidence": {
+      "runs": [
+        "additional_imbalance_20261014",
+        "catboost_20261013",
+        "cv_stability_20261012",
+        "deadline_20261015",
+        "forests_20261013",
+        "lightgbm_20261013",
+        "nested_cv_20261012",
+        "ordinal_20261015",
+        "oversampling_20261014",
+        "rbf_svm_20261012",
+        "regression_ordinal_20261015",
+        "xgboost_20261012"
+      ],
+      "files_hashed": 229,
+      "utility_cell_identities_checked": 124
+    },
+    "additional_imbalance_training_and_prediction_provenance": {
+      "training_audits_checked": 6960,
+      "inner_method_selections_reconstructed": 480,
+      "outer_evaluations_checked": 560,
+      "fixed_six_macro_f1_manual_reconstruction": true,
+      "native_probability_argmax_reconstructed": true,
+      "protected_tomek_only_real_training_5_6": true
+    },
+    "regression_threshold_training": {
+      "native_training_memberships_checked": 3264,
+      "threshold_training_records_redecoded": 960,
+      "thresholds_strictly_ordered": true,
+      "training_OOF_objectives_recalculated": true,
+      "raw_training_OOF_hashes_matched": true,
+      "no_new_threshold_optimization": true
+    },
+    "deadline_inner_decisions": {
+      "fit_memberships_checked": 48,
+      "multiplier_selections_reconstructed": 8,
+      "multipliers_range": [
+        0.75,
+        1.5
+      ],
+      "feature_recipes_fixed": 3,
+      "no_promotions": true,
+      "ensemble_fixed_screening_weights": [
+        0.5,
+        0.6666666666666666
+      ],
+      "accepted_ensemble": false
+    },
+    "historical_holdout": {
+      "evidence_scope": "Current source review and immutable saved execution attestations, not independent observation of past sessions. V2 loaders parse only locked development lines; prior kernels recorded zero holdout evaluations and guards against historical result reads. Existing V1 result display is documentation only. No V2 selection source reviewed references historical test metrics.",
+      "current_audit_no_raw_data_or_holdout_reads": true
+    }
+  },
+  "caveats": [
+    "These repeated development estimates were used to compare many families; final champion selection across studies is not itself nested and its reported best estimate can be selection-optimistic. It is not a new independent test result.",
+    "Repeated folds overlap, and the same 1087 wines are predicted in ten repeats. Pooled 10870 predictions are not 10870 independent wines.",
+    "Mean of six fold-averaged class F1 values equals mean fold Macro F1. Macro F1 from the pooled confusion matrix is a different summary and must be labelled separately.",
+    "The best recorded per-method score estimates a sampler-selection procedure; the all-development frozen concrete sampler configuration has no separate unseen CV estimate unless a prior exact fixed-config result exists.",
+    "Physical duplicates/near duplicates cannot be evaluated from saved membership alone. Root must inspect locked development predictors; no sample group identifiers are available to prove broader wine-level independence.",
+    "No software audit can prove unrecorded past human choices never considered an already viewed holdout; code and saved guarded executions support the stated no-V2-use protocol."
+  ],
+  "audit_points": [
+    {
+      "number": 1,
+      "status": "passed",
+      "check": "Macro F1 is macro averaged",
+      "evidence": "evaluate_predictions uses f1_score(labels=[3,4,5,6,7,8], average=\"macro\", zero_division=0). Independent count-based reconstruction matched every one of 560 outer evaluations in the strongest additional-imbalance study. Weighted F1 is a distinct field.",
+      "sources": "utility-evaluation; tables/version_2/additional_imbalance_20261014/outer_fold_metrics.csv"
+    },
+    {
+      "number": 2,
+      "status": "passed",
+      "check": "Manual six-class arithmetic mean",
+      "evidence": "For every additional-imbalance outer evaluation, built a 6x6 confusion matrix from saved unseen predictions, calculated F1_q = 2TP_q/(actual_q+predicted_q), then averaged the six values. All matched reported Macro F1 within 1e-12. The arithmetic mean of six fold-averaged class F1 values reconstructs the mean-fold Macro F1. The pooled confusion matrix reconstructs pooled Macro F1, a different aggregation.",
+      "sources": "tables/version_2/additional_imbalance_20261014/outer_oof_predictions.csv"
+    },
+    {
+      "number": 3,
+      "status": "pending_root_raw_development_check",
+      "check": "No duplicates cross validation partitions",
+      "evidence": "Verified every outer source-row membership is unique/disjoint from training, reconstructed 6,960 inner/outer training memberships, and verified validation rows are registered genuine development indices. These checks establish row separation, but cannot determine equal raw predictors or equal full observations from saved IDs alone. Root is independently inspecting locked development data only. Repeated appearances across ten repeats are expected and must not be counted as independent wines.",
+      "sources": "tables/version_2/additional_imbalance_20261014/outer_assignments.csv; inner_assignments.csv; training_audits.json"
+    },
+    {
+      "number": 4,
+      "status": "passed_source_and_saved_evidence",
+      "check": "No target information in inputs",
+      "evidence": "NumericFeatureSchema rejects quality and any columns other than the exact 11 original numeric physicochemical predictors, and supplies canonical order. AdditionalImbalanceClassifier schema fit/transform receive X only. The saved scaler has exactly 11 features in each fit. No target encodings are included. Raw-data redundancy/feature-identity confirmation remains within root audit.",
+      "sources": "utility-preprocessing; ai-estimators; training_audits.json"
+    },
+    {
+      "number": 5,
+      "status": "passed_source_and_saved_provenance",
+      "check": "Scaling and learned transformations fit inside training folds",
+      "evidence": "Champion StandardScaler is fitted on canonical genuine current-training rows before sampling; saved membership hashes, counts and finite 11-element moments checked for every fit. Runtime records report exact native scaler input guards. Regression Ridge scaling is similarly local. Deadline log selection uses nonnegative support/skew of current training X only. Root reconstructs actual scaler moments from locked development features.",
+      "sources": "ai-estimators; reg-estimators; deadline-models; additional_imbalance_verification/additional_imbalance_validation.json"
+    },
+    {
+      "number": 6,
+      "status": "passed",
+      "check": "SMOTE/resampling only in training",
+      "evidence": "AdditionalWineSampler is invoked only in classifier.fit. It sees the training-scaled current fold. Prediction paths apply only existing schema/scaler/model; they never call a sampler. All 6,960 audited training memberships and count equations match expected current training subsets. Protected Tomek removes only genuine classes 5/6 training endpoints; removal memberships and class labels independently checked.",
+      "sources": "ai-estimators; os-estimators; tables/version_2/additional_imbalance_20261014/training_audits.json"
+    },
+    {
+      "number": 7,
+      "status": "passed",
+      "check": "No synthetic observations in validation",
+      "evidence": "All 560 outer evaluation prediction row sets exactly match the original registered stratified validation indices and actual labels. Each source index occurs once per model per repeat. Generated rows are confined to temporary training arrays; prediction code has no resampling path.",
+      "sources": "tables/version_2/additional_imbalance_20261014/outer_oof_predictions.csv; ai-estimators"
+    },
+    {
+      "number": 8,
+      "status": "passed",
+      "check": "Feature engineering independent of validation labels",
+      "evidence": "Champion uses original 11 features with no derived engineering. DeadlineFeatures.fit ignores y, uses deterministic fixed chemistry formulas and training-only skew/positivity for log transforms; transform uses frozen selections. No feature direction was promoted or retained.",
+      "sources": "deadline-models; tables/version_2/deadline_20261015/plan.json; promotion.json"
+    },
+    {
+      "number": 9,
+      "status": "passed_with_selection_scope_limitation",
+      "check": "Hyperparameter selection fold-safe",
+      "evidence": "Reconstructed all 480 per-method winners by sorting existing inner mean Macro F1, fewer added rows, fewer removed rows, then registered order. Their identities match outer evaluation recipes. Inner splits are subsets of outer train. The champion fixes LDA shrinkage 0.8 and tunes six gentle/moderate × k=1/2/3 sampling choices inside each outer train. Across-study choice of model family/method is not nested; this is exploratory development validation. Aggregating existing inner scores to choose a concrete final sampler is allowed finalization, but does not supply a new unbiased score for that fixed instance.",
+      "sources": "ai-selection; tables/version_2/additional_imbalance_20261014/inner_candidate_scores.csv; plan.json"
+    },
+    {
+      "number": 10,
+      "status": "passed",
+      "check": "Regression thresholds fit from training/inner-CV evidence",
+      "evidence": "Independently reconstructed 3,264 regressor fit memberships, including all inner subtrains. For every 960 threshold record, verified outer-training source hash and saved inner-OOF score hash, strictly ordered rational thresholds, and the recomputed six-class Macro F1 training objective. Source freezes those thresholds before decoding outer predictions. Threshold fitting uses pooled inner OOF labels and is explicitly an optimized tuning objective; only outer metrics are performance estimates. No threshold optimizations or model fits were executed in this audit.",
+      "sources": "reg-selection; tables/version_2/regression_ordinal_20261015/threshold_training.json; inner_oof_predictions.npz; training_audits.json"
+    },
+    {
+      "number": 11,
+      "status": "passed",
+      "check": "Probability/class multiplier tuning fold-safe",
+      "evidence": "Independently recalculated all 12 multiplier-vector mean inner-fold Macro F1 scores for each of 8 saved deadline decisions from cached inner OOF probabilities, current outer-training labels and exact inner splits. Selected argmax indices and multiplier vectors match. Multiplier range 0.75–1.5 and classes 5/6 multipliers 1 enforced. No decision direction was promoted.",
+      "sources": "deadline-models; tables/version_2/deadline_20261015/inner_selections.json; inner_oof_predictions.npz"
+    },
+    {
+      "number": 12,
+      "status": "passed_for_executed_screening_not_accepted_model",
+      "check": "Ensemble weighting without accepted outer-validation leakage",
+      "evidence": "Deadline screened two fixed predeclared soft-vote weight pairs (0.5/0.5, 2/3 vs 1/3). They were not fit using outer labels. Screening comparison determines possible promotion and is labeled exploratory; neither passed, no ensemble was retained or robustly evaluated. Had promotion occurred, code selects weights only on inner OOF probabilities before outer prediction. Champion is a single LDA model.",
+      "sources": "deadline-run; tables/version_2/deadline_20261015/plan.json; promotion.json; outcome.json"
+    },
+    {
+      "number": 13,
+      "status": "not_applicable",
+      "check": "Stacking uses genuine OOF if present",
+      "evidence": "No stacking implementation or stacking result exists among the reviewed Version 2 studies. Only the explicitly fixed soft-vote screening was attempted.",
+      "sources": "notebook Version 2 utility/result cells; tables/version_2/deadline_20261015/plan.json"
+    },
+    {
+      "number": 14,
+      "status": "supported_by_recorded_guards_and_source",
+      "check": "Historical holdout not used for Version 2 selection",
+      "evidence": "load_locked_development hashes immutable raw bytes, parses only saved development lines, and returns no holdout values. Study scripts consume these development rows and earlier development artifacts only. Saved fresh-kernel attestations record zero holdout evaluations and blocking of historical result/model reads during experimentation. V1 holdout display remains documentation in report replay. This audit read no raw dataset, no historical holdout result files, and performed no fits. Auditing software records cannot prove unrecorded human decisions never considered a previously seen result; no evidence of such use was found.",
+      "sources": "utility-partitioning; tables/version_2/*verification/*validation.json; study plan files"
+    },
+    {
+      "number": 15,
+      "status": "passed",
+      "check": "Class/probability order 3, 4, 5, 6, 7, 8",
+      "evidence": "Champion fit asserts native LDA.classes_ equals expected original six labels. Probability alignment code checks/reorders by explicit classes. Independently verified every saved additional-imbalance probability vector is normalized and six named columns map by argmax exactly to saved predictions for all 560 evaluations. Deadline and ordinal outputs explicitly reconstruct the same order; regression decoder maps to fixed Q.",
+      "sources": "ai-estimators; os-estimators; utility-evaluation; outer_oof_predictions.csv"
+    },
+    {
+      "number": 16,
+      "status": "passed_with_aggregation_caveat",
+      "check": "Reported performance uses unseen CV predictions",
+      "evidence": "Every reported additional-imbalance outer prediction row equals its registered validation membership and is excluded from corresponding training. Manually reconstructed reported outer Macro F1. Inner tuning metrics and all-development final fitting are kept separate from outer performance. Averaging 40 folds provides the headline estimate; repeated predictions are correlated and pooled counts are not an independent test.",
+      "sources": "tables/version_2/additional_imbalance_20261014/outer_oof_predictions.csv; outer_fold_metrics.csv; training_audits.json"
+    }
+  ],
+  "freeze_recommendation": {
+    "eligible_procedure": "LDA + capped SMOTE + protected Tomek cleaning (per-method inner selection)",
+    "final_sampler_choice": "Select one concrete gentle/moderate profile and k from the aggregate of already recorded inner candidate mean scores; freeze once. Do not select by a strong outer fold or run new search.",
+    "final_fit": "Single authorized full-development fit only; no final holdout loading/prediction/scoring.",
+    "portable_export": "Built-in sklearn Pipeline with copied fitted StandardScaler and copied fitted LinearDiscriminantAnalysis is sufficient for inference. Omit train-only SMOTE/Tomek from inference. Export only library classes, so loading requires no notebook custom definitions or src.",
+    "input_contract": "Require a pandas DataFrame with the exact canonical 11 predictor column names in canonical order. StandardScaler feature_names_in_ rejects missing/extra/reordered named columns. A numpy array can bypass name validation and is outside the supported input contract; the exported generic pipeline is not the original custom schema guard.",
+    "parity_verification": "Assert canonical feature_names_in_, classes_ == [3, 4, 5, 6, 7, 8], and exact or tight numeric prediction/probability parity of the fitted notebook wrapper vs built-in exported pipeline; repeat after serialization and load in a clean Python process. Do not report predictions on final training data as validation metrics.",
+    "estimate_label": "Development-only repeated nested CV estimate for the sampler-selection procedure; final concrete fitted instance has no new independent generalization measurement.",
+    "results_freeze": "Metadata should retain all source result hashes, frozen hyperparameters/sampling formula, final real/synthetic/removed counts, training membership hash, package versions, timestamp, class order, feature schema and model-file hash. Do not optimize thereafter."
+  },
+  "high_score_audit": "All strongest results are below 0.50; extra 0.50/0.70 branches not triggered. The requested manual class-F1/count/confusion reconstruction is nevertheless performed."
+}

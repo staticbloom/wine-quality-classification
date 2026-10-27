@@ -1,0 +1,2 @@
+source_path,source_sha256,python_version,pandas_version,numpy_version,cleaning_policy
+/Users/shivsharma/Documents/projects/Finesse-Project3/data/wine-quality-red.csv,952286135b2a6583dc47b83ada8503ecbf80bceaa51755c83c46254f179c762a,3.12.14,2.2.3,2.3.5,Exact-row deduplication (keep first); integer target; no outlier removal or imputation

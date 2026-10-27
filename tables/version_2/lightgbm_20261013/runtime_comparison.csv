@@ -1,0 +1,4 @@
+model,inner_search_seconds,outer_fit_seconds,outer_score_seconds,outer_fit_mean_seconds,prediction_mean_ms_per_sample,measured_model_seconds,estimate_label
+unweighted,201.80293037585216,3.234029875078704,1.2436553770676255,0.08085074687696761,0.027905508582088956,206.2806156279985,Experiment Version 2 — Development CV Estimate — LightGBM weighting comparison
+frequency,204.80361608805833,3.190785792947281,1.2324802100774832,0.07976964482368203,0.027609084089359172,209.2268820910831,Experiment Version 2 — Development CV Estimate — LightGBM weighting comparison
+moderated_custom,204.3761078310199,2.515646333049517,1.159849918098189,0.06289115832623793,0.024537630471483985,208.05160408216761,Experiment Version 2 — Development CV Estimate — LightGBM weighting comparison

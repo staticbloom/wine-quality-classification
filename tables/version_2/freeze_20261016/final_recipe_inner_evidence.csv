@@ -1,0 +1,7 @@
+candidate_id,candidate_order,method,profile,k_neighbors,macro_f1_mean,added_mean,removed_mean,times_selected
+smote_tomek_protected__gentle__k1,21,smote_tomek_protected,gentle,1,0.35000531347663105,32.16666666666667,78.425,13
+smote_tomek_protected__moderate__k3,26,smote_tomek_protected,moderate,3,0.349378995662616,74.0,74.06666666666666,6
+smote_tomek_protected__moderate__k2,25,smote_tomek_protected,moderate,2,0.3487843367443689,74.0,74.46666666666667,8
+smote_tomek_protected__gentle__k2,22,smote_tomek_protected,gentle,2,0.34595895720442155,32.16666666666667,78.175,4
+smote_tomek_protected__gentle__k3,23,smote_tomek_protected,gentle,3,0.3424337449466558,32.16666666666667,79.725,5
+smote_tomek_protected__moderate__k1,24,smote_tomek_protected,moderate,1,0.3391332551412502,74.0,72.35,4

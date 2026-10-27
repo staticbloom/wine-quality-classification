@@ -1,0 +1,8 @@
+{
+  "archive": "notebook/archive/Wine-Quality-Development-2026-10-16.ipynb",
+  "archive_sha256": "5a7826c5f089919c1c6473a83c7431c7920e115028cdf989370a5b1085a1e1f1",
+  "purpose": "Byte-identical development notebook retained as inert historical evidence; no code imported or executed by submission report.",
+  "original_cell_count": 469,
+  "model_development": "CLOSED",
+  "preserve_frozen_model_and_evidence": true
+}

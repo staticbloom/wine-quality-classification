@@ -1,0 +1,25 @@
+{
+  "status": "READY",
+  "completed_utc": "2026-10-16T08:05:26.931376+00:00",
+  "fresh_kernel": true,
+  "sequential": true,
+  "working_directory": "notebook",
+  "python": "3.14.7",
+  "code_cells": 23,
+  "embedded_figures": 6,
+  "guards": {
+    "fit_attempts": 0,
+    "predict_rows": 5,
+    "probability_rows": 5,
+    "model_loads": 1,
+    "raw_data_parses": 0
+  },
+  "retired_package_and_directory_blocked": true,
+  "all_frozen_evidence_unchanged": 507,
+  "clean_dependency_download_tested": false,
+  "wall_seconds": 21.207096875004936,
+  "no_new_model_tuning": true,
+  "notebook_source_sha256": "0172aeb3338cba58c13790438399b1ee03ddb80921d00b547d2b2f114ac54a12",
+  "relocated_project_verified": true,
+  "relocation_method": "Independent notebook/script copies; immutable evidence hard-linked at a different project root; fresh outputs; no environment copied."
+}

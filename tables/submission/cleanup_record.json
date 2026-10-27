@@ -1,0 +1,14 @@
+{
+  "removed_empty_placeholders_and_caches": [
+    "models/candidates/.gitkeep",
+    "models/final/.gitkeep",
+    "notebook/.gitkeep",
+    "tables/.gitkeep",
+    "visuals/.gitkeep",
+    ".DS_Store",
+    "scripts/__pycache__/verify_notebook_replay.cpython-314.pyc",
+    "scripts/__pycache__/verify_notebook_replay.cpython-312.pyc"
+  ],
+  "development_notebook_archived": true,
+  "frozen_results_deleted": 0
+}

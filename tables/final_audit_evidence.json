@@ -1,0 +1,447 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "architecture": "arm64",
+  "requirements": [
+    {
+      "requirement": "numpy",
+      "installed_version": "2.3.5"
+    },
+    {
+      "requirement": "pandas",
+      "installed_version": "2.2.3"
+    },
+    {
+      "requirement": "scipy",
+      "installed_version": "1.18.1"
+    },
+    {
+      "requirement": "matplotlib",
+      "installed_version": "3.11.2"
+    },
+    {
+      "requirement": "seaborn",
+      "installed_version": "0.13.2"
+    },
+    {
+      "requirement": "scikit-learn",
+      "installed_version": "1.9.1"
+    },
+    {
+      "requirement": "imbalanced-learn",
+      "installed_version": "0.14.2"
+    },
+    {
+      "requirement": "xgboost",
+      "installed_version": "3.4.1"
+    },
+    {
+      "requirement": "lightgbm",
+      "installed_version": "4.7.0"
+    },
+    {
+      "requirement": "catboost",
+      "installed_version": "1.2.10"
+    },
+    {
+      "requirement": "shap",
+      "installed_version": null
+    },
+    {
+      "requirement": "joblib",
+      "installed_version": "1.6.0"
+    },
+    {
+      "requirement": "jupyter",
+      "installed_version": null
+    },
+    {
+      "requirement": "nbformat",
+      "installed_version": "5.11.1"
+    },
+    {
+      "requirement": "nbclient",
+      "installed_version": "0.11.0"
+    },
+    {
+      "requirement": "ipykernel",
+      "installed_version": "7.4.0"
+    },
+    {
+      "requirement": "ipython",
+      "installed_version": "9.17.1"
+    },
+    {
+      "requirement": "threadpoolctl",
+      "installed_version": "3.7.0"
+    },
+    {
+      "requirement": "pytest",
+      "installed_version": null
+    }
+  ],
+  "missing_declared_packages": [
+    "shap",
+    "jupyter",
+    "pytest"
+  ],
+  "audit_lock_versions_verified": 65,
+  "report_snapshot_entries_verified": 142,
+  "absolute_phase_bindings": {
+    "models/final/selection_lock.json": {
+      "bound_paths": 30,
+      "absolute_paths": 30
+    },
+    "tables/model_packaging_manifest.json": {
+      "bound_paths": 19,
+      "absolute_paths": 19
+    },
+    "tables/final_test_evaluation.json": {
+      "bound_paths": 18,
+      "absolute_paths": 18
+    },
+    "tables/model_interpretation_manifest.json": {
+      "bound_paths": 17,
+      "absolute_paths": 17
+    },
+    "tables/final_efficiency_comparison_manifest.json": {
+      "bound_paths": 3,
+      "absolute_paths": 3
+    }
+  },
+  "required_artifact_inventory": [
+    {
+      "path": "data/wine-quality-red.csv",
+      "bytes": 84198,
+      "sha256": "952286135b2a6583dc47b83ada8503ecbf80bceaa51755c83c46254f179c762a"
+    },
+    {
+      "path": "notebook/Wine-Quality-Classification.ipynb",
+      "bytes": 11650683,
+      "sha256": "4593fc88ff11fe6ca55a2e92da099ce5b8449d982ac8fd88eebdac103e7ed410"
+    },
+    {
+      "path": "tables/data_cleaning_audit.csv",
+      "bytes": 311,
+      "sha256": "b377fcfe806d71dc06705528a6ed73b41eff15bc1c3080a5460fc6362f5aff31"
+    },
+    {
+      "path": "tables/model_runtime_comparison.csv",
+      "bytes": 361705,
+      "sha256": "7533b9b5725b81aa973b45ba4fdc849d0f542c8bb5d5637e7247e23fe5ef92cb"
+    },
+    {
+      "path": "tables/preliminary_model_comparison.csv",
+      "bytes": 18126,
+      "sha256": "5a05f59d35a14d8540c10fcceb33b948200bb40e4e0a8760a72b1aae6eadae28"
+    },
+    {
+      "path": "tables/hyperparameter_tuning_results.csv",
+      "bytes": 6985,
+      "sha256": "1b9fcb5584586dd51324824bbbcb8ddaa5ceb6eb3079850dfeec569c74d11c98"
+    },
+    {
+      "path": "tables/best_parameters_by_model.csv",
+      "bytes": 966,
+      "sha256": "8b71445fa79ae6c831c78c343cd71422e100c31a30f2870d10a9ff35bc2c652e"
+    },
+    {
+      "path": "tables/class_imbalance_experiments.csv",
+      "bytes": 44456,
+      "sha256": "3395ebe9f3f571575535ee2837f384082b8e1914a956e859930db6393eb39e89"
+    },
+    {
+      "path": "tables/final_cv_model_selection.csv",
+      "bytes": 14509,
+      "sha256": "f21cad8528953f1e817cf6108e15f908a0b8511edb9ed41264694eb643048073"
+    },
+    {
+      "path": "tables/model_registry.csv",
+      "bytes": 11643,
+      "sha256": "1c97b272746453ab8daec51342fc81fede181bcf90ffc54c4c84d8f8f3fdee6a"
+    },
+    {
+      "path": "tables/final_test_metrics.csv",
+      "bytes": 668,
+      "sha256": "19f47198ff8471e8a07c3829aa0c5aa11538ac411602e7e14b95b7e9ec5bf8f7"
+    },
+    {
+      "path": "tables/final_classification_report.csv",
+      "bytes": 510,
+      "sha256": "82f6835a711ecb25e452dfe6854bca25c2685f87ea36f34d434f1a375b6f19d2"
+    },
+    {
+      "path": "tables/final_test_predictions.csv",
+      "bytes": 47944,
+      "sha256": "3cf47aa676d6674af7ff589d22d0bb6b4aaf4c5ae8ffd0a770d838e7a2a766d2"
+    },
+    {
+      "path": "tables/global_feature_importance.csv",
+      "bytes": 1688,
+      "sha256": "2433ed7a950786267a2301a9dceb21f0c93020c7fe0c3876a0993fe32d02f047"
+    },
+    {
+      "path": "tables/local_prediction_explanations.csv",
+      "bytes": 1313,
+      "sha256": "949cbe838a2c6005929a9af17fe4a54ec2276d1df4229834dba60820140e86a6"
+    },
+    {
+      "path": "tables/final_performance_runtime_comparison.csv",
+      "bytes": 7399,
+      "sha256": "fdc9f668dfee56b7a76bd65ae1c01776ecd77a382352b4ba2f122c7d7b3c7497"
+    },
+    {
+      "path": "visuals/preliminary_macro_f1_comparison.png",
+      "bytes": 234839,
+      "sha256": "9cb26678cf885cb547d1e77da29c2c3b4825282cd55509b04bbbc919f3bfb144"
+    },
+    {
+      "path": "visuals/preliminary_balanced_accuracy_comparison.png",
+      "bytes": 239385,
+      "sha256": "9f14a872219d52bbbbe08f4bdcde1846f73777d4efe833370cc28936bbca8eb3"
+    },
+    {
+      "path": "visuals/preliminary_qwk_comparison.png",
+      "bytes": 246277,
+      "sha256": "30fcf96dadb9a1ff06c15261a485703101945c2e0b95a44635fb55fc09ccf14e"
+    },
+    {
+      "path": "visuals/preliminary_performance_vs_training_time.png",
+      "bytes": 239292,
+      "sha256": "2fa4f9a361e690eaefd6c1ba8d38f8180e0a45e4b1bee623023a0c773a991250"
+    },
+    {
+      "path": "visuals/final_cv_model_comparison.png",
+      "bytes": 392273,
+      "sha256": "284d14da4b42b9946150cb20479857358d8286dcabbfa1d102781323053f0e3e"
+    },
+    {
+      "path": "visuals/final_test_confusion_matrix.png",
+      "bytes": 150062,
+      "sha256": "34b3f0835207ba99e6493aecceb3c8828465326782e0d81373ebc6ef12d9b61e"
+    },
+    {
+      "path": "visuals/final_test_normalized_confusion_matrix.png",
+      "bytes": 190450,
+      "sha256": "f6bcd71d10b72531f41613968f6cc27d93fe9a92430904c1afea2a89a9dca29c"
+    },
+    {
+      "path": "visuals/final_test_multiclass_roc_curves.png",
+      "bytes": 475625,
+      "sha256": "240742afe00ec42182c1a286a1e23c02b3b8c9457c90076f9b823f398b86370c"
+    },
+    {
+      "path": "visuals/final_test_multiclass_precision_recall_curves.png",
+      "bytes": 385602,
+      "sha256": "1f5a3319f3f3f08de3adab96fc59e08c8dff2606363a7b21be0bd8cf44e60c09"
+    },
+    {
+      "path": "visuals/global_feature_importance.png",
+      "bytes": 212086,
+      "sha256": "8bf63c8297c3eb9a49f7466097b5d3124d42142e2d1155b67e9d60cdce17df38"
+    },
+    {
+      "path": "visuals/shap_summary.png",
+      "bytes": 2066284,
+      "sha256": "137f290dcf3ae14beb90d875bf9f62e502697236c3224f9005a8b7c8c6a23401"
+    },
+    {
+      "path": "visuals/local_prediction_explanations.png",
+      "bytes": 404830,
+      "sha256": "7ced00373818a183de066a9442854df46462d9ae6072e784ed928a73e0bc11b8"
+    },
+    {
+      "path": "visuals/model_runtime_comparison.png",
+      "bytes": 196247,
+      "sha256": "7d606edfa68b41aceabc7e45cca6321b0583a412a02fb770e10bd29a7b19d862"
+    },
+    {
+      "path": "visuals/final_performance_vs_training_time.png",
+      "bytes": 146233,
+      "sha256": "168c8bbf65485ca9d6435755d20d1c7e55de551df0af37d9710861536613b4c3"
+    },
+    {
+      "path": "visuals/final_model_runtime_comparison.png",
+      "bytes": 379446,
+      "sha256": "d833254dbd0900c7cd23d2424441292891804952a0dc5bfb10e3d74dcd4034ea"
+    },
+    {
+      "path": "models/final/wine_quality_classifier.joblib",
+      "bytes": 10029,
+      "sha256": "ae353b49129fe8c788039ca68aa99367f91fca8ca10949dee4436b85ab55d7d8"
+    },
+    {
+      "path": "models/final/wine_quality_classifier.metadata.json",
+      "bytes": 15531,
+      "sha256": "1bc87d5f81201791b26c641552d372013246cdf34b3eabddbae8f4fec6622ef1"
+    },
+    {
+      "path": "models/candidates/gaussian_nb.joblib",
+      "bytes": 7020,
+      "sha256": "e8942d1313682833f7040c5788f96961ff65ac9ae777354430316ef7b9feee00"
+    },
+    {
+      "path": "models/candidates/gaussian_nb.metadata.json",
+      "bytes": 14881,
+      "sha256": "6f58665d6da258a51df68f112b4f367f372ebb4fb6d94b0025d923b77337cbcc"
+    },
+    {
+      "path": "models/candidates/gradient_boosting.joblib",
+      "bytes": 67794,
+      "sha256": "2daff7a78d86514a2adb3545902a67660bbbb5bdf0add135c6336614d1f0aa4c"
+    },
+    {
+      "path": "models/candidates/gradient_boosting.metadata.json",
+      "bytes": 16407,
+      "sha256": "80ae9e1e9adb54e9853371097661662da7a6b08bfacb459f3b9bb9e57a0d96b9"
+    },
+    {
+      "path": "models/candidates/lda.joblib",
+      "bytes": 10029,
+      "sha256": "32396339a07a47d102e277af2bbf47f4271bc44dd46a390132be1cbb78f0bd30"
+    },
+    {
+      "path": "models/candidates/lda.metadata.json",
+      "bytes": 15515,
+      "sha256": "8ed7deaf99e42092ba9dbf02731370f811e6b59d6980dffbeda340582144dda6"
+    },
+    {
+      "path": "models/candidates/logistic_regression.joblib",
+      "bytes": 9808,
+      "sha256": "80cc70351cd365c791e8ed7ffe1b3c4babc8927270363d72581fb14392b61d4a"
+    },
+    {
+      "path": "models/candidates/logistic_regression.metadata.json",
+      "bytes": 15948,
+      "sha256": "b71b27ac63c4e6b466228f48384e023ccfe4fdbe967916e0d6a0f74d979ee177"
+    },
+    {
+      "path": "models/candidates/random_forest.joblib",
+      "bytes": 839315,
+      "sha256": "744e0f89406b4074229221a71f3da65958ce4576f4f430ed786b5520685d91e0"
+    },
+    {
+      "path": "models/candidates/random_forest.metadata.json",
+      "bytes": 16576,
+      "sha256": "fa47188a1e3b42ad06fa508ff8ef4737e7640fb2146b8b15c9ebcee6c71dded7"
+    }
+  ],
+  "original_files_changed": [
+    "requirements.txt",
+    "README.md",
+    ".gitignore"
+  ],
+  "frozen_artifacts_unchanged": true,
+  "model_reload_results": [
+    {
+      "artifact": "models/candidates/gaussian_nb.joblib",
+      "model": "gaussian_nb",
+      "role": "candidate",
+      "probe_rows": 32,
+      "labels_identical": true,
+      "probabilities_identical": true,
+      "fitted_state_unchanged": true,
+      "performance_evaluation": false
+    },
+    {
+      "artifact": "models/candidates/gradient_boosting.joblib",
+      "model": "gradient_boosting",
+      "role": "candidate",
+      "probe_rows": 32,
+      "labels_identical": true,
+      "probabilities_identical": true,
+      "fitted_state_unchanged": true,
+      "performance_evaluation": false
+    },
+    {
+      "artifact": "models/candidates/lda.joblib",
+      "model": "lda",
+      "role": "candidate",
+      "probe_rows": 32,
+      "labels_identical": true,
+      "probabilities_identical": true,
+      "fitted_state_unchanged": true,
+      "performance_evaluation": false
+    },
+    {
+      "artifact": "models/candidates/logistic_regression.joblib",
+      "model": "logistic_regression",
+      "role": "candidate",
+      "probe_rows": 32,
+      "labels_identical": true,
+      "probabilities_identical": true,
+      "fitted_state_unchanged": true,
+      "performance_evaluation": false
+    },
+    {
+      "artifact": "models/candidates/random_forest.joblib",
+      "model": "random_forest",
+      "role": "candidate",
+      "probe_rows": 32,
+      "labels_identical": true,
+      "probabilities_identical": true,
+      "fitted_state_unchanged": true,
+      "performance_evaluation": false
+    },
+    {
+      "artifact": "models/final/wine_quality_classifier.joblib",
+      "model": "lda",
+      "role": "champion",
+      "probe_rows": 32,
+      "labels_identical": true,
+      "probabilities_identical": true,
+      "fitted_state_unchanged": true,
+      "performance_evaluation": false
+    }
+  ],
+  "audit_summary": {
+    "requested_checks": 20,
+    "passed": 18,
+    "qualified": 2,
+    "detected_leakage_or_metric_defects": 0,
+    "unit_tests_passed": 126,
+    "independent_development_metric_checks": 3410,
+    "development_folds_checked": 310,
+    "oof_records_checked": 67394,
+    "metric_max_absolute_error": 3.3306690738754696e-16,
+    "dataflow_and_metric_review": "Independent read-only source/artifact audits; no wine model fits or test prediction parsing",
+    "notebook_run": {
+      "status": "COMPLETE",
+      "scope": "fresh_kernel_saved_report_replay",
+      "completed_at_utc": "2026-10-11T22:42:56.078820+00:00",
+      "python_executable": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/bin/python",
+      "python_version": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+      "working_directory": "/Users/shivsharma/Documents/projects/Finesse-Project3/notebook",
+      "clean_dependency_install": false,
+      "fresh_kernel": true,
+      "prior_outputs_cleared": true,
+      "code_cells": 71,
+      "guard_cells": 2,
+      "embedded_figures": 21,
+      "wall_seconds_including_kernel_startup": 17.81325895799091,
+      "new_wine_training_calls": 0,
+      "new_test_prediction_calls": 0,
+      "illustrative_prediction_rows": 2,
+      "all_protected_files_unchanged": true,
+      "source_notebook_sha256": "4593fc88ff11fe6ca55a2e92da099ce5b8449d982ac8fd88eebdac103e7ed410",
+      "executed_copy": "tables/final_audit_executed_notebook.ipynb",
+      "executed_copy_sha256": "fec812501f07cc33068704a623a4f13e764d7f7d2995f26eb4be42ef7e3df610"
+    },
+    "changed_existing_files": [
+      ".gitignore",
+      "README.md",
+      "requirements.txt"
+    ],
+    "new_files": [
+      "requirements-audit-lock.txt",
+      "scripts/verify_notebook_replay.py",
+      "tables/final_audit_evidence.json",
+      "tables/final_audit_executed_notebook.ipynb",
+      "tables/final_audit_model_reload.json",
+      "tables/final_audit_notebook.log",
+      "tables/final_audit_notebook_execution.json",
+      "tables/final_audit_report.md",
+      "tables/final_audit_tests.log"
+    ]
+  }
+}

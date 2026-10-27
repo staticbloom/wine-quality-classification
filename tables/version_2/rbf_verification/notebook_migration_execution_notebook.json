@@ -1,0 +1,30 @@
+{
+  "status": "COMPLETE",
+  "scope": "notebook_local_self_tests_and_frozen_report_replay",
+  "completed_at_utc": "2026-10-12T18:38:33.485252+00:00",
+  "python_executable": "/Users/shivsharma/Documents/projects/Finesse-Project3/venv/bin/python",
+  "python_version": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "working_directory": "/Users/shivsharma/Documents/projects/Finesse-Project3/notebook",
+  "clean_dependency_install": false,
+  "fresh_kernel": true,
+  "prior_outputs_cleared": true,
+  "code_cells": 157,
+  "self_tests": {
+    "errors": 0,
+    "failures": 0,
+    "tests_run": 71
+  },
+  "project_imports_blocked": true,
+  "source_directory_access_blocked": true,
+  "source_directory_exists": false,
+  "embedded_figures": 21,
+  "wall_seconds_including_kernel_startup": 40.19657837500563,
+  "new_wine_training_calls": 0,
+  "new_test_prediction_calls": 0,
+  "illustrative_prediction_rows": 2,
+  "all_protected_files_unchanged": true,
+  "exact_pre_migration_prediction_match": false,
+  "source_notebook_sha256": "8e94237e2caff50e9a7d8e17117eb39c901deae472e0cdb44b433890bd1fdeb6",
+  "executed_copy": "tables/version_2/rbf_verification/notebook_migration_executed_notebook.ipynb",
+  "executed_copy_sha256": "7315b7f9b52b87fbc70a580d25c72cd29a80b755cebcac9de1df92405450977d"
+}

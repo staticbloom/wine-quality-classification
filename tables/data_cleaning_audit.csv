@@ -1,0 +1,2 @@
+source_rows,source_columns,duplicate_rows_found,duplicate_rows_removed,rows_after_cleaning,missing_value_count,missing_value_count_after_cleaning,target_classes,repeated_row_groups,rows_in_repeated_groups,identical_feature_groups_with_conflicting_targets
+1599,12,240,240,1359,0,0,"[3, 4, 5, 6, 7, 8]",220,460,0

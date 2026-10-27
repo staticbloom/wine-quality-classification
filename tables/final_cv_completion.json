@@ -1,0 +1,21 @@
+{
+  "run_id": "5096bbc9-6dc2-47bc-8ee6-85c4114da6e0",
+  "status": "COMPLETE",
+  "selected_experiment": "lda__smote",
+  "artifacts": {
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/final_cv_class_support.csv": "c88ed118119fb71f066b6b62b543c7a3ebe19d9152240ab882ee6dc69f03bf52",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/final_cv_candidate_eligibility.csv": "926bbbf4674873ab9ba4718b23eda36a290b106dad1afb29bd9aec287d3307da",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/final_cv_oof_predictions.csv": "d612646b732faed598cdaf4efd950ba888419fefadb6a89d491b8eeb110922c4",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/final_cv_fold_metrics.csv": "74bd18928bf732ad2cb5d89a947104b9510c44922674765479124e9e02f34e13",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/final_cv_validation_assignments.csv": "0f4638adee6afaab090fe54d527d978c803ec42e6950ac694a6a48273b9d1a38",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/final_cv_model_selection.csv": "f21cad8528953f1e817cf6108e15f908a0b8511edb9ed41264694eb643048073",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/final_cv_repeat_metrics.csv": "5d4bf37fc0c3533af7cb6425757ad26e6ecfbe97c791a0ddc1f86ce0cfc31d8f",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/final_cv_per_class_metrics.csv": "b79dbb5098bacdc2d1857158dc965ed68dfc73b4571361b67edb0a6ba57c1488",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/final_cv_warnings.csv": "3b86aced9acccb524b5b0de03eb6ca1cecb8beba93c0493bb399a46fbd3b21c0",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/final_cv_plan.json": "04d1558b4a24768138ec13243b94cb60cf3f4f8751cd1d3a2b3796fc97b7db52",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/final_cv_fold_audits.json": "38721047cd03c4a94e25862d946837038e171a4d990a1fc88e9b300cda988b24",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/final_cv_environment.json": "e290f2e00d31f640efc3af47f2e85ceaf3061bff62cd0599b42a86599929c7b7",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/final_cv_classification_reports.json": "3cfa96fbf850a851563358a4134b0e3fe81c26dc673707e9742ab5c47f598155",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/visuals/final_cv_model_comparison.png": "284d14da4b42b9946150cb20479857358d8286dcabbfa1d102781323053f0e3e"
+  }
+}

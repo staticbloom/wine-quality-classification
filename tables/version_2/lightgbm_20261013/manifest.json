@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate \u2014 LightGBM weighting comparison",
+  "completed_utc": "2026-10-13T12:38:22.097386+00:00",
+  "total_fits": 8760,
+  "outer_evaluations": 120,
+  "elapsed_seconds": 625.837384833023,
+  "files": {
+    "inner_assignments.csv": "fedfbd3658bb1dd4ee5dfcf2539a4d1c2487892f9f3b7a569abeb39a1b595b14",
+    "inner_candidate_scores.csv": "32ed8bd6c44ce3876e0a194c994508424ae390199968221b365d4ec4c84d4f30",
+    "inner_class_support.csv": "fae467730c794f8403d28e77afc81420b7115955551269ebc14d602c69878d72",
+    "inner_fold_scores.csv": "ff227097dd4b8c4be304de748a76706cefde6b2c6e334c2f771e8b86e762e213",
+    "metric_comparison.csv": "26d984a4f7d0b1e97afb9d472ff22eaac3feeb812e88fc1c63780b566a182272",
+    "outer_assignments.csv": "429cccfaf5e9bc7a596981eb526ca821ca4555ac321e81baa027b51e3a3fb40f",
+    "outer_class_support.csv": "b565e08997928b25db90ec6c280661dfc723d6cff4d378720f00fe038978a32e",
+    "outer_fold_metrics.csv": "6522105a9e436e88871526a1ad770bb3cdabad7b41bb922e50bbd0b6890d9ea6",
+    "outer_oof_predictions.csv": "6af87f568bf47fb9be8912b52c043cbbe24a5d38a6bf2cc8d1b9b844cf4e26b7",
+    "outer_per_class.csv": "6c0b23be28eb9d55edebed25e59c6f48b2facf40b4e13ba28423935e4146bc54",
+    "paired_fold_differences.csv": "2d1b1a93663027030eb7f0fbb5312ecfa40f54107c6fdd120eddf152d7e7cd55",
+    "per_class_comparison.csv": "9c444c99e77a04c143ce9a812c419be0413e440d435bac4cec254aadacd0fd0f",
+    "plan.json": "867334522063f83e83b3f178acbb892d1acb5242cf513a5b516281a40390c382",
+    "progress.json": "a3a3b62e4847195e69d0281289d55a9f4f6c4c499177205a24a06c993dd330c0",
+    "repeat_metrics.csv": "e9a593bd77f6f1b9b2ce7e883c86e4fa5890d20aedee6bc5e719cbef13d638e5",
+    "runtime_comparison.csv": "8af347fbbb033f5a979fbbcc6a71a2985dbaeab3a447291d4fbb0f368c253787",
+    "training_audits.csv": "15795cda8952a189d81b2e53025ab2137d9e36938d7d8b0537f519d5b1081d8b",
+    "warnings.json": "775e5ac55ff197001ee580bc0d9321cdf72ce8361cfafb8951897282c777ff6e"
+  }
+}

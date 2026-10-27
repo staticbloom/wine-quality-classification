@@ -1,0 +1,455 @@
+{
+  "run_id": "e7399111-e84d-4cc8-b880-bc1ba247daac",
+  "tuning_run_id": "a41c9614-88f2-4136-a7dd-824d9d8a29a3",
+  "scope": "development only",
+  "development_rows": 1087,
+  "cv_folds": 5,
+  "random_state": 42,
+  "source_sha256": "952286135b2a6583dc47b83ada8503ecbf80bceaa51755c83c46254f179c762a",
+  "split_manifest_sha256": "9e90c4b1563b483b972f2be1dc5918c43c44ab0f7d5249d545af822189d3517b",
+  "development_fingerprint": "344c74a64573901b2c563fe2f3ed6b952eab22f764477527fa7af748e2cc0ce9",
+  "fold_assignments_sha256": "bad8dcfcc7b48422381c00fbb66d08c05eee857e44bd7be153b6a5eb969be9bc",
+  "frozen_tuned_parameters": {
+    "lda": {
+      "estimator__model__shrinkage": 0.8,
+      "estimator__model__solver": "lsqr"
+    },
+    "gaussian_nb": {
+      "estimator__model__var_smoothing": 1e-09
+    },
+    "gradient_boosting": {
+      "estimator__model__learning_rate": 0.05,
+      "estimator__model__max_depth": 2,
+      "estimator__model__min_samples_leaf": 10,
+      "estimator__model__n_estimators": 50,
+      "estimator__model__subsample": 0.8
+    },
+    "logistic_regression": {
+      "estimator__model__C": 6.2101694189156165
+    },
+    "random_forest": {
+      "estimator__model__max_depth": 8,
+      "estimator__model__max_features": 0.75,
+      "estimator__model__min_samples_leaf": 1,
+      "estimator__model__n_estimators": 200
+    }
+  },
+  "partial_oversampling": {
+    "maximum_multiplier": 3,
+    "majority_fraction_cap": 0.5,
+    "smote_requested_k": 3
+  },
+  "precision_review_rules": {
+    "macro_precision_absolute_drop": 0.1,
+    "any_class_pooled_precision_absolute_drop": 0.2,
+    "recall_gain_with_pooled_class_precision_below": 0.1,
+    "purpose": "Predeclared review flags, not statistical tests or automatic strategy selection."
+  },
+  "brf_policy": "Tuned RF tree settings; sampling_strategy=all, replacement=True, bootstrap=False, class_weight=None.",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "imbalanced-learn": "0.14.2",
+    "sklearn-compat": "0.1.6"
+  },
+  "thread_policy": "Serial models and CV; native thread pools limited to one; estimator n_jobs=1.",
+  "caveats": [
+    "SMOTE feasibility is computational, not evidence of sufficient statistical support.",
+    "Synthetic quality-3/8 examples from tiny original samples risk overfitting and implausible chemistry.",
+    "Capped oversampling, balanced weights and balanced forests differ in balancing strength.",
+    "Frozen hyperparameters were selected on these development folds; comparisons are selection-biased, not nested CV."
+  ],
+  "experiments": [
+    {
+      "model_name": "lda",
+      "treatment": "original",
+      "status": "planned",
+      "cv_folds": 5,
+      "reason": ""
+    },
+    {
+      "model_name": "lda",
+      "treatment": "class_weight_balanced",
+      "status": "skipped_unsupported",
+      "cv_folds": 0,
+      "reason": "Estimator has no class_weight parameter; no alternate prior/weight policy substituted."
+    },
+    {
+      "model_name": "lda",
+      "treatment": "random_over",
+      "status": "planned",
+      "cv_folds": 5,
+      "reason": ""
+    },
+    {
+      "model_name": "lda",
+      "treatment": "smote",
+      "status": "planned",
+      "cv_folds": 5,
+      "reason": ""
+    },
+    {
+      "model_name": "gaussian_nb",
+      "treatment": "original",
+      "status": "planned",
+      "cv_folds": 5,
+      "reason": ""
+    },
+    {
+      "model_name": "gaussian_nb",
+      "treatment": "class_weight_balanced",
+      "status": "skipped_unsupported",
+      "cv_folds": 0,
+      "reason": "Estimator has no class_weight parameter; no alternate prior/weight policy substituted."
+    },
+    {
+      "model_name": "gaussian_nb",
+      "treatment": "random_over",
+      "status": "planned",
+      "cv_folds": 5,
+      "reason": ""
+    },
+    {
+      "model_name": "gaussian_nb",
+      "treatment": "smote",
+      "status": "planned",
+      "cv_folds": 5,
+      "reason": ""
+    },
+    {
+      "model_name": "gradient_boosting",
+      "treatment": "original",
+      "status": "planned",
+      "cv_folds": 5,
+      "reason": ""
+    },
+    {
+      "model_name": "gradient_boosting",
+      "treatment": "class_weight_balanced",
+      "status": "skipped_unsupported",
+      "cv_folds": 0,
+      "reason": "Estimator has no class_weight parameter; no alternate prior/weight policy substituted."
+    },
+    {
+      "model_name": "gradient_boosting",
+      "treatment": "random_over",
+      "status": "planned",
+      "cv_folds": 5,
+      "reason": ""
+    },
+    {
+      "model_name": "gradient_boosting",
+      "treatment": "smote",
+      "status": "planned",
+      "cv_folds": 5,
+      "reason": ""
+    },
+    {
+      "model_name": "logistic_regression",
+      "treatment": "original",
+      "status": "planned",
+      "cv_folds": 5,
+      "reason": ""
+    },
+    {
+      "model_name": "logistic_regression",
+      "treatment": "class_weight_balanced",
+      "status": "planned",
+      "cv_folds": 5,
+      "reason": ""
+    },
+    {
+      "model_name": "logistic_regression",
+      "treatment": "random_over",
+      "status": "planned",
+      "cv_folds": 5,
+      "reason": ""
+    },
+    {
+      "model_name": "logistic_regression",
+      "treatment": "smote",
+      "status": "planned",
+      "cv_folds": 5,
+      "reason": ""
+    },
+    {
+      "model_name": "random_forest",
+      "treatment": "original",
+      "status": "planned",
+      "cv_folds": 5,
+      "reason": ""
+    },
+    {
+      "model_name": "random_forest",
+      "treatment": "class_weight_balanced",
+      "status": "planned",
+      "cv_folds": 5,
+      "reason": ""
+    },
+    {
+      "model_name": "random_forest",
+      "treatment": "random_over",
+      "status": "planned",
+      "cv_folds": 5,
+      "reason": ""
+    },
+    {
+      "model_name": "random_forest",
+      "treatment": "smote",
+      "status": "planned",
+      "cv_folds": 5,
+      "reason": ""
+    },
+    {
+      "model_name": "random_forest",
+      "treatment": "balanced_random_forest",
+      "status": "planned",
+      "cv_folds": 5,
+      "reason": "Specialized internally undersampled ensemble; differs from capped oversampling."
+    }
+  ],
+  "smote_feasibility": [
+    {
+      "fold": 1,
+      "quality": 3,
+      "original_training_count": 6,
+      "requested_target": 18,
+      "effective_k": 3,
+      "smote_status": "eligible_small_sample_caution"
+    },
+    {
+      "fold": 1,
+      "quality": 4,
+      "original_training_count": 34,
+      "requested_target": 102,
+      "effective_k": 3,
+      "smote_status": "eligible_small_sample_caution"
+    },
+    {
+      "fold": 1,
+      "quality": 5,
+      "original_training_count": 368,
+      "requested_target": 368,
+      "effective_k": 3,
+      "smote_status": "not_targeted"
+    },
+    {
+      "fold": 1,
+      "quality": 6,
+      "original_training_count": 343,
+      "requested_target": 343,
+      "effective_k": 3,
+      "smote_status": "not_targeted"
+    },
+    {
+      "fold": 1,
+      "quality": 7,
+      "original_training_count": 107,
+      "requested_target": 184,
+      "effective_k": 3,
+      "smote_status": "eligible_small_sample_caution"
+    },
+    {
+      "fold": 1,
+      "quality": 8,
+      "original_training_count": 11,
+      "requested_target": 33,
+      "effective_k": 3,
+      "smote_status": "eligible_small_sample_caution"
+    },
+    {
+      "fold": 2,
+      "quality": 3,
+      "original_training_count": 6,
+      "requested_target": 18,
+      "effective_k": 3,
+      "smote_status": "eligible_small_sample_caution"
+    },
+    {
+      "fold": 2,
+      "quality": 4,
+      "original_training_count": 34,
+      "requested_target": 102,
+      "effective_k": 3,
+      "smote_status": "eligible_small_sample_caution"
+    },
+    {
+      "fold": 2,
+      "quality": 5,
+      "original_training_count": 369,
+      "requested_target": 369,
+      "effective_k": 3,
+      "smote_status": "not_targeted"
+    },
+    {
+      "fold": 2,
+      "quality": 6,
+      "original_training_count": 342,
+      "requested_target": 342,
+      "effective_k": 3,
+      "smote_status": "not_targeted"
+    },
+    {
+      "fold": 2,
+      "quality": 7,
+      "original_training_count": 107,
+      "requested_target": 185,
+      "effective_k": 3,
+      "smote_status": "eligible_small_sample_caution"
+    },
+    {
+      "fold": 2,
+      "quality": 8,
+      "original_training_count": 11,
+      "requested_target": 33,
+      "effective_k": 3,
+      "smote_status": "eligible_small_sample_caution"
+    },
+    {
+      "fold": 3,
+      "quality": 3,
+      "original_training_count": 7,
+      "requested_target": 21,
+      "effective_k": 3,
+      "smote_status": "eligible_small_sample_caution"
+    },
+    {
+      "fold": 3,
+      "quality": 4,
+      "original_training_count": 34,
+      "requested_target": 102,
+      "effective_k": 3,
+      "smote_status": "eligible_small_sample_caution"
+    },
+    {
+      "fold": 3,
+      "quality": 5,
+      "original_training_count": 369,
+      "requested_target": 369,
+      "effective_k": 3,
+      "smote_status": "not_targeted"
+    },
+    {
+      "fold": 3,
+      "quality": 6,
+      "original_training_count": 342,
+      "requested_target": 342,
+      "effective_k": 3,
+      "smote_status": "not_targeted"
+    },
+    {
+      "fold": 3,
+      "quality": 7,
+      "original_training_count": 107,
+      "requested_target": 185,
+      "effective_k": 3,
+      "smote_status": "eligible_small_sample_caution"
+    },
+    {
+      "fold": 3,
+      "quality": 8,
+      "original_training_count": 11,
+      "requested_target": 33,
+      "effective_k": 3,
+      "smote_status": "eligible_small_sample_caution"
+    },
+    {
+      "fold": 4,
+      "quality": 3,
+      "original_training_count": 7,
+      "requested_target": 21,
+      "effective_k": 3,
+      "smote_status": "eligible_small_sample_caution"
+    },
+    {
+      "fold": 4,
+      "quality": 4,
+      "original_training_count": 33,
+      "requested_target": 99,
+      "effective_k": 3,
+      "smote_status": "eligible_small_sample_caution"
+    },
+    {
+      "fold": 4,
+      "quality": 5,
+      "original_training_count": 369,
+      "requested_target": 369,
+      "effective_k": 3,
+      "smote_status": "not_targeted"
+    },
+    {
+      "fold": 4,
+      "quality": 6,
+      "original_training_count": 342,
+      "requested_target": 342,
+      "effective_k": 3,
+      "smote_status": "not_targeted"
+    },
+    {
+      "fold": 4,
+      "quality": 7,
+      "original_training_count": 108,
+      "requested_target": 185,
+      "effective_k": 3,
+      "smote_status": "eligible_small_sample_caution"
+    },
+    {
+      "fold": 4,
+      "quality": 8,
+      "original_training_count": 11,
+      "requested_target": 33,
+      "effective_k": 3,
+      "smote_status": "eligible_small_sample_caution"
+    },
+    {
+      "fold": 5,
+      "quality": 3,
+      "original_training_count": 6,
+      "requested_target": 18,
+      "effective_k": 3,
+      "smote_status": "eligible_small_sample_caution"
+    },
+    {
+      "fold": 5,
+      "quality": 4,
+      "original_training_count": 33,
+      "requested_target": 99,
+      "effective_k": 3,
+      "smote_status": "eligible_small_sample_caution"
+    },
+    {
+      "fold": 5,
+      "quality": 5,
+      "original_training_count": 369,
+      "requested_target": 369,
+      "effective_k": 3,
+      "smote_status": "not_targeted"
+    },
+    {
+      "fold": 5,
+      "quality": 6,
+      "original_training_count": 343,
+      "requested_target": 343,
+      "effective_k": 3,
+      "smote_status": "not_targeted"
+    },
+    {
+      "fold": 5,
+      "quality": 7,
+      "original_training_count": 107,
+      "requested_target": 185,
+      "effective_k": 3,
+      "smote_status": "eligible_small_sample_caution"
+    },
+    {
+      "fold": 5,
+      "quality": 8,
+      "original_training_count": 12,
+      "requested_target": 36,
+      "effective_k": 3,
+      "smote_status": "eligible_small_sample_caution"
+    }
+  ]
+}

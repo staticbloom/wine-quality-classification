@@ -1,0 +1,2 @@
+run_id,final_prediction_seconds,final_prediction_ms_per_sample,prediction_samples,probability_prediction_seconds,scoring_seconds
+a8fe4add-1814-4b01-8481-b4462fc231bd,0.013604666979517788,0.05001715801293304,272,0.0011731249978765845,0.03165983298094943

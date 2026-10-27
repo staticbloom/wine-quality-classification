@@ -1,0 +1,33 @@
+{
+  "status": "COMPLETE",
+  "scope": "notebook_local_self_tests_and_frozen_report_replay",
+  "completed_at_utc": "2026-10-15T17:57:46.443655+00:00",
+  "python_executable": "/Users/shivsharma/Documents/projects/Finesse-Project3/venv/bin/python",
+  "python_version": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "working_directory": "/Users/shivsharma/Documents/projects/Finesse-Project3/notebook",
+  "clean_dependency_install": false,
+  "fresh_kernel": true,
+  "prior_outputs_cleared": true,
+  "code_cells": 265,
+  "self_tests": {
+    "errors": 0,
+    "failures": 0,
+    "tests_run": 71
+  },
+  "project_imports_blocked": true,
+  "source_directory_access_blocked": true,
+  "source_directory_exists": false,
+  "embedded_figures": 21,
+  "wall_seconds_including_kernel_startup": 203.83074133296032,
+  "new_wine_training_calls": 0,
+  "new_test_prediction_calls": 0,
+  "checksum_only_source_reads": 1,
+  "raw_source_parsing_blocked": true,
+  "regressor_prediction_and_threshold_fitting_blocked": true,
+  "illustrative_prediction_rows": 2,
+  "all_protected_files_unchanged": true,
+  "exact_pre_migration_prediction_match": false,
+  "source_notebook_sha256": "0ee29bcd25b99b176ef516c2f03bbb49d060599c132a0ce0eb46654a20655fb3",
+  "executed_copy": "tables/version_2/regression_ordinal_verification/notebook_migration_executed_notebook.ipynb",
+  "executed_copy_sha256": "da72cc2ffe27d47938404fcec2e337e0523e91d6232043277b7be6ce5ad7ed1f"
+}

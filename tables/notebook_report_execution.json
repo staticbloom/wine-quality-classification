@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETE",
+  "scope": "whole_notebook_saved_report_replay",
+  "code_cells": 71,
+  "guard_cells": 2,
+  "wall_seconds_including_kernel_startup": 3.421569833008107,
+  "completed_at_utc": "2026-10-11T17:41:54.507391+00:00",
+  "new_training_calls": 0,
+  "new_test_prediction_calls": 0,
+  "illustrative_prediction_rows": 2,
+  "historical_metrics_and_runtimes_reused": true,
+  "new_performance_evaluation": false
+}

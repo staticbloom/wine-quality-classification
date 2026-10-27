@@ -1,0 +1,105 @@
+{
+  "status": "passed",
+  "completed_at_utc": "2026-10-12T18:39:14.163148+00:00",
+  "scope": "Version 2 RBF-SVM nested randomized search and fixed LDA-SMOTE comparison, development data only",
+  "source_notebook_sha256": "8e94237e2caff50e9a7d8e17117eb39c901deae472e0cdb44b433890bd1fdeb6",
+  "study_manifest_sha256": "faa43ea19f6d659c5d74ede9ac34090eb14bcad9c6c16442a295b3d26a83f763",
+  "study_files_verified": 19,
+  "kernel_executions": {
+    "run": {
+      "fresh_kernel": true,
+      "guarded_wine_calls": {
+        "svm_fit": 7240,
+        "svm_predict": 7240,
+        "svm_decision": 40,
+        "lda_fit": 40,
+        "lda_predict": 40,
+        "lda_proba": 40,
+        "outer_folds": 40
+      },
+      "evidence_validation": {
+        "development_rows": 1087,
+        "holdout_evaluations": 0,
+        "inner_svm_fits": 7200,
+        "lda_fits": 40,
+        "outer_evaluations": 80,
+        "outer_svm_fits": 40,
+        "status": "passed"
+      },
+      "executed_kernel_notebook_sha256": "5d022a1edcf88312c1161366ae54cf3e46fc227a1727703048d4ac68c70cb371"
+    },
+    "replay": {
+      "fresh_kernel": true,
+      "guarded_wine_calls": {
+        "svm_fit": 0,
+        "svm_predict": 0,
+        "svm_decision": 0,
+        "lda_fit": 0,
+        "lda_predict": 0,
+        "lda_proba": 0,
+        "outer_folds": 0
+      },
+      "evidence_validation": {
+        "development_rows": 1087,
+        "holdout_evaluations": 0,
+        "inner_svm_fits": 7200,
+        "lda_fits": 40,
+        "outer_evaluations": 80,
+        "outer_svm_fits": 40,
+        "status": "passed"
+      },
+      "executed_kernel_notebook_sha256": "5f216adfe6307c0f95711456645d38aa42d3106b7fef85df6da58dda6e8c150e"
+    }
+  },
+  "full_notebook_replay": {
+    "status": "COMPLETE",
+    "scope": "notebook_local_self_tests_and_frozen_report_replay",
+    "completed_at_utc": "2026-10-12T18:38:33.485252+00:00",
+    "python_executable": "/Users/shivsharma/Documents/projects/Finesse-Project3/venv/bin/python",
+    "python_version": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "working_directory": "/Users/shivsharma/Documents/projects/Finesse-Project3/notebook",
+    "clean_dependency_install": false,
+    "fresh_kernel": true,
+    "prior_outputs_cleared": true,
+    "code_cells": 157,
+    "self_tests": {
+      "errors": 0,
+      "failures": 0,
+      "tests_run": 71
+    },
+    "project_imports_blocked": true,
+    "source_directory_access_blocked": true,
+    "source_directory_exists": false,
+    "embedded_figures": 21,
+    "wall_seconds_including_kernel_startup": 40.19657837500563,
+    "new_wine_training_calls": 0,
+    "new_test_prediction_calls": 0,
+    "illustrative_prediction_rows": 2,
+    "all_protected_files_unchanged": true,
+    "exact_pre_migration_prediction_match": false,
+    "source_notebook_sha256": "8e94237e2caff50e9a7d8e17117eb39c901deae472e0cdb44b433890bd1fdeb6",
+    "executed_copy": "tables/version_2/rbf_verification/notebook_migration_executed_notebook.ipynb",
+    "executed_copy_sha256": "7315b7f9b52b87fbc70a580d25c72cd29a80b755cebcac9de1df92405450977d"
+  },
+  "rbf_framework_checks": {
+    "status": "passed",
+    "checks": 12,
+    "wine_training_rows": 0,
+    "coverage": "determinism, bounds, independent six-class weights, outer perturbation, AP score semantics, ties, scaler audits and invalid inputs"
+  },
+  "nested_framework_checks": {
+    "status": "passed",
+    "checks": 12,
+    "synthetic_fits": 27,
+    "wine_training_rows": 0,
+    "checks_include": "outer-feature/label perturbation invariance, fold membership, preprocessing audits, deterministic ties, invalid folds/parameters"
+  },
+  "prior_notebook_cells_preserved_exactly": 261,
+  "prior_notebook_metadata_preserved_exactly": true,
+  "prior_artifact_hashes_preserved": 224,
+  "source_directory_exists": false,
+  "holdout_evaluations": 0,
+  "rbf_study_access_guards": "Study kernel blocked reserved holdout/model/result reads and verified exact raw fold inputs for each SVM and LDA fit and evaluation.",
+  "new_experiment_result_label": "Development CV estimate",
+  "full_development_model_fitted": false
+}

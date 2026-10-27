@@ -1,0 +1,10 @@
+model,inner_search_seconds,outer_fit_seconds,outer_score_seconds,outer_fit_mean_seconds,prediction_mean_ms_per_sample,measured_model_seconds,estimate_label
+catboost_unweighted,311.0502510390943,6.999536121904384,0.7616345850401558,0.1749884030476096,0.005977301044780969,318.81142174603883,Experiment Version 2 — Development CV Estimate — CatBoost multiclass comparison
+catboost_Balanced,316.3691656239098,7.327934873115737,0.7549119609757327,0.18319837182789342,0.005643413285587417,324.45201245800126,Experiment Version 2 — Development CV Estimate — CatBoost multiclass comparison
+catboost_SqrtBalanced,313.74984862684505,5.432589961099438,0.8076755020301789,0.13581474902748597,0.0055656256571793,319.99011408997467,Experiment Version 2 — Development CV Estimate — CatBoost multiclass comparison
+catboost_custom,315.0882099569426,4.253241124970373,0.7601692067692056,0.10633102812425932,0.0055837835210698,320.10162028868217,Experiment Version 2 — Development CV Estimate — CatBoost multiclass comparison
+rbf_svm_tuned,158.43824562401278,0.8931829180219211,1.346741333953105,0.022329572950548028,0.03316556667131957,160.6781698759878,Experiment Version 2 — Development CV Estimate — CatBoost multiclass comparison
+lda_smote_fixed,0.0,0.2436112539144233,0.736460794811137,0.006090281347860582,0.0048734803368171535,0.9800720487255603,Experiment Version 2 — Development CV Estimate — CatBoost multiclass comparison
+xgboost_unweighted,232.98136441700626,4.173152333998587,0.8715326683595777,0.10432880834996468,0.011420020459237647,238.02604941936443,Experiment Version 2 — Development CV Estimate — CatBoost multiclass comparison
+xgboost_frequency,253.84875645593274,3.950186124886386,0.8569809179170989,0.09875465312215966,0.01057458530448806,258.65592349873623,Experiment Version 2 — Development CV Estimate — CatBoost multiclass comparison
+xgboost_moderated_custom,257.2949318350293,2.8413743319688365,0.8297377506969497,0.07103435829922092,0.009213641662823124,260.96604391769506,Experiment Version 2 — Development CV Estimate — CatBoost multiclass comparison

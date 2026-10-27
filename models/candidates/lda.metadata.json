@@ -1,0 +1,413 @@
+{
+  "metadata": {
+    "format_version": 1,
+    "packaging_run_id": "d4a5cf60-7f86-4db5-8bd8-b4d5fb0fa7b3",
+    "selection_run_id": "5096bbc9-6dc2-47bc-8ee6-85c4114da6e0",
+    "selection_lock_sha256": "8dfc01d70c28d62f118b43e4a68e3557a5050e6eabd3096d101a1901b4dd8d87",
+    "model_name": "lda",
+    "experiment": "lda__smote",
+    "selected_champion": true,
+    "algorithm": "sklearn.discriminant_analysis.LinearDiscriminantAnalysis",
+    "configuration": {
+      "model_name": "lda",
+      "treatment": "smote",
+      "tuned_parameters": {
+        "estimator__model__shrinkage": 0.8,
+        "estimator__model__solver": "lsqr"
+      },
+      "estimator_spec": {
+        "class": "wine_quality.modeling.QualityLabelClassifier",
+        "parameters": {
+          "encode_labels": false,
+          "estimator": {
+            "class": "imblearn.pipeline.Pipeline",
+            "parameters": {
+              "memory": null,
+              "steps": [
+                [
+                  "schema",
+                  {
+                    "class": "wine_quality.preprocessing.NumericFeatureSchema",
+                    "parameters": {}
+                  }
+                ],
+                [
+                  "scale",
+                  {
+                    "class": "sklearn.preprocessing._data.StandardScaler",
+                    "parameters": {
+                      "copy": true,
+                      "with_mean": true,
+                      "with_std": true
+                    }
+                  }
+                ],
+                [
+                  "resample",
+                  {
+                    "class": "wine_quality.imbalance.FoldSafeResampler",
+                    "parameters": {
+                      "k_neighbors": 3,
+                      "kind": "smote",
+                      "majority_fraction": 0.5,
+                      "multiplier": 3,
+                      "random_state": 42,
+                      "standardize_distance": false
+                    }
+                  }
+                ],
+                [
+                  "model",
+                  {
+                    "class": "sklearn.discriminant_analysis.LinearDiscriminantAnalysis",
+                    "parameters": {
+                      "covariance_estimator": null,
+                      "n_components": null,
+                      "priors": null,
+                      "shrinkage": 0.8,
+                      "solver": "lsqr",
+                      "store_covariance": false,
+                      "tol": 0.0001
+                    }
+                  }
+                ]
+              ],
+              "transform_input": null,
+              "verbose": false
+            }
+          }
+        }
+      },
+      "prior_precision_review_flag": true,
+      "prior_precision_review_reasons": "Quality 8 recall increased with OOF precision below 10%."
+    },
+    "hyperparameters": {
+      "covariance_estimator": null,
+      "n_components": null,
+      "priors": null,
+      "shrinkage": 0.8,
+      "solver": "lsqr",
+      "store_covariance": false,
+      "tol": 0.0001
+    },
+    "feature_names": [
+      "fixed acidity",
+      "volatile acidity",
+      "citric acid",
+      "residual sugar",
+      "chlorides",
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "density",
+      "pH",
+      "sulphates",
+      "alcohol"
+    ],
+    "quality_classes": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "probability_class_order": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "target_name": "quality",
+    "class_mapping": {
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8
+    },
+    "random_state": 42,
+    "created_at_utc": "2026-10-10T18:40:29.162718+00:00",
+    "source_dataset_filename": "wine-quality-red.csv",
+    "source_sha256": "952286135b2a6583dc47b83ada8503ecbf80bceaa51755c83c46254f179c762a",
+    "split_manifest_sha256": "9e90c4b1563b483b972f2be1dc5918c43c44ab0f7d5249d545af822189d3517b",
+    "development_fingerprint": "344c74a64573901b2c563fe2f3ed6b952eab22f764477527fa7af748e2cc0ce9",
+    "training_scope": "full locked development partition only",
+    "training_rows": 1087,
+    "fit_seconds": 0.02189370902488008,
+    "training_audit": {
+      "kind": "smote",
+      "before_counts": {
+        "3": 8,
+        "4": 42,
+        "5": 461,
+        "6": 428,
+        "7": 134,
+        "8": 14
+      },
+      "after_counts": {
+        "3": 24,
+        "4": 126,
+        "5": 461,
+        "6": 428,
+        "7": 231,
+        "8": 42
+      },
+      "targets": {
+        "3": 24,
+        "4": 126,
+        "7": 231,
+        "8": 42
+      },
+      "skipped_classes": {},
+      "effective_k": 3,
+      "requested_k": 3,
+      "standardize_distance": false,
+      "native_sampler": "SMOTE"
+    },
+    "library_versions": {
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.1",
+      "imbalanced-learn": "0.14.2",
+      "sklearn-compat": "0.1.6",
+      "joblib": "1.6.0"
+    },
+    "python_version": "3.12.14",
+    "project_code_sha256": {
+      "imbalance.py": "9793281c7dc366e64e34116d28d5359b57ca65afb470fb224f66f38696792e65",
+      "config.py": "56dbdf028ccc1407323aa71c9e717e9e13f1f6a3b04d9feab337d7c3422431e7",
+      "registry.py": "4f4825a8c5dbde0c3cae9e383bc0e8dc8134ca9b8cc199adb79b6bf627a6ecc5",
+      "partitioning.py": "faed34d5da564e139467960eefa440607a3c16bf0effde4acbd3f9bc037f0105",
+      "evaluation.py": "1e63017b474e64d3913b4ac7a940b87b5dd0fc69b27bf68a7aa4f2c561f5b2c0",
+      "__init__.py": "3604b95fbf71207988c88ac3aff90326d8af4c579786eb90759f353f297fbab9",
+      "eda.py": "04a71d9e1fee6dd58ca93e83e06d57f5ee857ef3aae605973826b459e5dd5d0e",
+      "timing.py": "34a73e52ab3b18a05800e780a4465f0635ecaa777647ec6762bd7564391658f3",
+      "utils.py": "1eeb1ca0d78b0892b7a38fa2cbcc88cb6f9cb05b3dd64a21167fa57e47bc31cd",
+      "preprocessing.py": "4c6d9033e621dae26f68d9a6733ed9b7d8de841757a887f7ca7299b9d03108e3",
+      "tuning.py": "9fd4c34598a2c8b0998ac745a35369a94880bc2597dec6ea66ee50ffa9a63c3c",
+      "selection.py": "cdfd0715b60d0b398a95859ce502cc6ba262922f244ef3f9396124deb17d53f9",
+      "modeling.py": "40a83818c22924ac394feacc992e68bf84d2934b2148e46a5cdc1fba852fb2a6",
+      "data.py": "346fb76c9f895a278dde1bd8c2e40db24c27cedbbd791fe456ac088d8de6c36c",
+      "benchmarking.py": "e7680ef8f28eac0a3e2b399645be65c05c444b235754ac107e43bdef6f69106c",
+      "packaging.py": "009de30a1c9c741e35f5093f0422a0eafeca279379cf2053fe2af3dd599d4192"
+    },
+    "runtime_environment": {
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "machine": "arm64",
+      "processor": "arm",
+      "logical_cpus": 8,
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "thread_environment": {
+        "OMP_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "LOKY_MAX_CPU_COUNT": "1"
+      },
+      "native_threadpools": [
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+          "version": null
+        }
+      ],
+      "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+    },
+    "development_cv": {
+      "scope": "locked development CV; not training or holdout performance",
+      "n_splits": 5,
+      "n_repeats": 5,
+      "primary_metric": "macro_f1",
+      "summary": {
+        "Index": 0,
+        "rank": 1,
+        "experiment": "lda__smote",
+        "model_name": "lda",
+        "treatment": "smote",
+        "run_id": "5096bbc9-6dc2-47bc-8ee6-85c4114da6e0",
+        "scope": "development",
+        "n_repeats": 5,
+        "cv_folds": 25,
+        "development_rows": 1087,
+        "prior_precision_review_flag": true,
+        "prior_precision_review_reasons": "Quality 8 recall increased with OOF precision below 10%.",
+        "tuned_parameters_json": "{\"estimator__model__shrinkage\": 0.8, \"estimator__model__solver\": \"lsqr\"}",
+        "accuracy_mean": 0.5177787172874477,
+        "accuracy_std": 0.031711490422154785,
+        "accuracy_repeat_mean_std": 0.0037672476667985452,
+        "accuracy_oof_repeat_mean": 0.5177552897884085,
+        "accuracy_oof_repeat_std": 0.003743696402829048,
+        "first_repeat_accuracy": 0.5170591468312689,
+        "macro_precision_mean": 0.38888830315356915,
+        "macro_precision_std": 0.08284194538885435,
+        "macro_precision_repeat_mean_std": 0.013434277145357379,
+        "macro_precision_oof_repeat_mean": 0.35864826437988867,
+        "macro_precision_oof_repeat_std": 0.007776832618508828,
+        "first_repeat_macro_precision": 0.38453427168390397,
+        "macro_recall_mean": 0.4056589456391648,
+        "macro_recall_std": 0.07828469407236979,
+        "macro_recall_repeat_mean_std": 0.020982018196442423,
+        "macro_recall_oof_repeat_mean": 0.4114516583332479,
+        "macro_recall_oof_repeat_std": 0.01808838558225269,
+        "first_repeat_macro_recall": 0.3989624590398297,
+        "macro_f1_mean": 0.37741434581573735,
+        "macro_f1_std": 0.06955947701089712,
+        "macro_f1_repeat_mean_std": 0.01722235375492809,
+        "macro_f1_oof_repeat_mean": 0.375706856811923,
+        "macro_f1_oof_repeat_std": 0.011526619828760385,
+        "first_repeat_macro_f1": 0.3669469336011138,
+        "weighted_f1_mean": 0.5194802327796763,
+        "weighted_f1_std": 0.029769102606467833,
+        "weighted_f1_repeat_mean_std": 0.0049643030435004695,
+        "weighted_f1_oof_repeat_mean": 0.5198949923016135,
+        "weighted_f1_oof_repeat_std": 0.004160402046504349,
+        "first_repeat_weighted_f1": 0.5201386333766848,
+        "balanced_accuracy_mean": 0.4056589456391648,
+        "balanced_accuracy_std": 0.07828469407236979,
+        "balanced_accuracy_repeat_mean_std": 0.020982018196442423,
+        "balanced_accuracy_oof_repeat_mean": 0.4114516583332479,
+        "balanced_accuracy_oof_repeat_std": 0.01808838558225269,
+        "first_repeat_balanced_accuracy": 0.3989624590398297,
+        "quadratic_weighted_kappa_mean": 0.5263841624240597,
+        "quadratic_weighted_kappa_std": 0.05723966796144694,
+        "quadratic_weighted_kappa_repeat_mean_std": 0.017387272437887694,
+        "quadratic_weighted_kappa_oof_repeat_mean": 0.5283159550276315,
+        "quadratic_weighted_kappa_oof_repeat_std": 0.01595450183101332,
+        "first_repeat_quadratic_weighted_kappa": 0.5308400960049278,
+        "macro_roc_auc_ovr_mean": 0.7936912142422362,
+        "macro_roc_auc_ovr_std": 0.035914190723379105,
+        "macro_roc_auc_ovr_repeat_mean_std": 0.0036877524428095255,
+        "macro_roc_auc_ovr_oof_repeat_mean": 0.790003679149936,
+        "macro_roc_auc_ovr_oof_repeat_std": 0.006939377649736286,
+        "first_repeat_macro_roc_auc_ovr": 0.7872290882887476,
+        "macro_average_precision_ovr_mean": 0.39471876084550045,
+        "macro_average_precision_ovr_std": 0.062347738611485806,
+        "macro_average_precision_ovr_repeat_mean_std": 0.012463113210622639,
+        "macro_average_precision_ovr_oof_repeat_mean": 0.3399453653458565,
+        "macro_average_precision_ovr_oof_repeat_std": 0.005129569604758185,
+        "first_repeat_macro_average_precision_ovr": 0.3761108371885021,
+        "mae_mean": 0.5655680040586818,
+        "mae_std": 0.04401512448550841,
+        "mae_repeat_mean_std": 0.007081298142526636,
+        "mae_oof_repeat_mean": 0.5655933762649494,
+        "mae_oof_repeat_std": 0.007039972941935232,
+        "first_repeat_mae": 0.5657252779774236,
+        "within_one_accuracy_mean": 0.9227260812581913,
+        "within_one_accuracy_std": 0.01688877000705987,
+        "within_one_accuracy_repeat_mean_std": 0.0031432939382442693,
+        "within_one_accuracy_oof_repeat_mean": 0.922723091076357,
+        "within_one_accuracy_oof_repeat_std": 0.003133281760060056,
+        "first_repeat_within_one_accuracy": 0.9227286179343,
+        "cv_total_seconds": 0.6170852931099944,
+        "cv_fit_mean_seconds": 0.005355931720696389,
+        "cv_fit_std_seconds": 0.0012551577229735146,
+        "cv_score_mean_seconds": 0.015172259998507798,
+        "warning_count": 0,
+        "quality_3_precision_mean": 0.39466666666666667,
+        "quality_3_precision_std": 0.3961683143984805,
+        "quality_3_recall_mean": 0.4,
+        "quality_3_recall_std": 0.37416573867739417,
+        "quality_3_f1_mean": 0.3527619047619048,
+        "quality_3_f1_std": 0.30503535351402145,
+        "quality_4_precision_mean": 0.1398804520571784,
+        "quality_4_precision_std": 0.08842221709791434,
+        "quality_4_recall_mean": 0.23944444444444443,
+        "quality_4_recall_std": 0.14903392604072105,
+        "quality_4_f1_mean": 0.17062867002797702,
+        "quality_4_f1_std": 0.10089153521444637,
+        "quality_5_precision_mean": 0.6406482122334368,
+        "quality_5_precision_std": 0.031926438993789406,
+        "quality_5_recall_mean": 0.6751051893408134,
+        "quality_5_recall_std": 0.058215525910173635,
+        "quality_5_f1_mean": 0.6561801457070761,
+        "quality_5_f1_std": 0.03570223600392965,
+        "quality_6_precision_mean": 0.5313208213167583,
+        "quality_6_precision_std": 0.047621072200337046,
+        "quality_6_recall_mean": 0.37815047879616964,
+        "quality_6_recall_std": 0.05031901158469138,
+        "quality_6_f1_mean": 0.43925162423547903,
+        "quality_6_f1_std": 0.03866313019866851,
+        "quality_7_precision_mean": 0.3949089047426127,
+        "quality_7_precision_std": 0.05727741245631027,
+        "quality_7_recall_mean": 0.5479202279202279,
+        "quality_7_recall_std": 0.10414645163870698,
+        "quality_7_f1_mean": 0.45511657796777627,
+        "quality_7_f1_std": 0.0676370546375874,
+        "quality_8_precision_mean": 0.2319047619047619,
+        "quality_8_precision_std": 0.2911023695698148,
+        "quality_8_recall_mean": 0.19333333333333333,
+        "quality_8_recall_std": 0.17435595774162693,
+        "quality_8_f1_mean": 0.190547152194211,
+        "quality_8_f1_std": 0.18895907468782863,
+        "selected": true
+      }
+    },
+    "probe_source_row_indices": [
+      0,
+      51,
+      100,
+      151,
+      199,
+      252,
+      301,
+      348,
+      396,
+      447,
+      501,
+      552,
+      608,
+      657,
+      713,
+      761,
+      814,
+      863,
+      916,
+      974,
+      1026,
+      1075,
+      1124,
+      1172,
+      1225,
+      1283,
+      1333,
+      1392,
+      1444,
+      1494,
+      1544,
+      1598
+    ],
+    "test_evaluation_status": "NOT_PERFORMED",
+    "fit_identity": "d4a5cf60-7f86-4db5-8bd8-b4d5fb0fa7b3:lda",
+    "artifact_role": "candidate",
+    "fit_reused_from_candidate": false
+  },
+  "artifact": {
+    "filename": "lda.joblib",
+    "sha256": "32396339a07a47d102e277af2bbf47f4271bc44dd46a390132be1cbb78f0bd30",
+    "file_size_bytes": 10029,
+    "serialization_seconds": 0.0021177500020712614
+  },
+  "round_trip": {
+    "status": "passed",
+    "probe_rows": 32,
+    "labels_identical": true,
+    "probabilities_identical": true,
+    "load_seconds": 0.00888037501135841,
+    "prediction_scope": "label-free development-feature smoke check, not a performance score",
+    "prediction_seconds": 0.0009586249943822622,
+    "prediction_ms_per_sample": 0.029957031074445695,
+    "prediction_samples": 32,
+    "probability_prediction_seconds": 0.0007750840159133077
+  }
+}

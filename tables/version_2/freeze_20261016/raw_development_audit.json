@@ -1,0 +1,16 @@
+{
+  "duplicate_feature_rows": 0,
+  "boundaries_checked": 160,
+  "training_audits_checked": 6960,
+  "development_rows": 1087,
+  "true_class_counts": {
+    "3": 8,
+    "4": 42,
+    "5": 461,
+    "6": 428,
+    "7": 134,
+    "8": 14
+  },
+  "holdout_rows_parsed": 0,
+  "holdout_evaluations": 0
+}

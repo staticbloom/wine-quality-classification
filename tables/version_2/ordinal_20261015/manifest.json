@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate \u2014 Ordinal classification",
+  "completed_utc": "2026-10-15T07:09:34.360553+00:00",
+  "total_fits": 3000,
+  "outer_evaluations": 160,
+  "elapsed_seconds": 78.05261870898539,
+  "files": {
+    "inner_assignments.csv": "f1b59284c7d03741a217c7684da3abd1a50cb18b43f2a1a04395f01b5ca5a44e",
+    "inner_candidate_scores.csv": "d14fbb44a915586cc4de8c427ad20a749ded4d79fd54868df0695e79779a19eb",
+    "inner_class_support.csv": "42164bcc9c7fac97c7eca469c26307e0fe9a9eac9df9633404c9735c26852baf",
+    "inner_fold_scores.csv": "6257a3bc1ae17086510a88e09dde083fda1707aaf26e77d0c35cb0757a3c505f",
+    "metric_comparison.csv": "1eb50e5f95eb9b2ed7350db191184dca94c4f78a1d92e339ae76d59f9489f8b8",
+    "outer_assignments.csv": "7ba42ad04faa53b5596958825300da803de1a4cc3cc35cecf943bc16c2087038",
+    "outer_class_support.csv": "da8cf4c72d18a4e88cb9b0527317ddaf6fa785513f7c520cc0120ee054e2d70e",
+    "outer_fold_metrics.csv": "49bd92bbdfbe855f3c49414b5a7152c967dca53fb72bef471ea9b717ba6e3a90",
+    "outer_oof_predictions.csv": "732b221a6ed1cb3aa42d723db0384fe124f678ab2d19541cb184129d477f8d24",
+    "outer_per_class.csv": "c459a78167839d1bcc3eef69b679f7a799a4cee63857e13ce8175b9d98c72432",
+    "paired_nominal_differences.csv": "fe5806ba054051c9a76eba306e5ff4b7eea9f5a51dcc021445ee4d802b73c7e4",
+    "per_class_comparison.csv": "30375eb535056f7e49073ca41ce34f07084cc35a3f1a889e287d1c2a62a52bca",
+    "plan.json": "d783b61e7cd137f454e4e749341c60c79fa0aa4020798fb24ce58a58582d9a53",
+    "progress.json": "adef122eb802cd47e95b602075ec490f271df2422a49da288a2a181c5f56380f",
+    "reconstruction_diagnostics.csv": "b1f9e8621c227c176f34dc8eef202d09f5d279c67e0eefc677d7f3f0d3b2ffbf",
+    "repeat_per_class.csv": "9af235353c590aa8d82d4b656c115c3cc9df03d8599375524f416f9c39f6f3e0",
+    "runtime_by_family_fold.csv": "16d445ffcfe4a53901fa29770acc32de4e783f588e2dd755a89dc7f2b441b7cf",
+    "training_audits.json": "e7b06b23485e235fae6d560de66824148de5ed4d7f4e720377bb1e6afa852925",
+    "warnings.json": "6ad8904e8b2e6f6ac5e82041c92b2a2243bbcf5128b835af213fe8656e2fb259"
+  }
+}

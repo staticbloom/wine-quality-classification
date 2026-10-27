@@ -1,0 +1,38 @@
+[
+  {
+    "method": "RandomOverSampler",
+    "decision": "evaluate",
+    "action": "Duplicate existing training observations with replacement; no new independent information.",
+    "limitation": "Does not need neighbors but can memorize rare wines. Use the same conservative target caps as SMOTE."
+  },
+  {
+    "method": "SMOTE",
+    "decision": "reference",
+    "action": "Interpolate between same-class training neighbors.",
+    "limitation": "k=1,2,3 is feasible with four inner-training quality-3 wines; feasibility is not robust independent evidence. Keep targets conservative."
+  },
+  {
+    "method": "BorderlineSMOTE",
+    "decision": "evaluate restricted to qualities 4/7",
+    "action": "Generate from minority points classified as in danger using a local one-versus-rest neighborhood; borderline-1 interpolates within class.",
+    "limitation": "Do not infer boundaries from four quality-3 or six-eight quality-8 inner-training wines. Keep these classes unchanged. Use m=5, audit safe/danger/noise anchors, and compare with matched SMOTE on 4/7. No-danger classes receive no additions; never silently substitute ordinary SMOTE."
+  },
+  {
+    "method": "ADASYN",
+    "decision": "defer this initial study",
+    "action": "Allocate more generated samples to minority observations with more other-class neighbors.",
+    "limitation": "With tiny genuine classes this local difficulty estimate can amplify noise/overlap. Installed implementation rounds per-point allocations, can miss exact caps or generate zero rows at small budgets. A capped allocation redesign would be a separate method; no claim of universal unsuitability."
+  },
+  {
+    "method": "SMOTEENN",
+    "decision": "defer this initial study",
+    "action": "Follow SMOTE with edited-nearest-neighbor removal of observations whose local labels disagree.",
+    "limitation": "Default cleaning targets every class and may discard legitimate minority boundary wines. With tiny genuine counts this is too aggressive for the initial comparison. A protected ENN design needs separate removal controls; computational feasibility would not establish statistical suitability."
+  },
+  {
+    "method": "SMOTETomek",
+    "decision": "evaluate protected cleaning variant",
+    "action": "Follow capped SMOTE with removal of specified-class endpoints of mutual nearest-neighbor pairs having different labels.",
+    "limitation": "Clean only qualities 5/6; never remove genuine or generated minority rows. This differs explicitly from default all-class cleaning. Audit all removed real rows and retained support; cleaning may still discard useful majority boundary information."
+  }
+]

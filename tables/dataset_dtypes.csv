@@ -1,0 +1,25 @@
+stage,column,dtype
+source,fixed acidity,float64
+source,volatile acidity,float64
+source,citric acid,float64
+source,residual sugar,float64
+source,chlorides,float64
+source,free sulfur dioxide,float64
+source,total sulfur dioxide,float64
+source,density,float64
+source,pH,float64
+source,sulphates,float64
+source,alcohol,float64
+source,quality,int64
+cleaned,fixed acidity,float64
+cleaned,volatile acidity,float64
+cleaned,citric acid,float64
+cleaned,residual sugar,float64
+cleaned,chlorides,float64
+cleaned,free sulfur dioxide,float64
+cleaned,total sulfur dioxide,float64
+cleaned,density,float64
+cleaned,pH,float64
+cleaned,sulphates,float64
+cleaned,alcohol,float64
+cleaned,quality,int64

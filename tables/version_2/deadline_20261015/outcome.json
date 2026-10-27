@@ -1,0 +1,13 @@
+{
+  "previous_best_credible_macro_f1": 0.3665871810250587,
+  "new_best_credible_macro_f1": 0.36658718102505866,
+  "improvement": -5.551115123125783e-17,
+  "strongest_configuration": "previous_best__lda__smote_tomek_protected",
+  "new_model_fits": 48,
+  "screening_fits": 48,
+  "robust_fits": 0,
+  "robust_procedures": [],
+  "runtime_seconds": 2.1347474579815753,
+  "legitimately_reached_050": false,
+  "holdout_evaluations": 0
+}

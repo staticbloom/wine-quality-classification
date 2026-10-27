@@ -1,0 +1,61 @@
+{
+  "status": "READY",
+  "completed_utc": "2026-10-16T08:18:53.431150+00:00",
+  "task": "Release-candidate execution repair; no model development",
+  "repairs": [
+    "Refresh generated submission manifest checksums after successful guarded replay",
+    "Isolate verifier imports from notebook namespace so missing imports cannot be masked",
+    "Document checksum refresh in README"
+  ],
+  "notebook_code_changed": false,
+  "sequential_code_cells": 23,
+  "clean_kernel_working_directories": [
+    "root",
+    "notebook"
+  ],
+  "execution_seconds": {
+    "root": 20.94199295801809,
+    "notebook": 20.972774417023174
+  },
+  "model_load_and_synthetic_parity": "passed",
+  "notebook_prediction_example": "passed: both handwritten examples predict quality 6",
+  "README_prediction_example": "passed: quality 6",
+  "README_local_links_verified": 7,
+  "requirements_versions_verified": 12,
+  "pip_check": "No broken requirements found",
+  "jupyterlab_entrypoint_version": "4.6.4",
+  "readable_final_csvs": 7,
+  "valid_and_embedded_pngs": 6,
+  "src_required": false,
+  "model_sha256": "bd752c6dba6c3b51bd30b9dcb4c875f59a2595c52f2e925bc0f5be1217248059",
+  "frozen_evidence_files_unchanged": 507,
+  "new_fits": 0,
+  "new_searches": 0,
+  "holdout_predictions": 0,
+  "submission_manifest_checksums": "all match after final replay",
+  "notebook_stderr_outputs": [
+    [
+      "Matplotlib is building the font cache; this may take a moment.\n"
+    ],
+    [
+      "/var/folders/wx/3vjk5b_14xl28pcwrrk3zfv40000gn/T/ipykernel_43624/2769096156.py:140: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!\n",
+      "You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\n",
+      "A typical example is when you are setting values in a column of a DataFrame, like:\n",
+      "\n",
+      "df[\"col\"][row_indexer] = value\n",
+      "\n",
+      "Use `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n",
+      "\n",
+      "See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n",
+      "\n",
+      "  folds['accuracy']=[acc.loc[r,f] for r,f in zip(folds.repeat,folds.outer_fold)]\n"
+    ]
+  ],
+  "remaining_nonblocking_warnings": [
+    "Pandas emits a chained-assignment FutureWarning while assembling the leaderboard; the pinned pandas 2.2.3 run completes and reconstructed metrics pass",
+    "Matplotlib builds a font cache in the fresh temporary kernel environment",
+    "Local Jupyter kernel emits an unencrypted TCP transport warning",
+    "Sandbox prevents use of pip cache; dependency check still passes",
+    "Fresh dependency download and other operating systems were not tested"
+  ]
+}

@@ -1,0 +1,15 @@
+metric,metric_label,outer_folds,mean,std,minimum,maximum,model,estimate_label
+macro_f1,Macro F1,40,0.36338012123875496,0.05333483005446804,0.2625709192768016,0.48013844218112506,lda_smote_fixed,Experiment Version 2 — Development CV Estimate — RBF SVM nested search
+balanced_accuracy,Balanced Accuracy,40,0.39187130693632477,0.061818340120813754,0.2780011686312041,0.5953504591516193,lda_smote_fixed,Experiment Version 2 — Development CV Estimate — RBF SVM nested search
+quadratic_weighted_kappa,Quadratic Weighted Kappa,40,0.5222585642553195,0.04352344491658758,0.42675140779090315,0.6357780500612638,lda_smote_fixed,Experiment Version 2 — Development CV Estimate — RBF SVM nested search
+macro_average_precision_ovr,"Macro PR-AUC (average precision, OvR)",40,0.3880554068348613,0.05276219862296201,0.30695734995733875,0.5029193472829004,lda_smote_fixed,Experiment Version 2 — Development CV Estimate — RBF SVM nested search
+macro_roc_auc_ovr,Macro ROC-AUC (OvR),40,0.7960012249784947,0.024493469818818354,0.7244785116232437,0.8397695912604087,lda_smote_fixed,Experiment Version 2 — Development CV Estimate — RBF SVM nested search
+mae,MAE,40,0.565974332537443,0.03836912322007692,0.4742647058823529,0.625,lda_smote_fixed,Experiment Version 2 — Development CV Estimate — RBF SVM nested search
+within_one_accuracy,±1 accuracy,40,0.9231766876492294,0.0161163440703446,0.8929889298892989,0.9669117647058824,lda_smote_fixed,Experiment Version 2 — Development CV Estimate — RBF SVM nested search
+macro_f1,Macro F1,40,0.3098882469806639,0.0375597400980353,0.25699149193727294,0.39066624847684156,rbf_svm_tuned,Experiment Version 2 — Development CV Estimate — RBF SVM nested search
+balanced_accuracy,Balanced Accuracy,40,0.3285383943334112,0.05247886035854101,0.26089935774112377,0.4311177904725483,rbf_svm_tuned,Experiment Version 2 — Development CV Estimate — RBF SVM nested search
+quadratic_weighted_kappa,Quadratic Weighted Kappa,40,0.49292636978292387,0.047194368409873115,0.38942929052445396,0.5949892407008914,rbf_svm_tuned,Experiment Version 2 — Development CV Estimate — RBF SVM nested search
+macro_average_precision_ovr,"Macro PR-AUC (average precision, OvR)",40,0.3454590823785922,0.039893825307279564,0.28255254234316596,0.42722969401267,rbf_svm_tuned,Experiment Version 2 — Development CV Estimate — RBF SVM nested search
+macro_roc_auc_ovr,Macro ROC-AUC (OvR),40,0.7780690816269943,0.02590535549540452,0.6870928917443315,0.8252844949046659,rbf_svm_tuned,Experiment Version 2 — Development CV Estimate — RBF SVM nested search
+mae,MAE,40,0.5389119139353158,0.034201693843430636,0.47058823529411764,0.6139705882352942,rbf_svm_tuned,Experiment Version 2 — Development CV Estimate — RBF SVM nested search
+within_one_accuracy,±1 accuracy,40,0.9268626546559583,0.016661084971455433,0.8897058823529411,0.9558823529411765,rbf_svm_tuned,Experiment Version 2 — Development CV Estimate — RBF SVM nested search

@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "source_notebook_sha256": "c7057157393a881fa1f628d85d5fcadd7ed6638e148afda7957067e36dcec053",
+  "fresh_kernel": true,
+  "relevant_new_section_executed": true,
+  "full_historical_notebook_replay": false,
+  "reason_for_limited_replay": "Deadline scope: original cells and artifacts unchanged; new functionality validated directly without refitting any older study.",
+  "guards": {
+    "fit": 48,
+    "predict": 48,
+    "scaler": 48,
+    "development_load": 1,
+    "inner_cache": 4,
+    "inner_selection": 8
+  },
+  "evidence": {
+    "status": "passed",
+    "model_fits": 48,
+    "outer_evaluations": 40,
+    "inner_decisions": 8,
+    "per_class_rows": 240,
+    "all_metrics_recomputed": true,
+    "training_membership_checked": true,
+    "holdout_evaluations": 0
+  },
+  "selftests": {
+    "status": "passed",
+    "checks": 7,
+    "synthetic_model_fits": 14,
+    "wine_rows": 0,
+    "coverage": [
+      "bounded independent class multipliers and ties",
+      "all six feature/model pipelines",
+      "LDA parity with frozen benchmark",
+      "ordinal parity with frozen implementation",
+      "training-only transformations",
+      "inner-only multiplier selection and disjoint predictions",
+      "invalid multipliers rejected"
+    ]
+  },
+  "prior_notebook_cells_preserved": 450,
+  "prior_artifacts_preserved": 467,
+  "source_directory_exists": false,
+  "source_imports_blocked": true,
+  "study_manifest_sha256": "c7b8a95224c88f7cc55b77e33cb2ba1acad2114aed8ccbe962050688223c090a",
+  "public_results_sha256": "ba15f642ca95272403204563960215190e4dc4a42161c1510bac01bab56d6a17",
+  "summary_sha256": "b9180debc87ee896d768e2d040745f73f24e61e3a1b45924b07b8823754fc613",
+  "holdout_evaluations": 0,
+  "new_robust_model_fits": 0,
+  "termination": "Every direction failed predeclared screening gate; no additional experimentation.",
+  "floating_point_display": "The raw difference between recomputed and stored prior means is -5.55e-17; public credible improvement is numerically zero."
+}

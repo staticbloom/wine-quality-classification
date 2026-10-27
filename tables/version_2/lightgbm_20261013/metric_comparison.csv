@@ -1,0 +1,22 @@
+metric,metric_label,outer_folds,mean,std,minimum,maximum,model,estimate_label
+macro_f1,Macro F1,40,0.2826908384687815,0.0235324519394528,0.2435271415698739,0.3598223433372119,unweighted,Experiment Version 2 — Development CV Estimate — LightGBM weighting comparison
+balanced_accuracy,Balanced Accuracy,40,0.28207285157461254,0.020641534729251284,0.24533592733511467,0.34419735756590697,unweighted,Experiment Version 2 — Development CV Estimate — LightGBM weighting comparison
+quadratic_weighted_kappa,Quadratic Weighted Kappa,40,0.5093921702162358,0.0416790731289571,0.42263558551262714,0.6454747924681109,unweighted,Experiment Version 2 — Development CV Estimate — LightGBM weighting comparison
+macro_average_precision_ovr,"Macro PR-AUC (average precision, OvR)",40,0.3613533932564299,0.03470299225433445,0.3079645626094208,0.43241980168737104,unweighted,Experiment Version 2 — Development CV Estimate — LightGBM weighting comparison
+macro_roc_auc_ovr,Macro ROC-AUC (OvR),40,0.7868105032755748,0.030488419041974572,0.7014205630429385,0.8319933138450241,unweighted,Experiment Version 2 — Development CV Estimate — LightGBM weighting comparison
+mae,MAE,40,0.46273741046233985,0.03132472270650899,0.33455882352941174,0.5147058823529411,unweighted,Experiment Version 2 — Development CV Estimate — LightGBM weighting comparison
+within_one_accuracy,±1 accuracy,40,0.957496744085088,0.009275658752214137,0.940959409594096,0.9779411764705882,unweighted,Experiment Version 2 — Development CV Estimate — LightGBM weighting comparison
+macro_f1,Macro F1,40,0.30667676931400656,0.0417677658813215,0.24933646676394225,0.43329620489076226,frequency,Experiment Version 2 — Development CV Estimate — LightGBM weighting comparison
+balanced_accuracy,Balanced Accuracy,40,0.34766843861728985,0.06668626303917564,0.24966035815284085,0.4915943260315467,frequency,Experiment Version 2 — Development CV Estimate — LightGBM weighting comparison
+quadratic_weighted_kappa,Quadratic Weighted Kappa,40,0.5192217182681762,0.040683329510946595,0.44994532408586374,0.6033512636024708,frequency,Experiment Version 2 — Development CV Estimate — LightGBM weighting comparison
+macro_average_precision_ovr,"Macro PR-AUC (average precision, OvR)",40,0.3462718431430437,0.03292862029623355,0.28851113732062533,0.4357981081210762,frequency,Experiment Version 2 — Development CV Estimate — LightGBM weighting comparison
+macro_roc_auc_ovr,Macro ROC-AUC (OvR),40,0.7752857216825284,0.03292422651258061,0.682504426004518,0.834981172587252,frequency,Experiment Version 2 — Development CV Estimate — LightGBM weighting comparison
+mae,MAE,40,0.5920871092902106,0.05120317198837778,0.5110294117647058,0.7195571955719557,frequency,Experiment Version 2 — Development CV Estimate — LightGBM weighting comparison
+within_one_accuracy,±1 accuracy,40,0.9119570083568483,0.02068407542629469,0.8560885608856088,0.9485294117647058,frequency,Experiment Version 2 — Development CV Estimate — LightGBM weighting comparison
+macro_f1,Macro F1,40,0.31195010888686464,0.03967333111669689,0.24975059050529133,0.4201827046612234,moderated_custom,Experiment Version 2 — Development CV Estimate — LightGBM weighting comparison
+balanced_accuracy,Balanced Accuracy,40,0.3266428259040886,0.053348191581738987,0.25040568430030236,0.4524786672084518,moderated_custom,Experiment Version 2 — Development CV Estimate — LightGBM weighting comparison
+quadratic_weighted_kappa,Quadratic Weighted Kappa,40,0.533417915420982,0.041235111908204565,0.4522230628866438,0.6208338613610442,moderated_custom,Experiment Version 2 — Development CV Estimate — LightGBM weighting comparison
+macro_average_precision_ovr,"Macro PR-AUC (average precision, OvR)",40,0.36197883551770105,0.0330231827424467,0.30371307141231746,0.4228529142459439,moderated_custom,Experiment Version 2 — Development CV Estimate — LightGBM weighting comparison
+macro_roc_auc_ovr,Macro ROC-AUC (OvR),40,0.7860616329292215,0.03225050672488181,0.6828581795383517,0.8399425788346849,moderated_custom,Experiment Version 2 — Development CV Estimate — LightGBM weighting comparison
+mae,MAE,40,0.5053359697199913,0.027919798878923725,0.40808823529411764,0.5535055350553506,moderated_custom,Experiment Version 2 — Development CV Estimate — LightGBM weighting comparison
+within_one_accuracy,±1 accuracy,40,0.9425012209680921,0.012416363480215116,0.9154411764705882,0.9632352941176471,moderated_custom,Experiment Version 2 — Development CV Estimate — LightGBM weighting comparison

@@ -1,0 +1,44 @@
+{
+  "status": "COMPLETE",
+  "identity": {
+    "selection_run_id": "5096bbc9-6dc2-47bc-8ee6-85c4114da6e0",
+    "selected_experiment": "lda__smote",
+    "selection_lock_sha256": "8dfc01d70c28d62f118b43e4a68e3557a5050e6eabd3096d101a1901b4dd8d87",
+    "code_sha256": "388f33faecafe316c06e31fa7feb7d7688e78ffeb4095976e8521601df46604c",
+    "source_files_sha256": {
+      "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/final_cv_model_selection.csv": "f21cad8528953f1e817cf6108e15f908a0b8511edb9ed41264694eb643048073",
+      "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/hyperparameter_tuning_results.csv": "1b9fcb5584586dd51324824bbbcb8ddaa5ceb6eb3079850dfeec569c74d11c98",
+      "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/model_registry.csv": "1c97b272746453ab8daec51342fc81fede181bcf90ffc54c4c84d8f8f3fdee6a",
+      "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/model_packaging_round_trip.csv": "f8ee2e213b0f109cdab1cf56390f9820204ca2a2e7a83a5e3845c246bf9e36f9",
+      "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/final_cv_plan.json": "04d1558b4a24768138ec13243b94cb60cf3f4f8751cd1d3a2b3796fc97b7db52",
+      "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/hyperparameter_tuning_metadata.json": "0524652577d667ecb98508810f20083d23d37849309532c1a705ab908faad6f3",
+      "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/model_packaging_manifest.json": "5116e653251f90a984b9b86c1ce4174d8ead3d9b2d865754cc2de0daec950d4d",
+      "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/final_cv_environment.json": "e290f2e00d31f640efc3af47f2e85ceaf3061bff62cd0599b42a86599929c7b7",
+      "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/final_test_evaluation.json": "83ca593d8284495f557b39c5ce57d7d2aeb4da2e85ad016eaa56ab29e71fdf98",
+      "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/final_test_metrics.csv": "19f47198ff8471e8a07c3829aa0c5aa11538ac411602e7e14b95b7e9ec5bf8f7",
+      "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/final_test_runtime.csv": "f616024f91a3ee96de8b74613f18907b690fdbfbfa0e3d5caa038d29af7fd225"
+    }
+  },
+  "created_at_utc": "2026-10-11T13:51:23.281911+00:00",
+  "candidate_rows": 5,
+  "diagnostic_test_rows": 1,
+  "new_fit_calls": 0,
+  "new_prediction_calls": 0,
+  "new_search_calls": 0,
+  "size_units": "decimal MB; file_size_bytes / 1,000,000",
+  "missing_values": "unavailable or not applicable; never fabricated as zero",
+  "ranking_policy": "Preserve frozen development-CV rank; no accuracy/runtime reranking or new model selection",
+  "metric_scope": "All candidate predictive metrics are mean validation-fold scores over 5 repeats \u00d7 5 folds; PR-AUC means OvR Average Precision",
+  "cv_score_scope": "Label/probability prediction plus metric computation; excludes fit; not pure inference latency",
+  "candidate_prediction_scope": "One post-reload label-prediction batch on the same 32 development-feature probes; probabilities separately timed",
+  "search_scope": "Earlier original-distribution family searches with unequal budgets; not retuning the final imbalance recipes",
+  "final_fit_scope": "Each candidate fitted once on full development; champion production package reused its candidate fit",
+  "test_scope": "One prior test aggregate retained as a separate diagnostic row; excluded from candidate plots",
+  "hardware_caution": "Wall time depends on machine, thread pools, parallelism, load, warm-up and batch size. One-shot timings do not establish robust latency differences.",
+  "overlap_caution": "Do not sum overlapping CV/search/fit scopes or count champion fit twice; no fabricated total workflow duration",
+  "files_sha256": {
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/final_performance_runtime_comparison.csv": "fdc9f668dfee56b7a76bd65ae1c01776ecd77a382352b4ba2f122c7d7b3c7497",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/visuals/final_performance_vs_training_time.png": "168c8bbf65485ca9d6435755d20d1c7e55de551df0af37d9710861536613b4c3",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/visuals/final_model_runtime_comparison.png": "d833254dbd0900c7cd23d2424441292891804952a0dc5bfb10e3d74dcd4034ea"
+  }
+}

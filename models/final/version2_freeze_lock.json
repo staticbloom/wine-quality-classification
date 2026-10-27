@@ -1,0 +1,32 @@
+{
+  "status": "FROZEN",
+  "frozen_utc": "2026-10-15T23:06:01.084901+00:00",
+  "files": {
+    "tables/version_2/freeze_20261016/all_version2_results_review.csv": "5d272b58404d1dab64f15b69ae4c611b350f19ce3345c0b5bd1edeb888191694",
+    "tables/version_2/freeze_20261016/final_recipe_inner_evidence.csv": "e61ac3cb964f5aef4a0a6820f1175c76129c8dea4df603e41d8b507a178f394e",
+    "tables/version_2/freeze_20261016/final_training_audit.json": "d67023adc55663909cfd44bb5a3238e1d4a20c016fe3bc3504ec7794d47e52c5",
+    "tables/version_2/freeze_20261016/final_training_counts.csv": "c83a686c3435489069f517d517bc1c61c1096595c530c1232c3849a3168923c8",
+    "tables/version_2/freeze_20261016/fold_confusion_matrices.json": "481e6c417a258e456bc1688bfe58f620440736619da7e90bbe509eb409fefdac",
+    "tables/version_2/freeze_20261016/fold_mean_per_class.csv": "058888a0f6bc003161eaa20ec2d57eef82c337854bc226c99336bd90536334f8",
+    "tables/version_2/freeze_20261016/independent_leakage_audit.json": "1408b803a48a5ef1ab16247ce20e0adb31e163648b8a2d531a82b8e91fe9e5b0",
+    "tables/version_2/freeze_20261016/independent_leakage_audit.md": "97bb36e9c45406770919530bd431d1a6a4940c10cb0af64f05fb7a0897382468",
+    "tables/version_2/freeze_20261016/independent_metrics_audit.json": "2c4ed9a0d0160e8a776d99da7d03b1cd47ef7d4772da2d14ce423dd5b06683e8",
+    "tables/version_2/freeze_20261016/independent_metrics_audit.md": "b3e598aeb01a46c42188540f68d5f8e4ef506d30c37063758e165c8d0c527633",
+    "tables/version_2/freeze_20261016/inference_parity_probe.json": "6fe4da7b7de98c700f2677235420e37db5b3f11e45d88624e60b825acb4e8142",
+    "tables/version_2/freeze_20261016/manual_fold_f1.csv": "457d3ef0812bb7cbeaab475bab4c6a6212b2bba5ec76fa1dd4691abe50705008",
+    "tables/version_2/freeze_20261016/plan.json": "4b6039d90b49042ca3cff9d767410b67a57c8299069c9a4047e1b73ded4f6148",
+    "tables/version_2/freeze_20261016/pooled_oof_confusion_matrix.csv": "6f6627fc3064b4fead376907ca93726e894e97c74b6aa20848934584ada25bc4",
+    "tables/version_2/freeze_20261016/pooled_oof_per_class.csv": "d6483c3d52bae6403710a5970435560172743fda0bc90cc2871169f5864da30c",
+    "tables/version_2/freeze_20261016/pre_fit_raw_development_audit.json": "749dc9821a94f74d8beaaa523d39208849fe30ca92398f3191983eafec33efb0",
+    "tables/version_2/freeze_20261016/raw_development_audit.json": "090ca355f881f7d179ba4d8026107f1903a247637a7f877273db28614467ee46",
+    "tables/version_2/freeze_20261016/validity_audit_16_checks.csv": "e9dc806d577e4d47d2bfe7bdf8dca327d48ed3b4f72b8eca474a719f211420a7",
+    "models/final/wine_quality_classifier_v2.joblib": "bd752c6dba6c3b51bd30b9dcb4c875f59a2595c52f2e925bc0f5be1217248059",
+    "models/final/wine_quality_classifier_v2.metadata.json": "547041a093282a19a9a4929477bfec50bbcea04d4e9026959814edddf337d017",
+    "tables/final_version2_model_summary.csv": "c5b6cd3a3781597ffd8c0c5870a37e96a903ad39b4919221e68d185901966fcb"
+  },
+  "implementation": {
+    "freeze-configuration": "e4d4b26e81dc1b3240964dc40ef84e5b00702540a20fb2c58900a28ff6f5b067",
+    "freeze-utilities": "d44b32764bc9032934cc95f0d351c9b8cdeb089ff1fa65c88375d43a813c79a1"
+  },
+  "policy": "No further model optimization. Never overwrite Version1 or this Version2 freeze."
+}

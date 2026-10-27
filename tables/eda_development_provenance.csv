@@ -1,0 +1,2 @@
+scope,development_rows,source_sha256,split_manifest_sha256,python,numpy,pandas,matplotlib,seaborn,missing_data_policy,extreme_value_policy
+development only,1087,952286135b2a6583dc47b83ada8503ecbf80bceaa51755c83c46254f179c762a,9e90c4b1563b483b972f2be1dc5918c43c44ab0f7d5249d545af822189d3517b,3.12.14,2.3.5,2.2.3,3.11.2,0.13.2,Available observations; pairwise-complete correlations; counts exported,1.5 IQR diagnostic flags only; no rows removed or values clipped

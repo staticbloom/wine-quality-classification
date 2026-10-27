@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "notebook_cells": 50,
+  "code_cells": 23,
+  "all_requested_sections_present": true,
+  "unique_helper_definitions": 11,
+  "fitting_calls_in_notebook": 0,
+  "main_notebook_retired_source_references": 0,
+  "embedded_figures": 6,
+  "readable_html_tables": 14,
+  "champion_highlighted": true,
+  "prior_evidence_files_unchanged": 506,
+  "required_versions_verified": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "matplotlib": "3.11.2",
+    "ipython": "9.17.1",
+    "ipykernel": "7.4.0",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "jupyter-client": "8.10.0",
+    "jupyterlab": "4.6.4"
+  },
+  "pip_check": "passed",
+  "offline_requirements_dry_run": "all requirements already satisfied",
+  "model_and_historical_metrics_unchanged": true
+}

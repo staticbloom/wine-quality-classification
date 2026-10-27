@@ -1,0 +1,10 @@
+{
+  "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+  "strategy": "RSKF_4x10",
+  "n_splits": 4,
+  "n_repeats": 10,
+  "random_state": 42,
+  "selection_rule": "support >= 2; mean train fraction >= .75; prefer 10 repeats; then lowest median repeat-mean Macro F1 SD; then largest train fraction",
+  "reason": "Four folds keep two quality-3 and at least three quality-8 observations per validation fold, retaining 75% for training. Five folds retain 80% but allow only one quality-3 and two quality-8 observations. Ten repeats characterize split sensitivity; they do not create more independent rare-class observations.",
+  "metric_mean_used_for_selection": false
+}

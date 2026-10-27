@@ -1,0 +1,588 @@
+{
+  "run_id": "e7399111-e84d-4cc8-b880-bc1ba247daac",
+  "tuning_run_id": "a41c9614-88f2-4136-a7dd-824d9d8a29a3",
+  "scope": "development only",
+  "development_rows": 1087,
+  "cv_folds": 5,
+  "random_state": 42,
+  "source_sha256": "952286135b2a6583dc47b83ada8503ecbf80bceaa51755c83c46254f179c762a",
+  "split_manifest_sha256": "9e90c4b1563b483b972f2be1dc5918c43c44ab0f7d5249d545af822189d3517b",
+  "development_fingerprint": "344c74a64573901b2c563fe2f3ed6b952eab22f764477527fa7af748e2cc0ce9",
+  "fold_assignments_sha256": "bad8dcfcc7b48422381c00fbb66d08c05eee857e44bd7be153b6a5eb969be9bc",
+  "frozen_tuned_parameters": {
+    "lda": {
+      "estimator__model__shrinkage": 0.8,
+      "estimator__model__solver": "lsqr"
+    },
+    "gaussian_nb": {
+      "estimator__model__var_smoothing": 1e-09
+    },
+    "gradient_boosting": {
+      "estimator__model__learning_rate": 0.05,
+      "estimator__model__max_depth": 2,
+      "estimator__model__min_samples_leaf": 10,
+      "estimator__model__n_estimators": 50,
+      "estimator__model__subsample": 0.8
+    },
+    "logistic_regression": {
+      "estimator__model__C": 6.2101694189156165
+    },
+    "random_forest": {
+      "estimator__model__max_depth": 8,
+      "estimator__model__max_features": 0.75,
+      "estimator__model__min_samples_leaf": 1,
+      "estimator__model__n_estimators": 200
+    }
+  },
+  "partial_oversampling": {
+    "maximum_multiplier": 3,
+    "majority_fraction_cap": 0.5,
+    "smote_requested_k": 3
+  },
+  "precision_review_rules": {
+    "macro_precision_absolute_drop": 0.1,
+    "any_class_pooled_precision_absolute_drop": 0.2,
+    "recall_gain_with_pooled_class_precision_below": 0.1,
+    "purpose": "Predeclared review flags, not statistical tests or automatic strategy selection."
+  },
+  "brf_policy": "Tuned RF tree settings; sampling_strategy=all, replacement=True, bootstrap=False, class_weight=None.",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "imbalanced-learn": "0.14.2",
+    "sklearn-compat": "0.1.6"
+  },
+  "thread_policy": "Serial models and CV; native thread pools limited to one; estimator n_jobs=1.",
+  "caveats": [
+    "SMOTE feasibility is computational, not evidence of sufficient statistical support.",
+    "Synthetic quality-3/8 examples from tiny original samples risk overfitting and implausible chemistry.",
+    "Capped oversampling, balanced weights and balanced forests differ in balancing strength.",
+    "Frozen hyperparameters were selected on these development folds; comparisons are selection-biased, not nested CV."
+  ],
+  "environments": {
+    "lda__original": {
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "machine": "arm64",
+      "processor": "arm",
+      "logical_cpus": 8,
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "thread_environment": {
+        "OMP_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "LOKY_MAX_CPU_COUNT": "1"
+      },
+      "native_threadpools": [
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+          "version": null
+        }
+      ],
+      "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+    },
+    "lda__random_over": {
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "machine": "arm64",
+      "processor": "arm",
+      "logical_cpus": 8,
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "thread_environment": {
+        "OMP_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "LOKY_MAX_CPU_COUNT": "1"
+      },
+      "native_threadpools": [
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+          "version": null
+        }
+      ],
+      "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+    },
+    "lda__smote": {
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "machine": "arm64",
+      "processor": "arm",
+      "logical_cpus": 8,
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "thread_environment": {
+        "OMP_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "LOKY_MAX_CPU_COUNT": "1"
+      },
+      "native_threadpools": [
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+          "version": null
+        }
+      ],
+      "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+    },
+    "gaussian_nb__original": {
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "machine": "arm64",
+      "processor": "arm",
+      "logical_cpus": 8,
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "thread_environment": {
+        "OMP_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "LOKY_MAX_CPU_COUNT": "1"
+      },
+      "native_threadpools": [
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+          "version": null
+        }
+      ],
+      "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+    },
+    "gaussian_nb__random_over": {
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "machine": "arm64",
+      "processor": "arm",
+      "logical_cpus": 8,
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "thread_environment": {
+        "OMP_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "LOKY_MAX_CPU_COUNT": "1"
+      },
+      "native_threadpools": [
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+          "version": null
+        }
+      ],
+      "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+    },
+    "gaussian_nb__smote": {
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "machine": "arm64",
+      "processor": "arm",
+      "logical_cpus": 8,
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "thread_environment": {
+        "OMP_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "LOKY_MAX_CPU_COUNT": "1"
+      },
+      "native_threadpools": [
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+          "version": null
+        }
+      ],
+      "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+    },
+    "gradient_boosting__original": {
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "machine": "arm64",
+      "processor": "arm",
+      "logical_cpus": 8,
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "thread_environment": {
+        "OMP_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "LOKY_MAX_CPU_COUNT": "1"
+      },
+      "native_threadpools": [
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+          "version": null
+        }
+      ],
+      "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+    },
+    "gradient_boosting__random_over": {
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "machine": "arm64",
+      "processor": "arm",
+      "logical_cpus": 8,
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "thread_environment": {
+        "OMP_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "LOKY_MAX_CPU_COUNT": "1"
+      },
+      "native_threadpools": [
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+          "version": null
+        }
+      ],
+      "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+    },
+    "gradient_boosting__smote": {
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "machine": "arm64",
+      "processor": "arm",
+      "logical_cpus": 8,
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "thread_environment": {
+        "OMP_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "LOKY_MAX_CPU_COUNT": "1"
+      },
+      "native_threadpools": [
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+          "version": null
+        }
+      ],
+      "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+    },
+    "logistic_regression__original": {
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "machine": "arm64",
+      "processor": "arm",
+      "logical_cpus": 8,
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "thread_environment": {
+        "OMP_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "LOKY_MAX_CPU_COUNT": "1"
+      },
+      "native_threadpools": [
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+          "version": null
+        }
+      ],
+      "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+    },
+    "logistic_regression__class_weight_balanced": {
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "machine": "arm64",
+      "processor": "arm",
+      "logical_cpus": 8,
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "thread_environment": {
+        "OMP_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "LOKY_MAX_CPU_COUNT": "1"
+      },
+      "native_threadpools": [
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+          "version": null
+        }
+      ],
+      "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+    },
+    "logistic_regression__random_over": {
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "machine": "arm64",
+      "processor": "arm",
+      "logical_cpus": 8,
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "thread_environment": {
+        "OMP_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "LOKY_MAX_CPU_COUNT": "1"
+      },
+      "native_threadpools": [
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+          "version": null
+        }
+      ],
+      "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+    },
+    "logistic_regression__smote": {
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "machine": "arm64",
+      "processor": "arm",
+      "logical_cpus": 8,
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "thread_environment": {
+        "OMP_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "LOKY_MAX_CPU_COUNT": "1"
+      },
+      "native_threadpools": [
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+          "version": null
+        }
+      ],
+      "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+    },
+    "random_forest__original": {
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "machine": "arm64",
+      "processor": "arm",
+      "logical_cpus": 8,
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "thread_environment": {
+        "OMP_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "LOKY_MAX_CPU_COUNT": "1"
+      },
+      "native_threadpools": [
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+          "version": null
+        }
+      ],
+      "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+    },
+    "random_forest__class_weight_balanced": {
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "machine": "arm64",
+      "processor": "arm",
+      "logical_cpus": 8,
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "thread_environment": {
+        "OMP_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "LOKY_MAX_CPU_COUNT": "1"
+      },
+      "native_threadpools": [
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+          "version": null
+        }
+      ],
+      "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+    },
+    "random_forest__random_over": {
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "machine": "arm64",
+      "processor": "arm",
+      "logical_cpus": 8,
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "thread_environment": {
+        "OMP_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "LOKY_MAX_CPU_COUNT": "1"
+      },
+      "native_threadpools": [
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+          "version": null
+        }
+      ],
+      "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+    },
+    "random_forest__smote": {
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "machine": "arm64",
+      "processor": "arm",
+      "logical_cpus": 8,
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "thread_environment": {
+        "OMP_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "LOKY_MAX_CPU_COUNT": "1"
+      },
+      "native_threadpools": [
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+          "version": null
+        }
+      ],
+      "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+    },
+    "random_forest__balanced_random_forest": {
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "machine": "arm64",
+      "processor": "arm",
+      "logical_cpus": 8,
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "thread_environment": {
+        "OMP_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "LOKY_MAX_CPU_COUNT": "1"
+      },
+      "native_threadpools": [
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+          "version": null
+        }
+      ],
+      "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+    }
+  }
+}

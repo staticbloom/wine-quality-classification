@@ -1,0 +1,17 @@
+model,method,fold_vectors,pair_count,constant_fold_vectors,valid_rank_pairs,rank_spearman_mean,rank_spearman_std,top3_jaccard_mean,top3_jaccard_std,estimate_label
+extra_trees__balanced,impurity,40,780,0,780,0.9336130536130537,0.03920781952721021,0.7455128205128205,0.24995972719670229,Experiment Version 2 — Development CV Estimate — Random Forest / Extra Trees
+extra_trees__balanced,permutation_macro_f1,40,780,0,780,0.33116550116550125,0.2627230743663995,0.3867948717948719,0.23064565779758567,Experiment Version 2 — Development CV Estimate — Random Forest / Extra Trees
+extra_trees__balanced_subsample,impurity,40,780,0,780,0.92497668997669,0.049858078803909335,0.7288461538461538,0.24910342188115245,Experiment Version 2 — Development CV Estimate — Random Forest / Extra Trees
+extra_trees__balanced_subsample,permutation_macro_f1,40,780,0,780,0.31172494172494175,0.26217716057081597,0.37948717948717947,0.20869495242810207,Experiment Version 2 — Development CV Estimate — Random Forest / Extra Trees
+extra_trees__moderated_custom,impurity,40,780,0,780,0.9622960372960373,0.022989270445241558,0.7006410256410256,0.24507894983092718,Experiment Version 2 — Development CV Estimate — Random Forest / Extra Trees
+extra_trees__moderated_custom,permutation_macro_f1,40,780,0,780,0.47440559440559443,0.28841137375490317,0.5101282051282052,0.25906633933961726,Experiment Version 2 — Development CV Estimate — Random Forest / Extra Trees
+extra_trees__unweighted,impurity,40,780,0,780,0.9436013986013986,0.03297206505051715,0.7044871794871795,0.2458222593032775,Experiment Version 2 — Development CV Estimate — Random Forest / Extra Trees
+extra_trees__unweighted,permutation_macro_f1,40,780,0,780,0.7093473193473193,0.17336875712462077,0.6341025641025642,0.25265988031666303,Experiment Version 2 — Development CV Estimate — Random Forest / Extra Trees
+random_forest__balanced,impurity,40,780,0,780,0.820862470862471,0.09232704171949974,0.9506410256410256,0.1491414725343601,Experiment Version 2 — Development CV Estimate — Random Forest / Extra Trees
+random_forest__balanced,permutation_macro_f1,40,780,0,780,0.4935198135198136,0.2012863042703245,0.5967948717948718,0.2553077257849758,Experiment Version 2 — Development CV Estimate — Random Forest / Extra Trees
+random_forest__balanced_subsample,impurity,40,780,0,780,0.8865734265734265,0.06307829271974193,0.9275641025641026,0.17598576499423146,Experiment Version 2 — Development CV Estimate — Random Forest / Extra Trees
+random_forest__balanced_subsample,permutation_macro_f1,40,780,0,780,0.4342074592074593,0.24757161804226005,0.5075641025641026,0.25915387913428667,Experiment Version 2 — Development CV Estimate — Random Forest / Extra Trees
+random_forest__moderated_custom,impurity,40,780,0,780,0.7893738039786178,0.1265640566728439,0.8878205128205128,0.20857973594261464,Experiment Version 2 — Development CV Estimate — Random Forest / Extra Trees
+random_forest__moderated_custom,permutation_macro_f1,40,780,0,780,0.5827722160637968,0.17561138340114024,0.7238461538461539,0.26247456906962247,Experiment Version 2 — Development CV Estimate — Random Forest / Extra Trees
+random_forest__unweighted,impurity,40,780,0,780,0.8102782452340509,0.12118457841010992,0.7461538461538462,0.24997041245033727,Experiment Version 2 — Development CV Estimate — Random Forest / Extra Trees
+random_forest__unweighted,permutation_macro_f1,40,780,0,780,0.6724531890803523,0.1583644947446279,0.8208974358974358,0.24228974970876954,Experiment Version 2 — Development CV Estimate — Random Forest / Extra Trees

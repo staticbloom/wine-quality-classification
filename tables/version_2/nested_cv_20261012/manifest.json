@@ -1,0 +1,25 @@
+{
+  "status": "completed",
+  "completed_utc": "2026-10-12T12:48:13.614357+00:00",
+  "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate \u2014 Repeated nested stratified CV",
+  "fit_count": 2440,
+  "outer_evaluations": 40,
+  "elapsed_seconds": 27.582852708001155,
+  "files": {
+    "inner_assignments.csv": "bd14a3e0cbcdf5be37e11bb92a92cd277d427d89b3b8b5b80aafb031baf6e108",
+    "inner_candidate_scores.csv": "dda09f9af9c6f4e590e4a2aaf3c8f686b46144eb419e34f5f7cb831fa2c80db9",
+    "inner_class_support.csv": "4650458346fc336d91d061ed29e624599d2ec59714d770da58431738c8a665dc",
+    "inner_fold_scores.csv": "c947b4bdb80a378be60f3a41f39e14c34955aea2382a1f3a7f48a0f8d2aa9181",
+    "metric_summary.csv": "91a42f8e79afc53e93743f54e98fa971dc562f9c057280026cdf63cab593e10b",
+    "outer_assignments.csv": "1ef2c89a1d278d3dcae8a7defa13e71caaa27ed02d83735bd56769322755b25c",
+    "outer_class_support.csv": "a1ad25d44799de96062143bb95bec6e034f70b4882d11f8f2e4e89a8886be1d5",
+    "outer_fold_metrics.csv": "4dcc186b42506f96d4ff628270ab8c436f03e3889d9fa88ea07c5d9adbc0886a",
+    "outer_oof_predictions.csv": "79e87881381b4548e8edcf65c46f7db90f6598e4b8cc676107f024d1a2dd2750",
+    "outer_per_class.csv": "e6e0a37b473ba80ae349410868235ec8dedbeb638d8fb1d8c444779e7c20e790",
+    "per_class_summary.csv": "5cb92ec60510d203bbd45b0c7105f6284c9673b8009cc957344303aa107130df",
+    "plan.json": "0c58901c2e29ede8f7dc290eaff2828e3565abdbff202741b8e8294ed6adc6ef",
+    "repeat_metrics.csv": "aed66e41f93f39ef88133e4631bab19c9da0ffd74beea73bd07fa018f21f9f46",
+    "training_audits.json": "637164748fd5bbc9fa6a1066d8b7501b17b9d334ae26c725ccb29856be7743e2",
+    "warnings.json": "1e365d1530df74fc2c916d55a6259b716c6818b81f51ba2224bb9dffd4cac5a8"
+  }
+}

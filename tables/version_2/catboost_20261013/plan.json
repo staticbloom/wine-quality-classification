@@ -1,0 +1,4591 @@
+{
+  "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate \u2014 CatBoost multiclass comparison",
+  "run_id": "catboost_20261013",
+  "experiment_version": 2,
+  "registered_utc": "2026-10-13T07:07:50.194560+00:00",
+  "development_rows": 1087,
+  "development_source_indices": [
+    0,
+    2,
+    3,
+    5,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    22,
+    24,
+    25,
+    26,
+    28,
+    30,
+    31,
+    32,
+    33,
+    34,
+    36,
+    37,
+    39,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    51,
+    53,
+    54,
+    55,
+    56,
+    58,
+    59,
+    62,
+    63,
+    64,
+    66,
+    67,
+    69,
+    70,
+    71,
+    72,
+    73,
+    77,
+    78,
+    79,
+    80,
+    82,
+    83,
+    84,
+    85,
+    86,
+    89,
+    90,
+    92,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    103,
+    104,
+    108,
+    109,
+    112,
+    113,
+    115,
+    116,
+    118,
+    119,
+    120,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    133,
+    134,
+    135,
+    136,
+    137,
+    139,
+    142,
+    143,
+    145,
+    146,
+    148,
+    150,
+    151,
+    152,
+    154,
+    155,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    171,
+    174,
+    175,
+    177,
+    179,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    188,
+    190,
+    191,
+    192,
+    193,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    205,
+    207,
+    208,
+    209,
+    211,
+    212,
+    213,
+    214,
+    215,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    227,
+    230,
+    231,
+    232,
+    234,
+    237,
+    241,
+    242,
+    243,
+    245,
+    246,
+    247,
+    250,
+    252,
+    253,
+    257,
+    258,
+    259,
+    260,
+    261,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    272,
+    274,
+    279,
+    280,
+    281,
+    282,
+    284,
+    286,
+    287,
+    289,
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    307,
+    308,
+    311,
+    313,
+    314,
+    315,
+    317,
+    318,
+    321,
+    323,
+    324,
+    326,
+    327,
+    328,
+    329,
+    330,
+    332,
+    333,
+    334,
+    335,
+    337,
+    338,
+    339,
+    340,
+    341,
+    342,
+    344,
+    345,
+    346,
+    347,
+    348,
+    351,
+    352,
+    353,
+    354,
+    355,
+    357,
+    359,
+    361,
+    362,
+    363,
+    364,
+    367,
+    368,
+    369,
+    370,
+    371,
+    372,
+    373,
+    374,
+    375,
+    376,
+    378,
+    379,
+    380,
+    381,
+    384,
+    385,
+    386,
+    387,
+    390,
+    392,
+    393,
+    394,
+    395,
+    396,
+    397,
+    399,
+    402,
+    403,
+    404,
+    406,
+    407,
+    408,
+    409,
+    410,
+    411,
+    412,
+    413,
+    416,
+    417,
+    418,
+    420,
+    421,
+    422,
+    426,
+    427,
+    428,
+    429,
+    431,
+    432,
+    433,
+    434,
+    436,
+    439,
+    440,
+    441,
+    442,
+    443,
+    446,
+    447,
+    448,
+    449,
+    451,
+    452,
+    453,
+    455,
+    456,
+    457,
+    459,
+    460,
+    463,
+    464,
+    465,
+    469,
+    472,
+    474,
+    475,
+    476,
+    479,
+    480,
+    481,
+    482,
+    483,
+    484,
+    485,
+    487,
+    488,
+    489,
+    490,
+    491,
+    492,
+    493,
+    496,
+    497,
+    501,
+    503,
+    504,
+    506,
+    507,
+    508,
+    509,
+    510,
+    512,
+    513,
+    515,
+    516,
+    517,
+    518,
+    520,
+    522,
+    523,
+    524,
+    528,
+    529,
+    530,
+    531,
+    533,
+    534,
+    537,
+    538,
+    540,
+    541,
+    542,
+    543,
+    544,
+    545,
+    547,
+    548,
+    549,
+    552,
+    553,
+    554,
+    556,
+    559,
+    560,
+    562,
+    563,
+    566,
+    568,
+    569,
+    572,
+    573,
+    574,
+    575,
+    576,
+    577,
+    579,
+    580,
+    582,
+    583,
+    584,
+    585,
+    587,
+    588,
+    589,
+    593,
+    595,
+    597,
+    598,
+    599,
+    601,
+    602,
+    605,
+    607,
+    608,
+    610,
+    611,
+    612,
+    613,
+    615,
+    617,
+    618,
+    619,
+    621,
+    622,
+    623,
+    624,
+    626,
+    628,
+    629,
+    631,
+    632,
+    633,
+    635,
+    636,
+    637,
+    638,
+    639,
+    640,
+    641,
+    646,
+    647,
+    648,
+    649,
+    650,
+    651,
+    652,
+    653,
+    654,
+    657,
+    658,
+    664,
+    665,
+    666,
+    667,
+    668,
+    670,
+    671,
+    672,
+    674,
+    675,
+    677,
+    678,
+    679,
+    680,
+    684,
+    687,
+    688,
+    690,
+    691,
+    692,
+    693,
+    694,
+    695,
+    696,
+    698,
+    700,
+    702,
+    705,
+    707,
+    708,
+    710,
+    711,
+    712,
+    713,
+    714,
+    715,
+    717,
+    718,
+    719,
+    721,
+    722,
+    723,
+    724,
+    725,
+    726,
+    727,
+    730,
+    731,
+    732,
+    733,
+    734,
+    735,
+    738,
+    739,
+    741,
+    742,
+    743,
+    744,
+    745,
+    746,
+    747,
+    748,
+    750,
+    752,
+    755,
+    756,
+    757,
+    760,
+    761,
+    762,
+    764,
+    765,
+    766,
+    769,
+    771,
+    772,
+    774,
+    775,
+    777,
+    778,
+    779,
+    780,
+    782,
+    785,
+    787,
+    789,
+    790,
+    791,
+    792,
+    794,
+    795,
+    796,
+    797,
+    798,
+    800,
+    802,
+    803,
+    805,
+    808,
+    809,
+    810,
+    812,
+    813,
+    814,
+    816,
+    818,
+    819,
+    820,
+    821,
+    822,
+    824,
+    825,
+    826,
+    828,
+    829,
+    830,
+    833,
+    834,
+    836,
+    838,
+    839,
+    840,
+    841,
+    842,
+    843,
+    845,
+    847,
+    849,
+    850,
+    852,
+    853,
+    855,
+    857,
+    858,
+    859,
+    860,
+    861,
+    862,
+    863,
+    865,
+    866,
+    867,
+    869,
+    871,
+    872,
+    873,
+    874,
+    875,
+    876,
+    878,
+    879,
+    880,
+    881,
+    882,
+    885,
+    886,
+    889,
+    890,
+    892,
+    894,
+    895,
+    896,
+    899,
+    900,
+    901,
+    903,
+    907,
+    908,
+    909,
+    910,
+    911,
+    912,
+    913,
+    916,
+    918,
+    919,
+    920,
+    924,
+    925,
+    927,
+    929,
+    930,
+    932,
+    935,
+    937,
+    938,
+    939,
+    940,
+    941,
+    942,
+    943,
+    944,
+    946,
+    952,
+    953,
+    955,
+    956,
+    957,
+    958,
+    960,
+    961,
+    963,
+    965,
+    966,
+    967,
+    968,
+    970,
+    972,
+    974,
+    975,
+    977,
+    978,
+    979,
+    980,
+    981,
+    982,
+    985,
+    986,
+    988,
+    989,
+    991,
+    992,
+    994,
+    995,
+    996,
+    999,
+    1001,
+    1002,
+    1003,
+    1007,
+    1008,
+    1009,
+    1010,
+    1012,
+    1013,
+    1014,
+    1015,
+    1017,
+    1019,
+    1020,
+    1022,
+    1023,
+    1024,
+    1026,
+    1028,
+    1031,
+    1032,
+    1035,
+    1036,
+    1037,
+    1038,
+    1039,
+    1040,
+    1041,
+    1044,
+    1045,
+    1046,
+    1047,
+    1048,
+    1049,
+    1051,
+    1052,
+    1053,
+    1054,
+    1057,
+    1058,
+    1060,
+    1061,
+    1062,
+    1063,
+    1064,
+    1065,
+    1066,
+    1067,
+    1069,
+    1070,
+    1071,
+    1073,
+    1075,
+    1076,
+    1077,
+    1079,
+    1080,
+    1081,
+    1082,
+    1083,
+    1085,
+    1086,
+    1087,
+    1088,
+    1090,
+    1091,
+    1092,
+    1093,
+    1094,
+    1097,
+    1100,
+    1104,
+    1105,
+    1106,
+    1107,
+    1108,
+    1109,
+    1110,
+    1112,
+    1114,
+    1115,
+    1118,
+    1119,
+    1120,
+    1121,
+    1122,
+    1123,
+    1124,
+    1125,
+    1126,
+    1127,
+    1128,
+    1131,
+    1132,
+    1133,
+    1134,
+    1135,
+    1136,
+    1138,
+    1139,
+    1140,
+    1141,
+    1142,
+    1144,
+    1145,
+    1146,
+    1148,
+    1150,
+    1151,
+    1154,
+    1157,
+    1159,
+    1160,
+    1162,
+    1163,
+    1165,
+    1166,
+    1167,
+    1168,
+    1169,
+    1170,
+    1171,
+    1172,
+    1173,
+    1175,
+    1176,
+    1177,
+    1178,
+    1179,
+    1181,
+    1182,
+    1183,
+    1184,
+    1185,
+    1186,
+    1189,
+    1191,
+    1193,
+    1194,
+    1195,
+    1196,
+    1197,
+    1201,
+    1203,
+    1204,
+    1209,
+    1210,
+    1211,
+    1213,
+    1214,
+    1215,
+    1216,
+    1217,
+    1219,
+    1220,
+    1222,
+    1223,
+    1225,
+    1226,
+    1227,
+    1228,
+    1230,
+    1231,
+    1234,
+    1235,
+    1238,
+    1239,
+    1240,
+    1241,
+    1242,
+    1243,
+    1244,
+    1245,
+    1246,
+    1251,
+    1252,
+    1255,
+    1256,
+    1257,
+    1260,
+    1262,
+    1263,
+    1264,
+    1267,
+    1269,
+    1270,
+    1274,
+    1275,
+    1276,
+    1277,
+    1280,
+    1282,
+    1283,
+    1284,
+    1285,
+    1286,
+    1287,
+    1288,
+    1290,
+    1291,
+    1292,
+    1293,
+    1295,
+    1297,
+    1298,
+    1299,
+    1300,
+    1301,
+    1302,
+    1303,
+    1304,
+    1305,
+    1307,
+    1311,
+    1312,
+    1313,
+    1314,
+    1315,
+    1316,
+    1317,
+    1319,
+    1320,
+    1321,
+    1322,
+    1324,
+    1331,
+    1332,
+    1333,
+    1335,
+    1336,
+    1342,
+    1344,
+    1345,
+    1346,
+    1347,
+    1350,
+    1352,
+    1354,
+    1355,
+    1357,
+    1358,
+    1359,
+    1360,
+    1363,
+    1365,
+    1366,
+    1367,
+    1368,
+    1369,
+    1370,
+    1371,
+    1373,
+    1375,
+    1377,
+    1378,
+    1381,
+    1382,
+    1384,
+    1386,
+    1389,
+    1390,
+    1391,
+    1392,
+    1394,
+    1395,
+    1396,
+    1397,
+    1398,
+    1400,
+    1403,
+    1405,
+    1406,
+    1407,
+    1408,
+    1410,
+    1411,
+    1414,
+    1415,
+    1417,
+    1418,
+    1419,
+    1421,
+    1422,
+    1423,
+    1424,
+    1426,
+    1427,
+    1429,
+    1430,
+    1431,
+    1432,
+    1433,
+    1438,
+    1439,
+    1441,
+    1442,
+    1443,
+    1444,
+    1445,
+    1447,
+    1449,
+    1451,
+    1452,
+    1453,
+    1455,
+    1456,
+    1459,
+    1460,
+    1461,
+    1462,
+    1463,
+    1464,
+    1469,
+    1470,
+    1471,
+    1472,
+    1473,
+    1474,
+    1475,
+    1478,
+    1479,
+    1480,
+    1483,
+    1484,
+    1485,
+    1486,
+    1487,
+    1488,
+    1489,
+    1490,
+    1492,
+    1493,
+    1494,
+    1497,
+    1498,
+    1501,
+    1503,
+    1504,
+    1505,
+    1506,
+    1508,
+    1510,
+    1511,
+    1512,
+    1513,
+    1514,
+    1515,
+    1516,
+    1517,
+    1518,
+    1519,
+    1521,
+    1523,
+    1524,
+    1525,
+    1526,
+    1527,
+    1528,
+    1529,
+    1532,
+    1535,
+    1536,
+    1537,
+    1538,
+    1539,
+    1542,
+    1543,
+    1544,
+    1546,
+    1547,
+    1549,
+    1550,
+    1551,
+    1552,
+    1553,
+    1555,
+    1558,
+    1559,
+    1562,
+    1566,
+    1569,
+    1570,
+    1571,
+    1572,
+    1573,
+    1574,
+    1576,
+    1577,
+    1578,
+    1579,
+    1580,
+    1582,
+    1583,
+    1585,
+    1586,
+    1587,
+    1588,
+    1590,
+    1591,
+    1593,
+    1594,
+    1595,
+    1597,
+    1598
+  ],
+  "source_sha256": "952286135b2a6583dc47b83ada8503ecbf80bceaa51755c83c46254f179c762a",
+  "split_manifest_sha256": "9e90c4b1563b483b972f2be1dc5918c43c44ab0f7d5249d545af822189d3517b",
+  "outer_design": "4 stratified folds x 10 repeats; seed 42",
+  "inner_design": "3 stratified folds; seed 1042 + outer index",
+  "candidates": [
+    {
+      "candidate_id": "unweighted_00",
+      "parameter_id": "parameters_00",
+      "weight_policy": "unweighted",
+      "parameters": {
+        "iterations": 150,
+        "depth": 3,
+        "learning_rate": 0.02,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 2.0,
+        "bagging_temperature": 0.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "unweighted_01",
+      "parameter_id": "parameters_01",
+      "weight_policy": "unweighted",
+      "parameters": {
+        "iterations": 150,
+        "depth": 4,
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 1.0,
+        "random_strength": 2.0,
+        "bagging_temperature": 0.5
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "unweighted_02",
+      "parameter_id": "parameters_02",
+      "weight_policy": "unweighted",
+      "parameters": {
+        "iterations": 400,
+        "depth": 3,
+        "learning_rate": 0.12,
+        "l2_leaf_reg": 30.0,
+        "random_strength": 0.0,
+        "bagging_temperature": 0.5
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "unweighted_03",
+      "parameter_id": "parameters_03",
+      "weight_policy": "unweighted",
+      "parameters": {
+        "iterations": 400,
+        "depth": 4,
+        "learning_rate": 0.12,
+        "l2_leaf_reg": 10.0,
+        "random_strength": 2.0,
+        "bagging_temperature": 1.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "unweighted_04",
+      "parameter_id": "parameters_04",
+      "weight_policy": "unweighted",
+      "parameters": {
+        "iterations": 150,
+        "depth": 2,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 30.0,
+        "random_strength": 0.5,
+        "bagging_temperature": 0.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "unweighted_05",
+      "parameter_id": "parameters_05",
+      "weight_policy": "unweighted",
+      "parameters": {
+        "iterations": 250,
+        "depth": 3,
+        "learning_rate": 0.02,
+        "l2_leaf_reg": 1.0,
+        "random_strength": 2.0,
+        "bagging_temperature": 0.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "unweighted_06",
+      "parameter_id": "parameters_06",
+      "weight_policy": "unweighted",
+      "parameters": {
+        "iterations": 80,
+        "depth": 2,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 30.0,
+        "random_strength": 0.0,
+        "bagging_temperature": 1.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "unweighted_07",
+      "parameter_id": "parameters_07",
+      "weight_policy": "unweighted",
+      "parameters": {
+        "iterations": 150,
+        "depth": 2,
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 30.0,
+        "random_strength": 0.5,
+        "bagging_temperature": 1.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "unweighted_08",
+      "parameter_id": "parameters_08",
+      "weight_policy": "unweighted",
+      "parameters": {
+        "iterations": 400,
+        "depth": 2,
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 30.0,
+        "random_strength": 2.0,
+        "bagging_temperature": 1.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "unweighted_09",
+      "parameter_id": "parameters_09",
+      "weight_policy": "unweighted",
+      "parameters": {
+        "iterations": 80,
+        "depth": 2,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 1.0,
+        "random_strength": 2.0,
+        "bagging_temperature": 2.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "unweighted_10",
+      "parameter_id": "parameters_10",
+      "weight_policy": "unweighted",
+      "parameters": {
+        "iterations": 250,
+        "depth": 4,
+        "learning_rate": 0.02,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 0.5,
+        "bagging_temperature": 2.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "unweighted_11",
+      "parameter_id": "parameters_11",
+      "weight_policy": "unweighted",
+      "parameters": {
+        "iterations": 400,
+        "depth": 3,
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 10.0,
+        "random_strength": 0.5,
+        "bagging_temperature": 2.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "unweighted_12",
+      "parameter_id": "parameters_12",
+      "weight_policy": "unweighted",
+      "parameters": {
+        "iterations": 400,
+        "depth": 2,
+        "learning_rate": 0.02,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 1.0,
+        "bagging_temperature": 0.5
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "unweighted_13",
+      "parameter_id": "parameters_13",
+      "weight_policy": "unweighted",
+      "parameters": {
+        "iterations": 250,
+        "depth": 4,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 10.0,
+        "random_strength": 0.5,
+        "bagging_temperature": 2.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "unweighted_14",
+      "parameter_id": "parameters_14",
+      "weight_policy": "unweighted",
+      "parameters": {
+        "iterations": 250,
+        "depth": 3,
+        "learning_rate": 0.12,
+        "l2_leaf_reg": 1.0,
+        "random_strength": 0.0,
+        "bagging_temperature": 1.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "unweighted_15",
+      "parameter_id": "parameters_15",
+      "weight_policy": "unweighted",
+      "parameters": {
+        "iterations": 150,
+        "depth": 4,
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 1.0,
+        "bagging_temperature": 0.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "unweighted_16",
+      "parameter_id": "parameters_16",
+      "weight_policy": "unweighted",
+      "parameters": {
+        "iterations": 400,
+        "depth": 4,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 0.5,
+        "bagging_temperature": 2.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "unweighted_17",
+      "parameter_id": "parameters_17",
+      "weight_policy": "unweighted",
+      "parameters": {
+        "iterations": 250,
+        "depth": 4,
+        "learning_rate": 0.02,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 1.0,
+        "bagging_temperature": 0.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "unweighted_18",
+      "parameter_id": "parameters_18",
+      "weight_policy": "unweighted",
+      "parameters": {
+        "iterations": 80,
+        "depth": 2,
+        "learning_rate": 0.02,
+        "l2_leaf_reg": 10.0,
+        "random_strength": 1.0,
+        "bagging_temperature": 0.5
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "unweighted_19",
+      "parameter_id": "parameters_19",
+      "weight_policy": "unweighted",
+      "parameters": {
+        "iterations": 250,
+        "depth": 3,
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 10.0,
+        "random_strength": 1.0,
+        "bagging_temperature": 2.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "unweighted_20",
+      "parameter_id": "parameters_20",
+      "weight_policy": "unweighted",
+      "parameters": {
+        "iterations": 150,
+        "depth": 2,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 10.0,
+        "random_strength": 0.0,
+        "bagging_temperature": 0.5
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "unweighted_21",
+      "parameter_id": "parameters_21",
+      "weight_policy": "unweighted",
+      "parameters": {
+        "iterations": 80,
+        "depth": 3,
+        "learning_rate": 0.12,
+        "l2_leaf_reg": 1.0,
+        "random_strength": 1.0,
+        "bagging_temperature": 1.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "unweighted_22",
+      "parameter_id": "parameters_22",
+      "weight_policy": "unweighted",
+      "parameters": {
+        "iterations": 80,
+        "depth": 4,
+        "learning_rate": 0.12,
+        "l2_leaf_reg": 1.0,
+        "random_strength": 0.0,
+        "bagging_temperature": 0.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "unweighted_23",
+      "parameter_id": "parameters_23",
+      "weight_policy": "unweighted",
+      "parameters": {
+        "iterations": 80,
+        "depth": 3,
+        "learning_rate": 0.12,
+        "l2_leaf_reg": 30.0,
+        "random_strength": 0.0,
+        "bagging_temperature": 0.5
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "Balanced_00",
+      "parameter_id": "parameters_00",
+      "weight_policy": "Balanced",
+      "parameters": {
+        "iterations": 150,
+        "depth": 3,
+        "learning_rate": 0.02,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 2.0,
+        "bagging_temperature": 0.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "Balanced_01",
+      "parameter_id": "parameters_01",
+      "weight_policy": "Balanced",
+      "parameters": {
+        "iterations": 150,
+        "depth": 4,
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 1.0,
+        "random_strength": 2.0,
+        "bagging_temperature": 0.5
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "Balanced_02",
+      "parameter_id": "parameters_02",
+      "weight_policy": "Balanced",
+      "parameters": {
+        "iterations": 400,
+        "depth": 3,
+        "learning_rate": 0.12,
+        "l2_leaf_reg": 30.0,
+        "random_strength": 0.0,
+        "bagging_temperature": 0.5
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "Balanced_03",
+      "parameter_id": "parameters_03",
+      "weight_policy": "Balanced",
+      "parameters": {
+        "iterations": 400,
+        "depth": 4,
+        "learning_rate": 0.12,
+        "l2_leaf_reg": 10.0,
+        "random_strength": 2.0,
+        "bagging_temperature": 1.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "Balanced_04",
+      "parameter_id": "parameters_04",
+      "weight_policy": "Balanced",
+      "parameters": {
+        "iterations": 150,
+        "depth": 2,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 30.0,
+        "random_strength": 0.5,
+        "bagging_temperature": 0.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "Balanced_05",
+      "parameter_id": "parameters_05",
+      "weight_policy": "Balanced",
+      "parameters": {
+        "iterations": 250,
+        "depth": 3,
+        "learning_rate": 0.02,
+        "l2_leaf_reg": 1.0,
+        "random_strength": 2.0,
+        "bagging_temperature": 0.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "Balanced_06",
+      "parameter_id": "parameters_06",
+      "weight_policy": "Balanced",
+      "parameters": {
+        "iterations": 80,
+        "depth": 2,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 30.0,
+        "random_strength": 0.0,
+        "bagging_temperature": 1.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "Balanced_07",
+      "parameter_id": "parameters_07",
+      "weight_policy": "Balanced",
+      "parameters": {
+        "iterations": 150,
+        "depth": 2,
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 30.0,
+        "random_strength": 0.5,
+        "bagging_temperature": 1.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "Balanced_08",
+      "parameter_id": "parameters_08",
+      "weight_policy": "Balanced",
+      "parameters": {
+        "iterations": 400,
+        "depth": 2,
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 30.0,
+        "random_strength": 2.0,
+        "bagging_temperature": 1.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "Balanced_09",
+      "parameter_id": "parameters_09",
+      "weight_policy": "Balanced",
+      "parameters": {
+        "iterations": 80,
+        "depth": 2,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 1.0,
+        "random_strength": 2.0,
+        "bagging_temperature": 2.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "Balanced_10",
+      "parameter_id": "parameters_10",
+      "weight_policy": "Balanced",
+      "parameters": {
+        "iterations": 250,
+        "depth": 4,
+        "learning_rate": 0.02,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 0.5,
+        "bagging_temperature": 2.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "Balanced_11",
+      "parameter_id": "parameters_11",
+      "weight_policy": "Balanced",
+      "parameters": {
+        "iterations": 400,
+        "depth": 3,
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 10.0,
+        "random_strength": 0.5,
+        "bagging_temperature": 2.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "Balanced_12",
+      "parameter_id": "parameters_12",
+      "weight_policy": "Balanced",
+      "parameters": {
+        "iterations": 400,
+        "depth": 2,
+        "learning_rate": 0.02,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 1.0,
+        "bagging_temperature": 0.5
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "Balanced_13",
+      "parameter_id": "parameters_13",
+      "weight_policy": "Balanced",
+      "parameters": {
+        "iterations": 250,
+        "depth": 4,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 10.0,
+        "random_strength": 0.5,
+        "bagging_temperature": 2.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "Balanced_14",
+      "parameter_id": "parameters_14",
+      "weight_policy": "Balanced",
+      "parameters": {
+        "iterations": 250,
+        "depth": 3,
+        "learning_rate": 0.12,
+        "l2_leaf_reg": 1.0,
+        "random_strength": 0.0,
+        "bagging_temperature": 1.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "Balanced_15",
+      "parameter_id": "parameters_15",
+      "weight_policy": "Balanced",
+      "parameters": {
+        "iterations": 150,
+        "depth": 4,
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 1.0,
+        "bagging_temperature": 0.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "Balanced_16",
+      "parameter_id": "parameters_16",
+      "weight_policy": "Balanced",
+      "parameters": {
+        "iterations": 400,
+        "depth": 4,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 0.5,
+        "bagging_temperature": 2.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "Balanced_17",
+      "parameter_id": "parameters_17",
+      "weight_policy": "Balanced",
+      "parameters": {
+        "iterations": 250,
+        "depth": 4,
+        "learning_rate": 0.02,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 1.0,
+        "bagging_temperature": 0.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "Balanced_18",
+      "parameter_id": "parameters_18",
+      "weight_policy": "Balanced",
+      "parameters": {
+        "iterations": 80,
+        "depth": 2,
+        "learning_rate": 0.02,
+        "l2_leaf_reg": 10.0,
+        "random_strength": 1.0,
+        "bagging_temperature": 0.5
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "Balanced_19",
+      "parameter_id": "parameters_19",
+      "weight_policy": "Balanced",
+      "parameters": {
+        "iterations": 250,
+        "depth": 3,
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 10.0,
+        "random_strength": 1.0,
+        "bagging_temperature": 2.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "Balanced_20",
+      "parameter_id": "parameters_20",
+      "weight_policy": "Balanced",
+      "parameters": {
+        "iterations": 150,
+        "depth": 2,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 10.0,
+        "random_strength": 0.0,
+        "bagging_temperature": 0.5
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "Balanced_21",
+      "parameter_id": "parameters_21",
+      "weight_policy": "Balanced",
+      "parameters": {
+        "iterations": 80,
+        "depth": 3,
+        "learning_rate": 0.12,
+        "l2_leaf_reg": 1.0,
+        "random_strength": 1.0,
+        "bagging_temperature": 1.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "Balanced_22",
+      "parameter_id": "parameters_22",
+      "weight_policy": "Balanced",
+      "parameters": {
+        "iterations": 80,
+        "depth": 4,
+        "learning_rate": 0.12,
+        "l2_leaf_reg": 1.0,
+        "random_strength": 0.0,
+        "bagging_temperature": 0.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "Balanced_23",
+      "parameter_id": "parameters_23",
+      "weight_policy": "Balanced",
+      "parameters": {
+        "iterations": 80,
+        "depth": 3,
+        "learning_rate": 0.12,
+        "l2_leaf_reg": 30.0,
+        "random_strength": 0.0,
+        "bagging_temperature": 0.5
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "SqrtBalanced_00",
+      "parameter_id": "parameters_00",
+      "weight_policy": "SqrtBalanced",
+      "parameters": {
+        "iterations": 150,
+        "depth": 3,
+        "learning_rate": 0.02,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 2.0,
+        "bagging_temperature": 0.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "SqrtBalanced_01",
+      "parameter_id": "parameters_01",
+      "weight_policy": "SqrtBalanced",
+      "parameters": {
+        "iterations": 150,
+        "depth": 4,
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 1.0,
+        "random_strength": 2.0,
+        "bagging_temperature": 0.5
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "SqrtBalanced_02",
+      "parameter_id": "parameters_02",
+      "weight_policy": "SqrtBalanced",
+      "parameters": {
+        "iterations": 400,
+        "depth": 3,
+        "learning_rate": 0.12,
+        "l2_leaf_reg": 30.0,
+        "random_strength": 0.0,
+        "bagging_temperature": 0.5
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "SqrtBalanced_03",
+      "parameter_id": "parameters_03",
+      "weight_policy": "SqrtBalanced",
+      "parameters": {
+        "iterations": 400,
+        "depth": 4,
+        "learning_rate": 0.12,
+        "l2_leaf_reg": 10.0,
+        "random_strength": 2.0,
+        "bagging_temperature": 1.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "SqrtBalanced_04",
+      "parameter_id": "parameters_04",
+      "weight_policy": "SqrtBalanced",
+      "parameters": {
+        "iterations": 150,
+        "depth": 2,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 30.0,
+        "random_strength": 0.5,
+        "bagging_temperature": 0.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "SqrtBalanced_05",
+      "parameter_id": "parameters_05",
+      "weight_policy": "SqrtBalanced",
+      "parameters": {
+        "iterations": 250,
+        "depth": 3,
+        "learning_rate": 0.02,
+        "l2_leaf_reg": 1.0,
+        "random_strength": 2.0,
+        "bagging_temperature": 0.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "SqrtBalanced_06",
+      "parameter_id": "parameters_06",
+      "weight_policy": "SqrtBalanced",
+      "parameters": {
+        "iterations": 80,
+        "depth": 2,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 30.0,
+        "random_strength": 0.0,
+        "bagging_temperature": 1.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "SqrtBalanced_07",
+      "parameter_id": "parameters_07",
+      "weight_policy": "SqrtBalanced",
+      "parameters": {
+        "iterations": 150,
+        "depth": 2,
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 30.0,
+        "random_strength": 0.5,
+        "bagging_temperature": 1.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "SqrtBalanced_08",
+      "parameter_id": "parameters_08",
+      "weight_policy": "SqrtBalanced",
+      "parameters": {
+        "iterations": 400,
+        "depth": 2,
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 30.0,
+        "random_strength": 2.0,
+        "bagging_temperature": 1.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "SqrtBalanced_09",
+      "parameter_id": "parameters_09",
+      "weight_policy": "SqrtBalanced",
+      "parameters": {
+        "iterations": 80,
+        "depth": 2,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 1.0,
+        "random_strength": 2.0,
+        "bagging_temperature": 2.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "SqrtBalanced_10",
+      "parameter_id": "parameters_10",
+      "weight_policy": "SqrtBalanced",
+      "parameters": {
+        "iterations": 250,
+        "depth": 4,
+        "learning_rate": 0.02,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 0.5,
+        "bagging_temperature": 2.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "SqrtBalanced_11",
+      "parameter_id": "parameters_11",
+      "weight_policy": "SqrtBalanced",
+      "parameters": {
+        "iterations": 400,
+        "depth": 3,
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 10.0,
+        "random_strength": 0.5,
+        "bagging_temperature": 2.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "SqrtBalanced_12",
+      "parameter_id": "parameters_12",
+      "weight_policy": "SqrtBalanced",
+      "parameters": {
+        "iterations": 400,
+        "depth": 2,
+        "learning_rate": 0.02,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 1.0,
+        "bagging_temperature": 0.5
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "SqrtBalanced_13",
+      "parameter_id": "parameters_13",
+      "weight_policy": "SqrtBalanced",
+      "parameters": {
+        "iterations": 250,
+        "depth": 4,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 10.0,
+        "random_strength": 0.5,
+        "bagging_temperature": 2.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "SqrtBalanced_14",
+      "parameter_id": "parameters_14",
+      "weight_policy": "SqrtBalanced",
+      "parameters": {
+        "iterations": 250,
+        "depth": 3,
+        "learning_rate": 0.12,
+        "l2_leaf_reg": 1.0,
+        "random_strength": 0.0,
+        "bagging_temperature": 1.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "SqrtBalanced_15",
+      "parameter_id": "parameters_15",
+      "weight_policy": "SqrtBalanced",
+      "parameters": {
+        "iterations": 150,
+        "depth": 4,
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 1.0,
+        "bagging_temperature": 0.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "SqrtBalanced_16",
+      "parameter_id": "parameters_16",
+      "weight_policy": "SqrtBalanced",
+      "parameters": {
+        "iterations": 400,
+        "depth": 4,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 0.5,
+        "bagging_temperature": 2.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "SqrtBalanced_17",
+      "parameter_id": "parameters_17",
+      "weight_policy": "SqrtBalanced",
+      "parameters": {
+        "iterations": 250,
+        "depth": 4,
+        "learning_rate": 0.02,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 1.0,
+        "bagging_temperature": 0.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "SqrtBalanced_18",
+      "parameter_id": "parameters_18",
+      "weight_policy": "SqrtBalanced",
+      "parameters": {
+        "iterations": 80,
+        "depth": 2,
+        "learning_rate": 0.02,
+        "l2_leaf_reg": 10.0,
+        "random_strength": 1.0,
+        "bagging_temperature": 0.5
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "SqrtBalanced_19",
+      "parameter_id": "parameters_19",
+      "weight_policy": "SqrtBalanced",
+      "parameters": {
+        "iterations": 250,
+        "depth": 3,
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 10.0,
+        "random_strength": 1.0,
+        "bagging_temperature": 2.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "SqrtBalanced_20",
+      "parameter_id": "parameters_20",
+      "weight_policy": "SqrtBalanced",
+      "parameters": {
+        "iterations": 150,
+        "depth": 2,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 10.0,
+        "random_strength": 0.0,
+        "bagging_temperature": 0.5
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "SqrtBalanced_21",
+      "parameter_id": "parameters_21",
+      "weight_policy": "SqrtBalanced",
+      "parameters": {
+        "iterations": 80,
+        "depth": 3,
+        "learning_rate": 0.12,
+        "l2_leaf_reg": 1.0,
+        "random_strength": 1.0,
+        "bagging_temperature": 1.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "SqrtBalanced_22",
+      "parameter_id": "parameters_22",
+      "weight_policy": "SqrtBalanced",
+      "parameters": {
+        "iterations": 80,
+        "depth": 4,
+        "learning_rate": 0.12,
+        "l2_leaf_reg": 1.0,
+        "random_strength": 0.0,
+        "bagging_temperature": 0.0
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "SqrtBalanced_23",
+      "parameter_id": "parameters_23",
+      "weight_policy": "SqrtBalanced",
+      "parameters": {
+        "iterations": 80,
+        "depth": 3,
+        "learning_rate": 0.12,
+        "l2_leaf_reg": 30.0,
+        "random_strength": 0.0,
+        "bagging_temperature": 0.5
+      },
+      "class_weights": null
+    },
+    {
+      "candidate_id": "custom_00",
+      "parameter_id": "parameters_00",
+      "weight_policy": "custom",
+      "parameters": {
+        "iterations": 150,
+        "depth": 3,
+        "learning_rate": 0.02,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 2.0,
+        "bagging_temperature": 0.0
+      },
+      "class_weights": {
+        "3": 2.0,
+        "4": 1.5,
+        "5": 1.0,
+        "6": 1.0,
+        "7": 3.0,
+        "8": 8.0
+      }
+    },
+    {
+      "candidate_id": "custom_01",
+      "parameter_id": "parameters_01",
+      "weight_policy": "custom",
+      "parameters": {
+        "iterations": 150,
+        "depth": 4,
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 1.0,
+        "random_strength": 2.0,
+        "bagging_temperature": 0.5
+      },
+      "class_weights": {
+        "3": 12.0,
+        "4": 3.0,
+        "5": 0.75,
+        "6": 1.25,
+        "7": 1.5,
+        "8": 12.0
+      }
+    },
+    {
+      "candidate_id": "custom_02",
+      "parameter_id": "parameters_02",
+      "weight_policy": "custom",
+      "parameters": {
+        "iterations": 400,
+        "depth": 3,
+        "learning_rate": 0.12,
+        "l2_leaf_reg": 30.0,
+        "random_strength": 0.0,
+        "bagging_temperature": 0.5
+      },
+      "class_weights": {
+        "3": 4.0,
+        "4": 1.0,
+        "5": 1.25,
+        "6": 0.75,
+        "7": 1.0,
+        "8": 12.0
+      }
+    },
+    {
+      "candidate_id": "custom_03",
+      "parameter_id": "parameters_03",
+      "weight_policy": "custom",
+      "parameters": {
+        "iterations": 400,
+        "depth": 4,
+        "learning_rate": 0.12,
+        "l2_leaf_reg": 10.0,
+        "random_strength": 2.0,
+        "bagging_temperature": 1.0
+      },
+      "class_weights": {
+        "3": 4.0,
+        "4": 3.0,
+        "5": 1.0,
+        "6": 1.0,
+        "7": 1.0,
+        "8": 4.0
+      }
+    },
+    {
+      "candidate_id": "custom_04",
+      "parameter_id": "parameters_04",
+      "weight_policy": "custom",
+      "parameters": {
+        "iterations": 150,
+        "depth": 2,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 30.0,
+        "random_strength": 0.5,
+        "bagging_temperature": 0.0
+      },
+      "class_weights": {
+        "3": 8.0,
+        "4": 3.0,
+        "5": 0.75,
+        "6": 0.75,
+        "7": 1.5,
+        "8": 12.0
+      }
+    },
+    {
+      "candidate_id": "custom_05",
+      "parameter_id": "parameters_05",
+      "weight_policy": "custom",
+      "parameters": {
+        "iterations": 250,
+        "depth": 3,
+        "learning_rate": 0.02,
+        "l2_leaf_reg": 1.0,
+        "random_strength": 2.0,
+        "bagging_temperature": 0.0
+      },
+      "class_weights": {
+        "3": 12.0,
+        "4": 1.0,
+        "5": 0.75,
+        "6": 1.25,
+        "7": 2.0,
+        "8": 12.0
+      }
+    },
+    {
+      "candidate_id": "custom_06",
+      "parameter_id": "parameters_06",
+      "weight_policy": "custom",
+      "parameters": {
+        "iterations": 80,
+        "depth": 2,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 30.0,
+        "random_strength": 0.0,
+        "bagging_temperature": 1.0
+      },
+      "class_weights": {
+        "3": 12.0,
+        "4": 3.0,
+        "5": 0.75,
+        "6": 0.75,
+        "7": 1.0,
+        "8": 8.0
+      }
+    },
+    {
+      "candidate_id": "custom_07",
+      "parameter_id": "parameters_07",
+      "weight_policy": "custom",
+      "parameters": {
+        "iterations": 150,
+        "depth": 2,
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 30.0,
+        "random_strength": 0.5,
+        "bagging_temperature": 1.0
+      },
+      "class_weights": {
+        "3": 2.0,
+        "4": 2.0,
+        "5": 0.75,
+        "6": 0.75,
+        "7": 3.0,
+        "8": 2.0
+      }
+    },
+    {
+      "candidate_id": "custom_08",
+      "parameter_id": "parameters_08",
+      "weight_policy": "custom",
+      "parameters": {
+        "iterations": 400,
+        "depth": 2,
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 30.0,
+        "random_strength": 2.0,
+        "bagging_temperature": 1.0
+      },
+      "class_weights": {
+        "3": 8.0,
+        "4": 1.5,
+        "5": 1.0,
+        "6": 1.0,
+        "7": 2.0,
+        "8": 2.0
+      }
+    },
+    {
+      "candidate_id": "custom_09",
+      "parameter_id": "parameters_09",
+      "weight_policy": "custom",
+      "parameters": {
+        "iterations": 80,
+        "depth": 2,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 1.0,
+        "random_strength": 2.0,
+        "bagging_temperature": 2.0
+      },
+      "class_weights": {
+        "3": 8.0,
+        "4": 1.0,
+        "5": 1.0,
+        "6": 1.0,
+        "7": 3.0,
+        "8": 4.0
+      }
+    },
+    {
+      "candidate_id": "custom_10",
+      "parameter_id": "parameters_10",
+      "weight_policy": "custom",
+      "parameters": {
+        "iterations": 250,
+        "depth": 4,
+        "learning_rate": 0.02,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 0.5,
+        "bagging_temperature": 2.0
+      },
+      "class_weights": {
+        "3": 8.0,
+        "4": 2.0,
+        "5": 1.0,
+        "6": 1.0,
+        "7": 1.0,
+        "8": 8.0
+      }
+    },
+    {
+      "candidate_id": "custom_11",
+      "parameter_id": "parameters_11",
+      "weight_policy": "custom",
+      "parameters": {
+        "iterations": 400,
+        "depth": 3,
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 10.0,
+        "random_strength": 0.5,
+        "bagging_temperature": 2.0
+      },
+      "class_weights": {
+        "3": 8.0,
+        "4": 1.0,
+        "5": 1.25,
+        "6": 1.25,
+        "7": 1.5,
+        "8": 2.0
+      }
+    },
+    {
+      "candidate_id": "custom_12",
+      "parameter_id": "parameters_12",
+      "weight_policy": "custom",
+      "parameters": {
+        "iterations": 400,
+        "depth": 2,
+        "learning_rate": 0.02,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 1.0,
+        "bagging_temperature": 0.5
+      },
+      "class_weights": {
+        "3": 2.0,
+        "4": 1.0,
+        "5": 1.25,
+        "6": 0.75,
+        "7": 1.0,
+        "8": 12.0
+      }
+    },
+    {
+      "candidate_id": "custom_13",
+      "parameter_id": "parameters_13",
+      "weight_policy": "custom",
+      "parameters": {
+        "iterations": 250,
+        "depth": 4,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 10.0,
+        "random_strength": 0.5,
+        "bagging_temperature": 2.0
+      },
+      "class_weights": {
+        "3": 2.0,
+        "4": 3.0,
+        "5": 1.25,
+        "6": 1.0,
+        "7": 2.0,
+        "8": 8.0
+      }
+    },
+    {
+      "candidate_id": "custom_14",
+      "parameter_id": "parameters_14",
+      "weight_policy": "custom",
+      "parameters": {
+        "iterations": 250,
+        "depth": 3,
+        "learning_rate": 0.12,
+        "l2_leaf_reg": 1.0,
+        "random_strength": 0.0,
+        "bagging_temperature": 1.0
+      },
+      "class_weights": {
+        "3": 2.0,
+        "4": 1.5,
+        "5": 1.25,
+        "6": 1.25,
+        "7": 2.0,
+        "8": 4.0
+      }
+    },
+    {
+      "candidate_id": "custom_15",
+      "parameter_id": "parameters_15",
+      "weight_policy": "custom",
+      "parameters": {
+        "iterations": 150,
+        "depth": 4,
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 1.0,
+        "bagging_temperature": 0.0
+      },
+      "class_weights": {
+        "3": 2.0,
+        "4": 2.0,
+        "5": 1.0,
+        "6": 1.25,
+        "7": 1.5,
+        "8": 2.0
+      }
+    },
+    {
+      "candidate_id": "custom_16",
+      "parameter_id": "parameters_16",
+      "weight_policy": "custom",
+      "parameters": {
+        "iterations": 400,
+        "depth": 4,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 0.5,
+        "bagging_temperature": 2.0
+      },
+      "class_weights": {
+        "3": 4.0,
+        "4": 3.0,
+        "5": 1.0,
+        "6": 0.75,
+        "7": 2.0,
+        "8": 4.0
+      }
+    },
+    {
+      "candidate_id": "custom_17",
+      "parameter_id": "parameters_17",
+      "weight_policy": "custom",
+      "parameters": {
+        "iterations": 250,
+        "depth": 4,
+        "learning_rate": 0.02,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 1.0,
+        "bagging_temperature": 0.0
+      },
+      "class_weights": {
+        "3": 4.0,
+        "4": 1.5,
+        "5": 1.25,
+        "6": 0.75,
+        "7": 2.0,
+        "8": 2.0
+      }
+    },
+    {
+      "candidate_id": "custom_18",
+      "parameter_id": "parameters_18",
+      "weight_policy": "custom",
+      "parameters": {
+        "iterations": 80,
+        "depth": 2,
+        "learning_rate": 0.02,
+        "l2_leaf_reg": 10.0,
+        "random_strength": 1.0,
+        "bagging_temperature": 0.5
+      },
+      "class_weights": {
+        "3": 4.0,
+        "4": 2.0,
+        "5": 0.75,
+        "6": 1.0,
+        "7": 3.0,
+        "8": 8.0
+      }
+    },
+    {
+      "candidate_id": "custom_19",
+      "parameter_id": "parameters_19",
+      "weight_policy": "custom",
+      "parameters": {
+        "iterations": 250,
+        "depth": 3,
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 10.0,
+        "random_strength": 1.0,
+        "bagging_temperature": 2.0
+      },
+      "class_weights": {
+        "3": 12.0,
+        "4": 2.0,
+        "5": 1.0,
+        "6": 1.25,
+        "7": 1.0,
+        "8": 12.0
+      }
+    },
+    {
+      "candidate_id": "custom_20",
+      "parameter_id": "parameters_20",
+      "weight_policy": "custom",
+      "parameters": {
+        "iterations": 150,
+        "depth": 2,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 10.0,
+        "random_strength": 0.0,
+        "bagging_temperature": 0.5
+      },
+      "class_weights": {
+        "3": 12.0,
+        "4": 1.0,
+        "5": 0.75,
+        "6": 0.75,
+        "7": 1.5,
+        "8": 8.0
+      }
+    },
+    {
+      "candidate_id": "custom_21",
+      "parameter_id": "parameters_21",
+      "weight_policy": "custom",
+      "parameters": {
+        "iterations": 80,
+        "depth": 3,
+        "learning_rate": 0.12,
+        "l2_leaf_reg": 1.0,
+        "random_strength": 1.0,
+        "bagging_temperature": 1.0
+      },
+      "class_weights": {
+        "3": 8.0,
+        "4": 1.5,
+        "5": 1.25,
+        "6": 1.25,
+        "7": 3.0,
+        "8": 4.0
+      }
+    },
+    {
+      "candidate_id": "custom_22",
+      "parameter_id": "parameters_22",
+      "weight_policy": "custom",
+      "parameters": {
+        "iterations": 80,
+        "depth": 4,
+        "learning_rate": 0.12,
+        "l2_leaf_reg": 1.0,
+        "random_strength": 0.0,
+        "bagging_temperature": 0.0
+      },
+      "class_weights": {
+        "3": 12.0,
+        "4": 2.0,
+        "5": 0.75,
+        "6": 1.0,
+        "7": 1.5,
+        "8": 2.0
+      }
+    },
+    {
+      "candidate_id": "custom_23",
+      "parameter_id": "parameters_23",
+      "weight_policy": "custom",
+      "parameters": {
+        "iterations": 80,
+        "depth": 3,
+        "learning_rate": 0.12,
+        "l2_leaf_reg": 30.0,
+        "random_strength": 0.0,
+        "bagging_temperature": 0.5
+      },
+      "class_weights": {
+        "3": 4.0,
+        "4": 1.5,
+        "5": 1.25,
+        "6": 1.25,
+        "7": 3.0,
+        "8": 4.0
+      }
+    }
+  ],
+  "parameter_values": {
+    "iterations": [
+      80,
+      150,
+      250,
+      400
+    ],
+    "depth": [
+      2,
+      3,
+      4
+    ],
+    "learning_rate": [
+      0.02,
+      0.04,
+      0.07,
+      0.12
+    ],
+    "l2_leaf_reg": [
+      1.0,
+      3.0,
+      10.0,
+      30.0
+    ],
+    "random_strength": [
+      0.0,
+      0.5,
+      1.0,
+      2.0
+    ],
+    "bagging_temperature": [
+      0.0,
+      0.5,
+      1.0,
+      2.0
+    ]
+  },
+  "custom_weight_values": {
+    "3": [
+      2.0,
+      4.0,
+      8.0,
+      12.0
+    ],
+    "4": [
+      1.0,
+      1.5,
+      2.0,
+      3.0
+    ],
+    "5": [
+      0.75,
+      1.0,
+      1.25
+    ],
+    "6": [
+      0.75,
+      1.0,
+      1.25
+    ],
+    "7": [
+      1.0,
+      1.5,
+      2.0,
+      3.0
+    ],
+    "8": [
+      2.0,
+      4.0,
+      8.0,
+      12.0
+    ]
+  },
+  "candidate_estimator_specs": {
+    "unweighted_00": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.0,
+          "depth": 3,
+          "iterations": 150,
+          "l2_leaf_reg": 3.0,
+          "learning_rate": 0.02,
+          "random_strength": 2.0
+        },
+        "weight_policy": "unweighted"
+      }
+    },
+    "unweighted_01": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.5,
+          "depth": 4,
+          "iterations": 150,
+          "l2_leaf_reg": 1.0,
+          "learning_rate": 0.07,
+          "random_strength": 2.0
+        },
+        "weight_policy": "unweighted"
+      }
+    },
+    "unweighted_02": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.5,
+          "depth": 3,
+          "iterations": 400,
+          "l2_leaf_reg": 30.0,
+          "learning_rate": 0.12,
+          "random_strength": 0.0
+        },
+        "weight_policy": "unweighted"
+      }
+    },
+    "unweighted_03": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 1.0,
+          "depth": 4,
+          "iterations": 400,
+          "l2_leaf_reg": 10.0,
+          "learning_rate": 0.12,
+          "random_strength": 2.0
+        },
+        "weight_policy": "unweighted"
+      }
+    },
+    "unweighted_04": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.0,
+          "depth": 2,
+          "iterations": 150,
+          "l2_leaf_reg": 30.0,
+          "learning_rate": 0.04,
+          "random_strength": 0.5
+        },
+        "weight_policy": "unweighted"
+      }
+    },
+    "unweighted_05": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.0,
+          "depth": 3,
+          "iterations": 250,
+          "l2_leaf_reg": 1.0,
+          "learning_rate": 0.02,
+          "random_strength": 2.0
+        },
+        "weight_policy": "unweighted"
+      }
+    },
+    "unweighted_06": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 1.0,
+          "depth": 2,
+          "iterations": 80,
+          "l2_leaf_reg": 30.0,
+          "learning_rate": 0.04,
+          "random_strength": 0.0
+        },
+        "weight_policy": "unweighted"
+      }
+    },
+    "unweighted_07": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 1.0,
+          "depth": 2,
+          "iterations": 150,
+          "l2_leaf_reg": 30.0,
+          "learning_rate": 0.07,
+          "random_strength": 0.5
+        },
+        "weight_policy": "unweighted"
+      }
+    },
+    "unweighted_08": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 1.0,
+          "depth": 2,
+          "iterations": 400,
+          "l2_leaf_reg": 30.0,
+          "learning_rate": 0.07,
+          "random_strength": 2.0
+        },
+        "weight_policy": "unweighted"
+      }
+    },
+    "unweighted_09": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 2.0,
+          "depth": 2,
+          "iterations": 80,
+          "l2_leaf_reg": 1.0,
+          "learning_rate": 0.04,
+          "random_strength": 2.0
+        },
+        "weight_policy": "unweighted"
+      }
+    },
+    "unweighted_10": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 2.0,
+          "depth": 4,
+          "iterations": 250,
+          "l2_leaf_reg": 3.0,
+          "learning_rate": 0.02,
+          "random_strength": 0.5
+        },
+        "weight_policy": "unweighted"
+      }
+    },
+    "unweighted_11": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 2.0,
+          "depth": 3,
+          "iterations": 400,
+          "l2_leaf_reg": 10.0,
+          "learning_rate": 0.07,
+          "random_strength": 0.5
+        },
+        "weight_policy": "unweighted"
+      }
+    },
+    "unweighted_12": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.5,
+          "depth": 2,
+          "iterations": 400,
+          "l2_leaf_reg": 3.0,
+          "learning_rate": 0.02,
+          "random_strength": 1.0
+        },
+        "weight_policy": "unweighted"
+      }
+    },
+    "unweighted_13": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 2.0,
+          "depth": 4,
+          "iterations": 250,
+          "l2_leaf_reg": 10.0,
+          "learning_rate": 0.04,
+          "random_strength": 0.5
+        },
+        "weight_policy": "unweighted"
+      }
+    },
+    "unweighted_14": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 1.0,
+          "depth": 3,
+          "iterations": 250,
+          "l2_leaf_reg": 1.0,
+          "learning_rate": 0.12,
+          "random_strength": 0.0
+        },
+        "weight_policy": "unweighted"
+      }
+    },
+    "unweighted_15": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.0,
+          "depth": 4,
+          "iterations": 150,
+          "l2_leaf_reg": 3.0,
+          "learning_rate": 0.07,
+          "random_strength": 1.0
+        },
+        "weight_policy": "unweighted"
+      }
+    },
+    "unweighted_16": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 2.0,
+          "depth": 4,
+          "iterations": 400,
+          "l2_leaf_reg": 3.0,
+          "learning_rate": 0.04,
+          "random_strength": 0.5
+        },
+        "weight_policy": "unweighted"
+      }
+    },
+    "unweighted_17": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.0,
+          "depth": 4,
+          "iterations": 250,
+          "l2_leaf_reg": 3.0,
+          "learning_rate": 0.02,
+          "random_strength": 1.0
+        },
+        "weight_policy": "unweighted"
+      }
+    },
+    "unweighted_18": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.5,
+          "depth": 2,
+          "iterations": 80,
+          "l2_leaf_reg": 10.0,
+          "learning_rate": 0.02,
+          "random_strength": 1.0
+        },
+        "weight_policy": "unweighted"
+      }
+    },
+    "unweighted_19": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 2.0,
+          "depth": 3,
+          "iterations": 250,
+          "l2_leaf_reg": 10.0,
+          "learning_rate": 0.07,
+          "random_strength": 1.0
+        },
+        "weight_policy": "unweighted"
+      }
+    },
+    "unweighted_20": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.5,
+          "depth": 2,
+          "iterations": 150,
+          "l2_leaf_reg": 10.0,
+          "learning_rate": 0.04,
+          "random_strength": 0.0
+        },
+        "weight_policy": "unweighted"
+      }
+    },
+    "unweighted_21": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 1.0,
+          "depth": 3,
+          "iterations": 80,
+          "l2_leaf_reg": 1.0,
+          "learning_rate": 0.12,
+          "random_strength": 1.0
+        },
+        "weight_policy": "unweighted"
+      }
+    },
+    "unweighted_22": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.0,
+          "depth": 4,
+          "iterations": 80,
+          "l2_leaf_reg": 1.0,
+          "learning_rate": 0.12,
+          "random_strength": 0.0
+        },
+        "weight_policy": "unweighted"
+      }
+    },
+    "unweighted_23": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.5,
+          "depth": 3,
+          "iterations": 80,
+          "l2_leaf_reg": 30.0,
+          "learning_rate": 0.12,
+          "random_strength": 0.0
+        },
+        "weight_policy": "unweighted"
+      }
+    },
+    "Balanced_00": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.0,
+          "depth": 3,
+          "iterations": 150,
+          "l2_leaf_reg": 3.0,
+          "learning_rate": 0.02,
+          "random_strength": 2.0
+        },
+        "weight_policy": "Balanced"
+      }
+    },
+    "Balanced_01": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.5,
+          "depth": 4,
+          "iterations": 150,
+          "l2_leaf_reg": 1.0,
+          "learning_rate": 0.07,
+          "random_strength": 2.0
+        },
+        "weight_policy": "Balanced"
+      }
+    },
+    "Balanced_02": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.5,
+          "depth": 3,
+          "iterations": 400,
+          "l2_leaf_reg": 30.0,
+          "learning_rate": 0.12,
+          "random_strength": 0.0
+        },
+        "weight_policy": "Balanced"
+      }
+    },
+    "Balanced_03": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 1.0,
+          "depth": 4,
+          "iterations": 400,
+          "l2_leaf_reg": 10.0,
+          "learning_rate": 0.12,
+          "random_strength": 2.0
+        },
+        "weight_policy": "Balanced"
+      }
+    },
+    "Balanced_04": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.0,
+          "depth": 2,
+          "iterations": 150,
+          "l2_leaf_reg": 30.0,
+          "learning_rate": 0.04,
+          "random_strength": 0.5
+        },
+        "weight_policy": "Balanced"
+      }
+    },
+    "Balanced_05": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.0,
+          "depth": 3,
+          "iterations": 250,
+          "l2_leaf_reg": 1.0,
+          "learning_rate": 0.02,
+          "random_strength": 2.0
+        },
+        "weight_policy": "Balanced"
+      }
+    },
+    "Balanced_06": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 1.0,
+          "depth": 2,
+          "iterations": 80,
+          "l2_leaf_reg": 30.0,
+          "learning_rate": 0.04,
+          "random_strength": 0.0
+        },
+        "weight_policy": "Balanced"
+      }
+    },
+    "Balanced_07": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 1.0,
+          "depth": 2,
+          "iterations": 150,
+          "l2_leaf_reg": 30.0,
+          "learning_rate": 0.07,
+          "random_strength": 0.5
+        },
+        "weight_policy": "Balanced"
+      }
+    },
+    "Balanced_08": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 1.0,
+          "depth": 2,
+          "iterations": 400,
+          "l2_leaf_reg": 30.0,
+          "learning_rate": 0.07,
+          "random_strength": 2.0
+        },
+        "weight_policy": "Balanced"
+      }
+    },
+    "Balanced_09": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 2.0,
+          "depth": 2,
+          "iterations": 80,
+          "l2_leaf_reg": 1.0,
+          "learning_rate": 0.04,
+          "random_strength": 2.0
+        },
+        "weight_policy": "Balanced"
+      }
+    },
+    "Balanced_10": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 2.0,
+          "depth": 4,
+          "iterations": 250,
+          "l2_leaf_reg": 3.0,
+          "learning_rate": 0.02,
+          "random_strength": 0.5
+        },
+        "weight_policy": "Balanced"
+      }
+    },
+    "Balanced_11": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 2.0,
+          "depth": 3,
+          "iterations": 400,
+          "l2_leaf_reg": 10.0,
+          "learning_rate": 0.07,
+          "random_strength": 0.5
+        },
+        "weight_policy": "Balanced"
+      }
+    },
+    "Balanced_12": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.5,
+          "depth": 2,
+          "iterations": 400,
+          "l2_leaf_reg": 3.0,
+          "learning_rate": 0.02,
+          "random_strength": 1.0
+        },
+        "weight_policy": "Balanced"
+      }
+    },
+    "Balanced_13": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 2.0,
+          "depth": 4,
+          "iterations": 250,
+          "l2_leaf_reg": 10.0,
+          "learning_rate": 0.04,
+          "random_strength": 0.5
+        },
+        "weight_policy": "Balanced"
+      }
+    },
+    "Balanced_14": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 1.0,
+          "depth": 3,
+          "iterations": 250,
+          "l2_leaf_reg": 1.0,
+          "learning_rate": 0.12,
+          "random_strength": 0.0
+        },
+        "weight_policy": "Balanced"
+      }
+    },
+    "Balanced_15": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.0,
+          "depth": 4,
+          "iterations": 150,
+          "l2_leaf_reg": 3.0,
+          "learning_rate": 0.07,
+          "random_strength": 1.0
+        },
+        "weight_policy": "Balanced"
+      }
+    },
+    "Balanced_16": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 2.0,
+          "depth": 4,
+          "iterations": 400,
+          "l2_leaf_reg": 3.0,
+          "learning_rate": 0.04,
+          "random_strength": 0.5
+        },
+        "weight_policy": "Balanced"
+      }
+    },
+    "Balanced_17": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.0,
+          "depth": 4,
+          "iterations": 250,
+          "l2_leaf_reg": 3.0,
+          "learning_rate": 0.02,
+          "random_strength": 1.0
+        },
+        "weight_policy": "Balanced"
+      }
+    },
+    "Balanced_18": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.5,
+          "depth": 2,
+          "iterations": 80,
+          "l2_leaf_reg": 10.0,
+          "learning_rate": 0.02,
+          "random_strength": 1.0
+        },
+        "weight_policy": "Balanced"
+      }
+    },
+    "Balanced_19": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 2.0,
+          "depth": 3,
+          "iterations": 250,
+          "l2_leaf_reg": 10.0,
+          "learning_rate": 0.07,
+          "random_strength": 1.0
+        },
+        "weight_policy": "Balanced"
+      }
+    },
+    "Balanced_20": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.5,
+          "depth": 2,
+          "iterations": 150,
+          "l2_leaf_reg": 10.0,
+          "learning_rate": 0.04,
+          "random_strength": 0.0
+        },
+        "weight_policy": "Balanced"
+      }
+    },
+    "Balanced_21": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 1.0,
+          "depth": 3,
+          "iterations": 80,
+          "l2_leaf_reg": 1.0,
+          "learning_rate": 0.12,
+          "random_strength": 1.0
+        },
+        "weight_policy": "Balanced"
+      }
+    },
+    "Balanced_22": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.0,
+          "depth": 4,
+          "iterations": 80,
+          "l2_leaf_reg": 1.0,
+          "learning_rate": 0.12,
+          "random_strength": 0.0
+        },
+        "weight_policy": "Balanced"
+      }
+    },
+    "Balanced_23": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.5,
+          "depth": 3,
+          "iterations": 80,
+          "l2_leaf_reg": 30.0,
+          "learning_rate": 0.12,
+          "random_strength": 0.0
+        },
+        "weight_policy": "Balanced"
+      }
+    },
+    "SqrtBalanced_00": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.0,
+          "depth": 3,
+          "iterations": 150,
+          "l2_leaf_reg": 3.0,
+          "learning_rate": 0.02,
+          "random_strength": 2.0
+        },
+        "weight_policy": "SqrtBalanced"
+      }
+    },
+    "SqrtBalanced_01": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.5,
+          "depth": 4,
+          "iterations": 150,
+          "l2_leaf_reg": 1.0,
+          "learning_rate": 0.07,
+          "random_strength": 2.0
+        },
+        "weight_policy": "SqrtBalanced"
+      }
+    },
+    "SqrtBalanced_02": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.5,
+          "depth": 3,
+          "iterations": 400,
+          "l2_leaf_reg": 30.0,
+          "learning_rate": 0.12,
+          "random_strength": 0.0
+        },
+        "weight_policy": "SqrtBalanced"
+      }
+    },
+    "SqrtBalanced_03": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 1.0,
+          "depth": 4,
+          "iterations": 400,
+          "l2_leaf_reg": 10.0,
+          "learning_rate": 0.12,
+          "random_strength": 2.0
+        },
+        "weight_policy": "SqrtBalanced"
+      }
+    },
+    "SqrtBalanced_04": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.0,
+          "depth": 2,
+          "iterations": 150,
+          "l2_leaf_reg": 30.0,
+          "learning_rate": 0.04,
+          "random_strength": 0.5
+        },
+        "weight_policy": "SqrtBalanced"
+      }
+    },
+    "SqrtBalanced_05": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.0,
+          "depth": 3,
+          "iterations": 250,
+          "l2_leaf_reg": 1.0,
+          "learning_rate": 0.02,
+          "random_strength": 2.0
+        },
+        "weight_policy": "SqrtBalanced"
+      }
+    },
+    "SqrtBalanced_06": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 1.0,
+          "depth": 2,
+          "iterations": 80,
+          "l2_leaf_reg": 30.0,
+          "learning_rate": 0.04,
+          "random_strength": 0.0
+        },
+        "weight_policy": "SqrtBalanced"
+      }
+    },
+    "SqrtBalanced_07": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 1.0,
+          "depth": 2,
+          "iterations": 150,
+          "l2_leaf_reg": 30.0,
+          "learning_rate": 0.07,
+          "random_strength": 0.5
+        },
+        "weight_policy": "SqrtBalanced"
+      }
+    },
+    "SqrtBalanced_08": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 1.0,
+          "depth": 2,
+          "iterations": 400,
+          "l2_leaf_reg": 30.0,
+          "learning_rate": 0.07,
+          "random_strength": 2.0
+        },
+        "weight_policy": "SqrtBalanced"
+      }
+    },
+    "SqrtBalanced_09": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 2.0,
+          "depth": 2,
+          "iterations": 80,
+          "l2_leaf_reg": 1.0,
+          "learning_rate": 0.04,
+          "random_strength": 2.0
+        },
+        "weight_policy": "SqrtBalanced"
+      }
+    },
+    "SqrtBalanced_10": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 2.0,
+          "depth": 4,
+          "iterations": 250,
+          "l2_leaf_reg": 3.0,
+          "learning_rate": 0.02,
+          "random_strength": 0.5
+        },
+        "weight_policy": "SqrtBalanced"
+      }
+    },
+    "SqrtBalanced_11": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 2.0,
+          "depth": 3,
+          "iterations": 400,
+          "l2_leaf_reg": 10.0,
+          "learning_rate": 0.07,
+          "random_strength": 0.5
+        },
+        "weight_policy": "SqrtBalanced"
+      }
+    },
+    "SqrtBalanced_12": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.5,
+          "depth": 2,
+          "iterations": 400,
+          "l2_leaf_reg": 3.0,
+          "learning_rate": 0.02,
+          "random_strength": 1.0
+        },
+        "weight_policy": "SqrtBalanced"
+      }
+    },
+    "SqrtBalanced_13": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 2.0,
+          "depth": 4,
+          "iterations": 250,
+          "l2_leaf_reg": 10.0,
+          "learning_rate": 0.04,
+          "random_strength": 0.5
+        },
+        "weight_policy": "SqrtBalanced"
+      }
+    },
+    "SqrtBalanced_14": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 1.0,
+          "depth": 3,
+          "iterations": 250,
+          "l2_leaf_reg": 1.0,
+          "learning_rate": 0.12,
+          "random_strength": 0.0
+        },
+        "weight_policy": "SqrtBalanced"
+      }
+    },
+    "SqrtBalanced_15": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.0,
+          "depth": 4,
+          "iterations": 150,
+          "l2_leaf_reg": 3.0,
+          "learning_rate": 0.07,
+          "random_strength": 1.0
+        },
+        "weight_policy": "SqrtBalanced"
+      }
+    },
+    "SqrtBalanced_16": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 2.0,
+          "depth": 4,
+          "iterations": 400,
+          "l2_leaf_reg": 3.0,
+          "learning_rate": 0.04,
+          "random_strength": 0.5
+        },
+        "weight_policy": "SqrtBalanced"
+      }
+    },
+    "SqrtBalanced_17": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.0,
+          "depth": 4,
+          "iterations": 250,
+          "l2_leaf_reg": 3.0,
+          "learning_rate": 0.02,
+          "random_strength": 1.0
+        },
+        "weight_policy": "SqrtBalanced"
+      }
+    },
+    "SqrtBalanced_18": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.5,
+          "depth": 2,
+          "iterations": 80,
+          "l2_leaf_reg": 10.0,
+          "learning_rate": 0.02,
+          "random_strength": 1.0
+        },
+        "weight_policy": "SqrtBalanced"
+      }
+    },
+    "SqrtBalanced_19": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 2.0,
+          "depth": 3,
+          "iterations": 250,
+          "l2_leaf_reg": 10.0,
+          "learning_rate": 0.07,
+          "random_strength": 1.0
+        },
+        "weight_policy": "SqrtBalanced"
+      }
+    },
+    "SqrtBalanced_20": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.5,
+          "depth": 2,
+          "iterations": 150,
+          "l2_leaf_reg": 10.0,
+          "learning_rate": 0.04,
+          "random_strength": 0.0
+        },
+        "weight_policy": "SqrtBalanced"
+      }
+    },
+    "SqrtBalanced_21": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 1.0,
+          "depth": 3,
+          "iterations": 80,
+          "l2_leaf_reg": 1.0,
+          "learning_rate": 0.12,
+          "random_strength": 1.0
+        },
+        "weight_policy": "SqrtBalanced"
+      }
+    },
+    "SqrtBalanced_22": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.0,
+          "depth": 4,
+          "iterations": 80,
+          "l2_leaf_reg": 1.0,
+          "learning_rate": 0.12,
+          "random_strength": 0.0
+        },
+        "weight_policy": "SqrtBalanced"
+      }
+    },
+    "SqrtBalanced_23": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": null,
+        "parameters": {
+          "bagging_temperature": 0.5,
+          "depth": 3,
+          "iterations": 80,
+          "l2_leaf_reg": 30.0,
+          "learning_rate": 0.12,
+          "random_strength": 0.0
+        },
+        "weight_policy": "SqrtBalanced"
+      }
+    },
+    "custom_00": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": {
+          "3": 2.0,
+          "4": 1.5,
+          "5": 1.0,
+          "6": 1.0,
+          "7": 3.0,
+          "8": 8.0
+        },
+        "parameters": {
+          "bagging_temperature": 0.0,
+          "depth": 3,
+          "iterations": 150,
+          "l2_leaf_reg": 3.0,
+          "learning_rate": 0.02,
+          "random_strength": 2.0
+        },
+        "weight_policy": "custom"
+      }
+    },
+    "custom_01": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": {
+          "3": 12.0,
+          "4": 3.0,
+          "5": 0.75,
+          "6": 1.25,
+          "7": 1.5,
+          "8": 12.0
+        },
+        "parameters": {
+          "bagging_temperature": 0.5,
+          "depth": 4,
+          "iterations": 150,
+          "l2_leaf_reg": 1.0,
+          "learning_rate": 0.07,
+          "random_strength": 2.0
+        },
+        "weight_policy": "custom"
+      }
+    },
+    "custom_02": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": {
+          "3": 4.0,
+          "4": 1.0,
+          "5": 1.25,
+          "6": 0.75,
+          "7": 1.0,
+          "8": 12.0
+        },
+        "parameters": {
+          "bagging_temperature": 0.5,
+          "depth": 3,
+          "iterations": 400,
+          "l2_leaf_reg": 30.0,
+          "learning_rate": 0.12,
+          "random_strength": 0.0
+        },
+        "weight_policy": "custom"
+      }
+    },
+    "custom_03": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": {
+          "3": 4.0,
+          "4": 3.0,
+          "5": 1.0,
+          "6": 1.0,
+          "7": 1.0,
+          "8": 4.0
+        },
+        "parameters": {
+          "bagging_temperature": 1.0,
+          "depth": 4,
+          "iterations": 400,
+          "l2_leaf_reg": 10.0,
+          "learning_rate": 0.12,
+          "random_strength": 2.0
+        },
+        "weight_policy": "custom"
+      }
+    },
+    "custom_04": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": {
+          "3": 8.0,
+          "4": 3.0,
+          "5": 0.75,
+          "6": 0.75,
+          "7": 1.5,
+          "8": 12.0
+        },
+        "parameters": {
+          "bagging_temperature": 0.0,
+          "depth": 2,
+          "iterations": 150,
+          "l2_leaf_reg": 30.0,
+          "learning_rate": 0.04,
+          "random_strength": 0.5
+        },
+        "weight_policy": "custom"
+      }
+    },
+    "custom_05": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": {
+          "3": 12.0,
+          "4": 1.0,
+          "5": 0.75,
+          "6": 1.25,
+          "7": 2.0,
+          "8": 12.0
+        },
+        "parameters": {
+          "bagging_temperature": 0.0,
+          "depth": 3,
+          "iterations": 250,
+          "l2_leaf_reg": 1.0,
+          "learning_rate": 0.02,
+          "random_strength": 2.0
+        },
+        "weight_policy": "custom"
+      }
+    },
+    "custom_06": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": {
+          "3": 12.0,
+          "4": 3.0,
+          "5": 0.75,
+          "6": 0.75,
+          "7": 1.0,
+          "8": 8.0
+        },
+        "parameters": {
+          "bagging_temperature": 1.0,
+          "depth": 2,
+          "iterations": 80,
+          "l2_leaf_reg": 30.0,
+          "learning_rate": 0.04,
+          "random_strength": 0.0
+        },
+        "weight_policy": "custom"
+      }
+    },
+    "custom_07": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": {
+          "3": 2.0,
+          "4": 2.0,
+          "5": 0.75,
+          "6": 0.75,
+          "7": 3.0,
+          "8": 2.0
+        },
+        "parameters": {
+          "bagging_temperature": 1.0,
+          "depth": 2,
+          "iterations": 150,
+          "l2_leaf_reg": 30.0,
+          "learning_rate": 0.07,
+          "random_strength": 0.5
+        },
+        "weight_policy": "custom"
+      }
+    },
+    "custom_08": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": {
+          "3": 8.0,
+          "4": 1.5,
+          "5": 1.0,
+          "6": 1.0,
+          "7": 2.0,
+          "8": 2.0
+        },
+        "parameters": {
+          "bagging_temperature": 1.0,
+          "depth": 2,
+          "iterations": 400,
+          "l2_leaf_reg": 30.0,
+          "learning_rate": 0.07,
+          "random_strength": 2.0
+        },
+        "weight_policy": "custom"
+      }
+    },
+    "custom_09": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": {
+          "3": 8.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 1.0,
+          "7": 3.0,
+          "8": 4.0
+        },
+        "parameters": {
+          "bagging_temperature": 2.0,
+          "depth": 2,
+          "iterations": 80,
+          "l2_leaf_reg": 1.0,
+          "learning_rate": 0.04,
+          "random_strength": 2.0
+        },
+        "weight_policy": "custom"
+      }
+    },
+    "custom_10": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": {
+          "3": 8.0,
+          "4": 2.0,
+          "5": 1.0,
+          "6": 1.0,
+          "7": 1.0,
+          "8": 8.0
+        },
+        "parameters": {
+          "bagging_temperature": 2.0,
+          "depth": 4,
+          "iterations": 250,
+          "l2_leaf_reg": 3.0,
+          "learning_rate": 0.02,
+          "random_strength": 0.5
+        },
+        "weight_policy": "custom"
+      }
+    },
+    "custom_11": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": {
+          "3": 8.0,
+          "4": 1.0,
+          "5": 1.25,
+          "6": 1.25,
+          "7": 1.5,
+          "8": 2.0
+        },
+        "parameters": {
+          "bagging_temperature": 2.0,
+          "depth": 3,
+          "iterations": 400,
+          "l2_leaf_reg": 10.0,
+          "learning_rate": 0.07,
+          "random_strength": 0.5
+        },
+        "weight_policy": "custom"
+      }
+    },
+    "custom_12": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": {
+          "3": 2.0,
+          "4": 1.0,
+          "5": 1.25,
+          "6": 0.75,
+          "7": 1.0,
+          "8": 12.0
+        },
+        "parameters": {
+          "bagging_temperature": 0.5,
+          "depth": 2,
+          "iterations": 400,
+          "l2_leaf_reg": 3.0,
+          "learning_rate": 0.02,
+          "random_strength": 1.0
+        },
+        "weight_policy": "custom"
+      }
+    },
+    "custom_13": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": {
+          "3": 2.0,
+          "4": 3.0,
+          "5": 1.25,
+          "6": 1.0,
+          "7": 2.0,
+          "8": 8.0
+        },
+        "parameters": {
+          "bagging_temperature": 2.0,
+          "depth": 4,
+          "iterations": 250,
+          "l2_leaf_reg": 10.0,
+          "learning_rate": 0.04,
+          "random_strength": 0.5
+        },
+        "weight_policy": "custom"
+      }
+    },
+    "custom_14": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": {
+          "3": 2.0,
+          "4": 1.5,
+          "5": 1.25,
+          "6": 1.25,
+          "7": 2.0,
+          "8": 4.0
+        },
+        "parameters": {
+          "bagging_temperature": 1.0,
+          "depth": 3,
+          "iterations": 250,
+          "l2_leaf_reg": 1.0,
+          "learning_rate": 0.12,
+          "random_strength": 0.0
+        },
+        "weight_policy": "custom"
+      }
+    },
+    "custom_15": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": {
+          "3": 2.0,
+          "4": 2.0,
+          "5": 1.0,
+          "6": 1.25,
+          "7": 1.5,
+          "8": 2.0
+        },
+        "parameters": {
+          "bagging_temperature": 0.0,
+          "depth": 4,
+          "iterations": 150,
+          "l2_leaf_reg": 3.0,
+          "learning_rate": 0.07,
+          "random_strength": 1.0
+        },
+        "weight_policy": "custom"
+      }
+    },
+    "custom_16": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": {
+          "3": 4.0,
+          "4": 3.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 2.0,
+          "8": 4.0
+        },
+        "parameters": {
+          "bagging_temperature": 2.0,
+          "depth": 4,
+          "iterations": 400,
+          "l2_leaf_reg": 3.0,
+          "learning_rate": 0.04,
+          "random_strength": 0.5
+        },
+        "weight_policy": "custom"
+      }
+    },
+    "custom_17": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": {
+          "3": 4.0,
+          "4": 1.5,
+          "5": 1.25,
+          "6": 0.75,
+          "7": 2.0,
+          "8": 2.0
+        },
+        "parameters": {
+          "bagging_temperature": 0.0,
+          "depth": 4,
+          "iterations": 250,
+          "l2_leaf_reg": 3.0,
+          "learning_rate": 0.02,
+          "random_strength": 1.0
+        },
+        "weight_policy": "custom"
+      }
+    },
+    "custom_18": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": {
+          "3": 4.0,
+          "4": 2.0,
+          "5": 0.75,
+          "6": 1.0,
+          "7": 3.0,
+          "8": 8.0
+        },
+        "parameters": {
+          "bagging_temperature": 0.5,
+          "depth": 2,
+          "iterations": 80,
+          "l2_leaf_reg": 10.0,
+          "learning_rate": 0.02,
+          "random_strength": 1.0
+        },
+        "weight_policy": "custom"
+      }
+    },
+    "custom_19": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": {
+          "3": 12.0,
+          "4": 2.0,
+          "5": 1.0,
+          "6": 1.25,
+          "7": 1.0,
+          "8": 12.0
+        },
+        "parameters": {
+          "bagging_temperature": 2.0,
+          "depth": 3,
+          "iterations": 250,
+          "l2_leaf_reg": 10.0,
+          "learning_rate": 0.07,
+          "random_strength": 1.0
+        },
+        "weight_policy": "custom"
+      }
+    },
+    "custom_20": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": {
+          "3": 12.0,
+          "4": 1.0,
+          "5": 0.75,
+          "6": 0.75,
+          "7": 1.5,
+          "8": 8.0
+        },
+        "parameters": {
+          "bagging_temperature": 0.5,
+          "depth": 2,
+          "iterations": 150,
+          "l2_leaf_reg": 10.0,
+          "learning_rate": 0.04,
+          "random_strength": 0.0
+        },
+        "weight_policy": "custom"
+      }
+    },
+    "custom_21": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": {
+          "3": 8.0,
+          "4": 1.5,
+          "5": 1.25,
+          "6": 1.25,
+          "7": 3.0,
+          "8": 4.0
+        },
+        "parameters": {
+          "bagging_temperature": 1.0,
+          "depth": 3,
+          "iterations": 80,
+          "l2_leaf_reg": 1.0,
+          "learning_rate": 0.12,
+          "random_strength": 1.0
+        },
+        "weight_policy": "custom"
+      }
+    },
+    "custom_22": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": {
+          "3": 12.0,
+          "4": 2.0,
+          "5": 0.75,
+          "6": 1.0,
+          "7": 1.5,
+          "8": 2.0
+        },
+        "parameters": {
+          "bagging_temperature": 0.0,
+          "depth": 4,
+          "iterations": 80,
+          "l2_leaf_reg": 1.0,
+          "learning_rate": 0.12,
+          "random_strength": 0.0
+        },
+        "weight_policy": "custom"
+      }
+    },
+    "custom_23": {
+      "class": "__main__.FoldLocalCatBoostClassifier",
+      "parameters": {
+        "class_weights": {
+          "3": 4.0,
+          "4": 1.5,
+          "5": 1.25,
+          "6": 1.25,
+          "7": 3.0,
+          "8": 4.0
+        },
+        "parameters": {
+          "bagging_temperature": 0.5,
+          "depth": 3,
+          "iterations": 80,
+          "l2_leaf_reg": 30.0,
+          "learning_rate": 0.12,
+          "random_strength": 0.0
+        },
+        "weight_policy": "custom"
+      }
+    }
+  },
+  "search_seed": 6242,
+  "search": "24 preregistered randomized joint recipes per arm, balanced marginal coverage without a Cartesian grid. All four arms share identical tree settings, folds, seeds and budgets. Custom class weights vary independently per class.",
+  "weighting": "Native CatBoost no weighting, auto_class_weights=Balanced, auto_class_weights=SqrtBalanced, or explicit six-class custom class_weights. Automatic weights use the current training fold only: max(n_class)/n_class or its square root. Preserve native weight scale; do not combine policies or normalize them. Verify effective fitted weights from get_all_params after every fit. No precomputed global weights or scale_pos_weight.",
+  "selection": "Highest unweighted mean inner fixed-six-class sklearn Macro F1 per arm; exact ties by candidate order. Native MultiClass loss is the training objective, not a substitute for sklearn Macro F1 model selection.",
+  "fit_budget": {
+    "inner_catboost": 11520,
+    "outer_catboost": 160,
+    "total": 11680,
+    "new_reference_fits": 0
+  },
+  "fixed_estimator_settings": {
+    "loss_function": "MultiClass",
+    "eval_metric": "MultiClass",
+    "bootstrap_type": "Bayesian",
+    "boosting_type": "Plain",
+    "border_count": 64,
+    "task_type": "CPU",
+    "thread_count": 1,
+    "random_seed": 42,
+    "verbose": false,
+    "allow_writing_files": false,
+    "use_best_model": false
+  },
+  "early_stopping": "Disabled. No eval_set, use_best_model=False; iteration count selected inside inner CV.",
+  "preprocessing": "Numeric schema validation and native CatBoost on raw features; borders and trees learned inside each fit. No scaling, resampling, feature engineering, external Pool/borders, calibration or threshold tuning.",
+  "score_policy": "Unweighted validation metrics. Native six-class probabilities and decoded labels. Macro PR-AUC is macro OvR average precision; fold ranking scores are never pooled across fitted models.",
+  "runtime_policy": "Serial one-thread CPU execution, separate inner search/outer fit/prediction/scoring timings. Historical reference runtimes are retained from their original runs, not remeasured or universal speed ratios.",
+  "reference_provenance": [
+    {
+      "run_id": "rbf_svm_20261012",
+      "models": {
+        "rbf_svm_tuned": "rbf_svm_tuned",
+        "lda_smote_fixed": "lda_smote_fixed"
+      },
+      "source_manifest_sha256": "faa43ea19f6d659c5d74ede9ac34090eb14bcad9c6c16442a295b3d26a83f763",
+      "source_files_sha256": {
+        "inner_assignments.csv": "3ac468776bba274e189cf9eec2af0cd7b5a4427555bafe47217026fb54470651",
+        "inner_candidate_scores.csv": "94da8297b953cd67cbfec714cdf281e5e8e2f7f8a740a8ab5f2c40451e13ea53",
+        "inner_class_support.csv": "dd7de70bcf7cc46bc1b56211989dc9d0f7ca365ea8b375d49915c0909a4a52cc",
+        "inner_fold_scores.csv": "8a441ff8e27674c463025996588e66a7e6e59c23416656d4f09d414c1133cf05",
+        "lda_training_audits.json": "977ad12598769caa379c374517778562b796c72765c7c3351e128b51867e70fb",
+        "metric_comparison.csv": "3955d322180890414c7190b03b5ae0e45d719f3fabdcc08d82a92c0afe417603",
+        "outer_assignments.csv": "e8309d76716988ecb07080244d1afa40fe85563f06391d1d659fbffb85f89bb2",
+        "outer_class_support.csv": "2211bc8d9d02ace5edac7c850f94d9c0eb35e22ea075766576582fb32f9a010e",
+        "outer_fold_metrics.csv": "81ba3cd08a7b68d36b2a01162673c99a6650d870a91f15b97c2e9a38625141c5",
+        "outer_oof_predictions.csv": "6813ee9490865e75fca69c2285680415318e83f1eb76565c661b8e0950c6149c",
+        "outer_per_class.csv": "9babafda788ebc512be8d60747a50c0708ea6ba695e91ddca9946c9e6ee17e18",
+        "paired_fold_differences.csv": "f3f5cbb5ab0d580745173282e4f5161bc1895c6fc59223e84c871c7770ba7888",
+        "per_class_comparison.csv": "7fbc17651f84fff3231cd8cab90bad2ca8503183746b2fd809967484f88f4514",
+        "plan.json": "3bd8b7d8f62735e41e452af8db41358feb7642d6ac3a38f5f95bf0c6819817f2",
+        "progress.json": "7c03caf73924d6d0461f8e6a2e1957ef825775c3e1e1b1bd745fad9b3610ab96",
+        "repeat_metrics.csv": "844d27dc74b582526afb2e0a9eaf792eda55315869d237cf80b340f12e1b14ea",
+        "runtime_comparison.csv": "0a5d5a9afa3ed580954362c7a56f5c0a0065380617241ac751c31ff7d56cb859",
+        "svm_training_audits.csv": "9670f990eb90c14422756b29db58c6089ccbcc11d738d943c6599310f63bc680",
+        "warnings.json": "1646a80bdbc97348d3cc288a8fb7fa7e1c6f8658eab7102f711d2f606c1bc911"
+      },
+      "note": "Saved development-only OOF results. No benchmark refit during CatBoost study."
+    },
+    {
+      "run_id": "xgboost_20261012",
+      "models": {
+        "unweighted": "xgboost_unweighted",
+        "frequency": "xgboost_frequency",
+        "moderated_custom": "xgboost_moderated_custom"
+      },
+      "source_manifest_sha256": "21989ef08c67a46f6312fdd11878063f6cd2e690441a0abb1b5f976eda0d7c64",
+      "source_files_sha256": {
+        "inner_assignments.csv": "19500cbcf3389bc74eec2dcffd256f9b851be6dba229fb7b565acf7ad9cb3711",
+        "inner_candidate_scores.csv": "4925a25669d961fb0922f45418553f7b6ba77314c94541fb3a402ff6604d175f",
+        "inner_class_support.csv": "bd81319e4b987b9f4402bfd0ced3537bb543cfc40a8c5d07f4e20e3e00fa223d",
+        "inner_fold_scores.csv": "c8dd64024fb618dd80c2c9c029de87041e4d78b941e24a45a4698c15c7f8d0f7",
+        "metric_comparison.csv": "31bf9521735860fe315e36c19a396adf93303a96a956ffc9df5fa55fd0f7de9b",
+        "outer_assignments.csv": "be27363950f2650fa4463dd2c3dcecc4585a217438583fce47b5af2565e16937",
+        "outer_class_support.csv": "a15faa35372177077c67159e68c7b48055dbba6beb5eb337d3bd2ded6c439717",
+        "outer_fold_metrics.csv": "b791594582949a6e0ba654d80746161da8345eb36e11261831da5fa37cc27d7c",
+        "outer_oof_predictions.csv": "d71207e49f7bad5453c11fa7c0e6bc4c33099225fbe4ef79186167b99cc15cb8",
+        "outer_per_class.csv": "57533743660b644279858edf2ef196385ffe94ac43b8152c27716272eb647cd7",
+        "paired_fold_differences.csv": "9f9e15d52ee7c78ba8b5e24b642a1289916ab2df8d5002ec84a68d622a36a8e2",
+        "per_class_comparison.csv": "1368ec68e8834c56c2d7f63871bd0861077ac0dcc80afab3d5f22de865c5ab36",
+        "plan.json": "35f1af42ad13cb9b3db3415ccc95163bde7bbc6e6fc7b3198866c7a8694e000c",
+        "progress.json": "24c28966169ba8e562f9b4deb17ab2301afadac518cb5ed4f7a94726b73e0d99",
+        "repeat_metrics.csv": "a1d6c1825c7de535b583fefbc0977215bfb143a69b0422d3a7645291a37f7c4e",
+        "runtime_comparison.csv": "6c96ce08a6737386c7bfc604e08adc8f1c4f4d61e0ddd438af090c16e002c732",
+        "training_audits.csv": "e79dac268f0cd85c73d33ef170b23d659e12721f39940c57bb87791dc3b4954a",
+        "warnings.json": "775e5ac55ff197001ee580bc0d9321cdf72ce8361cfafb8951897282c777ff6e"
+      },
+      "note": "Saved development-only OOF results. No benchmark refit during CatBoost study."
+    }
+  ],
+  "comparison_policy": "Compare all four CatBoost arms with fixed LDA-SMOTE, tuned SVM and all three tuned XGBoost arms. Reuse checksum-verified OOF predictions on exactly matching development source rows and outer/inner folds. Search budgets differ across model families; compare declared procedures, not equal-budget family optima. SVM average precision uses decision scores, other models use native probabilities.",
+  "limitations": "Finite search on already explored development data. Overlapping folds give descriptive SD, not confidence intervals. Retrospectively choosing the highest outer mean adds an unevaluated selection step. No model promotion or new test claim.",
+  "implementation": {
+    "prior": {
+      "rbf": {
+        "prior": {
+          "previous_utilities": {
+            "version_1_utilities": {
+              "constants-display-names": "4036bd07d97fd036522f9de549f21dea04b2d709b5270614e42090b2159866ec",
+              "constants-efficiency": "4b768073229aa18410660e956522f2cfc0df9f123da1cea8a7b36f6a2c29ef91",
+              "constants-evaluation": "87ea8b54b1672f1c3ab768997583a9bc0e5b14ca6e178b01621b961e65bb9feb",
+              "constants-holdout": "c263dd79aa85609da32e1c88a156430a3f00a7369588697d14c49a3e8973e8c6",
+              "constants-imbalance": "4456c9eb2b9d66969e9ec157ffc69fb34093318554e7b8f37134df8c990df87e",
+              "constants-inference": "0df06c8a47e8fb20c7709a556c6567affef2946a11f5b91f73305fc606581b40",
+              "constants-interpretation": "4e4bb3b6046f719de7eba604e13b648cf496d6d27e0a5c401259b236f43f0d35",
+              "constants-packaging": "0c4faae85a1a38b679b9b2e63171194b18430f9c1052213126334b2fa1ddbb7d",
+              "constants-selection": "628ddd6eea8ec0ada18d4262a60c4e39fd33c043ba7a70ff46ad2b94524dc16e",
+              "constants-timing": "c38ef4cf433b9ceb2d54507d19746c6fae3eb921a60e2fcf20783d00615308a5",
+              "constants-tuning": "b787792b0062ef80e98c33df18e52a83e4d476321285fec09a81d7c687c5b700",
+              "utility-benchmarking": "b30ee9d099fdb321bd970feaac97650d5a0c81f197e6da3da79e222d16727c4c",
+              "utility-data": "95226e608b4ffe3515b4e43db32ea2bc0717eab28ba7b816ac02a00a7337302c",
+              "utility-development-eda": "8758ef164f52d3d4abcbf55f185de73d1a8b666d18c44cffec53cf06a2a8fb37",
+              "utility-eda-plotting": "b4869f12584f622a3ce0d8193f82f932e8920f84093a39edc516fa9a4e6939ab",
+              "utility-efficiency": "2f01e8f41ca31e3afcbadf8d452ec265f74fde70934f71a10900d972ec2ec448",
+              "utility-evaluation": "21a525d64aa10fe1808740fefb335d4432b793b366754c667f186663379fa09d",
+              "utility-holdout": "139e9f3b5ba76344e9340dde73860db3b64649e1dcf0082bb0e21783a8ff38cf",
+              "utility-imbalance-experiments": "a14a056c6d3c060208bc89eaf83673ece58c576094f74c10dc347e6e0da9dccf",
+              "utility-imbalance-models": "168044653e57b67e2fc77a85bc693ca5a45d15f814c47755b516b0d81ccc3085",
+              "utility-inference": "30d37a8b67b4418435bf01e4c23047c115529b49f113f0da4abadb754a9d8304",
+              "utility-interpretation": "8efb6582ab9817927839b7451d2502c65d2e83e7ec42860008ca3364b457754e",
+              "utility-json-clean": "3e691c871fd9eaf5463e2f9209c3bee1b7bc77171de01fb583427f24dde7591c",
+              "utility-json-write": "185149c4828b76c20ef82fed754970b7ce1725d6e618bb8c2062f8484b00934f",
+              "utility-metrics": "5768878fd8d9ce8e176ab305aeeb1979ca24c9d7eb63a3c7c0a069778caf82d1",
+              "utility-modeling": "5c7cdae4bdd3a5022a5cae9395ce98760f6ceffb08240df0cca69afff638ebdf",
+              "utility-notebook-model-loader": "80f3a7d8e70139d4abe8942bfdc0de315cc6d4a45ab4e1e918dd1ef2adec1101",
+              "utility-packaging": "225e021ba01131ac69a9a1359ad81dbd53d1ff95324bf87346efbb5770b7875f",
+              "utility-partitioning": "798a91ede0ea32117fe9b9f5421ee0a9ce034cb6e1653a53796594a489a522a5",
+              "utility-plot-benchmarking": "9c23f3a2cca67610934b21a12ed9861a806d8bee6df6e31fb400fb76f82f446c",
+              "utility-plot-efficiency": "545f84824285aa8e29aa316b8f47e2c3ad2d9748d4f94e990859dd5d27118125",
+              "utility-plot-holdout": "ff9a1396dd44101142451c05e6d8ec6cc36f8ee28ede1a2848f42a9c18d0f1d3",
+              "utility-plot-interpretation": "a0491aa09b00a67d35251be28331ef24ecbaf7d46f3c204328135199d54137d7",
+              "utility-plot-selection": "0371baae93884e96629642cf139d8c3c89912ea70d8b6a9124fc7b8be9e1a00a",
+              "utility-preprocessing": "99b4bc7f49d19e540f4e3885ed757e939815ced05acd4b2c748f20e07ead1c87",
+              "utility-provenance": "a5751653a34496c9bd96ca9058944c72074cdeff5b0c1676d7df0359d6c431d9",
+              "utility-registry": "172f6a80b5ffad929199068580139133bdc857118bfdc832b309185f3efda0f1",
+              "utility-reporting": "b0167afe16e8550f0c04074482dda420c59cd97de70ba27bccbe9d4b364ff4c4",
+              "utility-resampling": "37a01a3c96984289a225814535da5c8804c96db8d966f02b78623be88ba8c92e",
+              "utility-selection": "7c4a5f3bcb5a7518fa5276057f0524e85991210f4fec06a9de13b32950b7f223",
+              "utility-timing": "19efd2c992a9e59567f7c5078f4c048550d68f6845501c065b67ed911876ee92",
+              "utility-tuning": "f469cee8e5a0973d24bbf628002d77f85eb4a78eebfa09e3c8b2ee362da8695e",
+              "wine-configuration": "323cc0f1cc698435e1dc4c6eec1a21f3498193384013f5e43c6b835da4264d6f",
+              "wine-dependencies": "1830b1cdfd58c97138dd1d593484f023b7c4bc18e254ac2cb449262ecb833dfe"
+            },
+            "version_2_utilities": {
+              "v2-configuration": "2e40ace8a97a6a59b57c840aecd548da58028113c9b46fdad306b215a40504c4",
+              "v2-cv-planning": "d50d2fc60258f864b0ead32070598d7e8fff29c8d4f798de02f88a9a29eaa963",
+              "v2-cv-aggregation": "494463ca0180e15f4378b18d0c6ba02c11edac7acdaaab889e7fe3fc343e127d",
+              "v2-cv-execution": "1d3d7242ff7b1fc3705ccad779395dd20ec5fcc1a3e35856b820f984ab48b3a1",
+              "v2-cv-evidence": "fc4233b6a8a0f479a405eed7ed3d6bdcd08575a1c4bb57f46cebadbea9b254d6"
+            }
+          },
+          "nested_utilities": {
+            "nested-configuration": "67b0227b7e95f44a9aa19bf580a26723d8e0bc52731f708fcbae80ff2fa27e09",
+            "nested-cv-design": "2e129bb5c8497f363ae7b59007950a654490785804354b370c19097295d3406d",
+            "nested-cv-selection": "7d961e20014c3096a1b2e9db3dbcfeaae648e9a217a77ea0163e74a6081184cf",
+            "nested-cv-run": "54e12c68d9c7d102950bbe653861c5fc0ac8a4e74515825faa47aaa3354392d2",
+            "nested-cv-validation": "dd8f181da893aba8f1e47ef734ce404d82f43a2ad50baea5076419ca2b633d51",
+            "nested-cv-selftest-functions": "2c199229fe06357a94d0326500740b933844976c73b993f219b79131486dbdbf"
+          }
+        },
+        "rbf_utilities": {
+          "rbf-configuration": "4cc93b5e159f991666bde6d586c376004902874a58919d3da5e8889a35c43e29",
+          "rbf-svm-search": "b26cabef8701dacf00ceb7a1eafc88622b021081dfe86b8d4ea618290d39899e",
+          "rbf-svm-evaluation": "2e7145085fb25af4745f26c3263bae37a734a07e5c505db3c64315f90182b22b",
+          "rbf-svm-experiment": "3f1dcaf1d0592844c297153f5129c02a4a7023a23b3c8fc678aef47d530f03bb",
+          "rbf-svm-evidence": "b55373da837f3df6ce721aaaa6ead8cf0431b313b00f357456e1af8856a29953",
+          "rbf-selftest-functions": "7f6ebce7db4df8d9e6f9322ba72dc3875ffafe84f94e92d7a905e16ae4caff7c"
+        }
+      },
+      "xgboost": {
+        "prior": {
+          "previous_utilities": {
+            "version_1_utilities": {
+              "constants-display-names": "4036bd07d97fd036522f9de549f21dea04b2d709b5270614e42090b2159866ec",
+              "constants-efficiency": "4b768073229aa18410660e956522f2cfc0df9f123da1cea8a7b36f6a2c29ef91",
+              "constants-evaluation": "87ea8b54b1672f1c3ab768997583a9bc0e5b14ca6e178b01621b961e65bb9feb",
+              "constants-holdout": "c263dd79aa85609da32e1c88a156430a3f00a7369588697d14c49a3e8973e8c6",
+              "constants-imbalance": "4456c9eb2b9d66969e9ec157ffc69fb34093318554e7b8f37134df8c990df87e",
+              "constants-inference": "0df06c8a47e8fb20c7709a556c6567affef2946a11f5b91f73305fc606581b40",
+              "constants-interpretation": "4e4bb3b6046f719de7eba604e13b648cf496d6d27e0a5c401259b236f43f0d35",
+              "constants-packaging": "0c4faae85a1a38b679b9b2e63171194b18430f9c1052213126334b2fa1ddbb7d",
+              "constants-selection": "628ddd6eea8ec0ada18d4262a60c4e39fd33c043ba7a70ff46ad2b94524dc16e",
+              "constants-timing": "c38ef4cf433b9ceb2d54507d19746c6fae3eb921a60e2fcf20783d00615308a5",
+              "constants-tuning": "b787792b0062ef80e98c33df18e52a83e4d476321285fec09a81d7c687c5b700",
+              "utility-benchmarking": "b30ee9d099fdb321bd970feaac97650d5a0c81f197e6da3da79e222d16727c4c",
+              "utility-data": "95226e608b4ffe3515b4e43db32ea2bc0717eab28ba7b816ac02a00a7337302c",
+              "utility-development-eda": "8758ef164f52d3d4abcbf55f185de73d1a8b666d18c44cffec53cf06a2a8fb37",
+              "utility-eda-plotting": "b4869f12584f622a3ce0d8193f82f932e8920f84093a39edc516fa9a4e6939ab",
+              "utility-efficiency": "2f01e8f41ca31e3afcbadf8d452ec265f74fde70934f71a10900d972ec2ec448",
+              "utility-evaluation": "21a525d64aa10fe1808740fefb335d4432b793b366754c667f186663379fa09d",
+              "utility-holdout": "139e9f3b5ba76344e9340dde73860db3b64649e1dcf0082bb0e21783a8ff38cf",
+              "utility-imbalance-experiments": "a14a056c6d3c060208bc89eaf83673ece58c576094f74c10dc347e6e0da9dccf",
+              "utility-imbalance-models": "168044653e57b67e2fc77a85bc693ca5a45d15f814c47755b516b0d81ccc3085",
+              "utility-inference": "30d37a8b67b4418435bf01e4c23047c115529b49f113f0da4abadb754a9d8304",
+              "utility-interpretation": "8efb6582ab9817927839b7451d2502c65d2e83e7ec42860008ca3364b457754e",
+              "utility-json-clean": "3e691c871fd9eaf5463e2f9209c3bee1b7bc77171de01fb583427f24dde7591c",
+              "utility-json-write": "185149c4828b76c20ef82fed754970b7ce1725d6e618bb8c2062f8484b00934f",
+              "utility-metrics": "5768878fd8d9ce8e176ab305aeeb1979ca24c9d7eb63a3c7c0a069778caf82d1",
+              "utility-modeling": "5c7cdae4bdd3a5022a5cae9395ce98760f6ceffb08240df0cca69afff638ebdf",
+              "utility-notebook-model-loader": "80f3a7d8e70139d4abe8942bfdc0de315cc6d4a45ab4e1e918dd1ef2adec1101",
+              "utility-packaging": "225e021ba01131ac69a9a1359ad81dbd53d1ff95324bf87346efbb5770b7875f",
+              "utility-partitioning": "798a91ede0ea32117fe9b9f5421ee0a9ce034cb6e1653a53796594a489a522a5",
+              "utility-plot-benchmarking": "9c23f3a2cca67610934b21a12ed9861a806d8bee6df6e31fb400fb76f82f446c",
+              "utility-plot-efficiency": "545f84824285aa8e29aa316b8f47e2c3ad2d9748d4f94e990859dd5d27118125",
+              "utility-plot-holdout": "ff9a1396dd44101142451c05e6d8ec6cc36f8ee28ede1a2848f42a9c18d0f1d3",
+              "utility-plot-interpretation": "a0491aa09b00a67d35251be28331ef24ecbaf7d46f3c204328135199d54137d7",
+              "utility-plot-selection": "0371baae93884e96629642cf139d8c3c89912ea70d8b6a9124fc7b8be9e1a00a",
+              "utility-preprocessing": "99b4bc7f49d19e540f4e3885ed757e939815ced05acd4b2c748f20e07ead1c87",
+              "utility-provenance": "a5751653a34496c9bd96ca9058944c72074cdeff5b0c1676d7df0359d6c431d9",
+              "utility-registry": "172f6a80b5ffad929199068580139133bdc857118bfdc832b309185f3efda0f1",
+              "utility-reporting": "b0167afe16e8550f0c04074482dda420c59cd97de70ba27bccbe9d4b364ff4c4",
+              "utility-resampling": "37a01a3c96984289a225814535da5c8804c96db8d966f02b78623be88ba8c92e",
+              "utility-selection": "7c4a5f3bcb5a7518fa5276057f0524e85991210f4fec06a9de13b32950b7f223",
+              "utility-timing": "19efd2c992a9e59567f7c5078f4c048550d68f6845501c065b67ed911876ee92",
+              "utility-tuning": "f469cee8e5a0973d24bbf628002d77f85eb4a78eebfa09e3c8b2ee362da8695e",
+              "wine-configuration": "323cc0f1cc698435e1dc4c6eec1a21f3498193384013f5e43c6b835da4264d6f",
+              "wine-dependencies": "1830b1cdfd58c97138dd1d593484f023b7c4bc18e254ac2cb449262ecb833dfe"
+            },
+            "version_2_utilities": {
+              "v2-configuration": "2e40ace8a97a6a59b57c840aecd548da58028113c9b46fdad306b215a40504c4",
+              "v2-cv-planning": "d50d2fc60258f864b0ead32070598d7e8fff29c8d4f798de02f88a9a29eaa963",
+              "v2-cv-aggregation": "494463ca0180e15f4378b18d0c6ba02c11edac7acdaaab889e7fe3fc343e127d",
+              "v2-cv-execution": "1d3d7242ff7b1fc3705ccad779395dd20ec5fcc1a3e35856b820f984ab48b3a1",
+              "v2-cv-evidence": "fc4233b6a8a0f479a405eed7ed3d6bdcd08575a1c4bb57f46cebadbea9b254d6"
+            }
+          },
+          "nested_utilities": {
+            "nested-configuration": "67b0227b7e95f44a9aa19bf580a26723d8e0bc52731f708fcbae80ff2fa27e09",
+            "nested-cv-design": "2e129bb5c8497f363ae7b59007950a654490785804354b370c19097295d3406d",
+            "nested-cv-selection": "7d961e20014c3096a1b2e9db3dbcfeaae648e9a217a77ea0163e74a6081184cf",
+            "nested-cv-run": "54e12c68d9c7d102950bbe653861c5fc0ac8a4e74515825faa47aaa3354392d2",
+            "nested-cv-validation": "dd8f181da893aba8f1e47ef734ce404d82f43a2ad50baea5076419ca2b633d51",
+            "nested-cv-selftest-functions": "2c199229fe06357a94d0326500740b933844976c73b993f219b79131486dbdbf"
+          }
+        },
+        "xgb_utilities": {
+          "xgb-configuration": "f973d1159e18d86f31eae0da4a339b2cac57e05b5671649c6d6243280cd286e7",
+          "xgb-candidates-and-weights": "cfceeaef6f66b2d6701dbbc0d9f0bf4f5af59c9cb49a13d160b1b062d6eac16a",
+          "xgb-fold-local-estimator": "c662ac56be083bd7e70fda04b31f494e70a693567994cb6051fabbd36b5192f5",
+          "xgb-inner-selection": "c612f7fa53f3bec8752d5d66d12c9e38fecf38eef9b25cf544d9e1ea19afa2ba",
+          "xgb-experiment": "c0f9bc90f3a97935b3c127922bc9c0d35ce7a266e729023a81e0989676f09902",
+          "xgb-evidence": "dfb59bf219ac42c79da6df781508b29798356587d83924a82a933f34f8811a1e",
+          "xgb-selftest-functions": "e2c48d05cbe3bddd07917f9fd777ab6f95d69b16ca840a07c03f1e33f0ab3bda"
+        }
+      }
+    },
+    "cb_utilities": {
+      "cb-configuration": "485c5db6fb400611181872069d5a087f950399f5b2b53cbe3d42f5c43f8864c8",
+      "cb-candidates-and-weights": "4fe59aa2c3e19bcdb629f1b2a921974609f61de24b85e2768ec2b5081a744d75",
+      "cb-fold-local-estimator": "ae201825d9e3701e5ed8bb06786ef1486043eb2567f338fddf78567c365b01a9",
+      "cb-inner-selection": "1e176d3cf97df1da5d2225e72858bada936861acf851f536354e59ce9df86177",
+      "cb-reference-comparison": "f4fa5f0235f4a3bf93d92e218384372fd0950c9d598fd82444cba094ce08bdb9",
+      "cb-experiment": "88c16b57b60476c7017fecb7b9d20696a9e8c1e60fcd72eec69969ff7905e74e",
+      "cb-evidence": "97bc572db9019585a1d1bdbf2335c53390a98984adb260646f3493a59714f98f",
+      "cb-selftest-functions": "222705d2ab051bd9225f025e4af954661d3ae94685eebfde3377f6042a273de2"
+    }
+  },
+  "environment": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "processor": "arm",
+    "logical_cpus": 8,
+    "python": "3.14.7",
+    "versions": {
+      "numpy": "2.3.5",
+      "scikit-learn": "1.9.1",
+      "joblib": "1.6.0"
+    },
+    "thread_environment": {
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "LOKY_MAX_CPU_COUNT": "1"
+    },
+    "native_threadpools": [
+      {
+        "user_api": "openmp",
+        "internal_api": "openmp",
+        "num_threads": 8,
+        "prefix": "libomp",
+        "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/venv/lib/python3.14/site-packages/sklearn/.dylibs/libomp.dylib",
+        "version": null
+      },
+      {
+        "user_api": "openmp",
+        "internal_api": "openmp",
+        "num_threads": 8,
+        "prefix": "libomp",
+        "filepath": "/opt/homebrew/Cellar/libomp/23.1.1/lib/libomp.dylib",
+        "version": null
+      }
+    ],
+    "outer_cv": "sequential; estimator/search parallelism recorded in parameters",
+    "catboost_version": "1.2.10"
+  }
+}

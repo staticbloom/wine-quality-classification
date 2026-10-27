@@ -1,0 +1,62 @@
+[
+  {
+    "artifact": "models/candidates/gaussian_nb.joblib",
+    "model": "gaussian_nb",
+    "role": "candidate",
+    "probe_rows": 32,
+    "labels_identical": true,
+    "probabilities_identical": true,
+    "fitted_state_unchanged": true,
+    "performance_evaluation": false
+  },
+  {
+    "artifact": "models/candidates/gradient_boosting.joblib",
+    "model": "gradient_boosting",
+    "role": "candidate",
+    "probe_rows": 32,
+    "labels_identical": true,
+    "probabilities_identical": true,
+    "fitted_state_unchanged": true,
+    "performance_evaluation": false
+  },
+  {
+    "artifact": "models/candidates/lda.joblib",
+    "model": "lda",
+    "role": "candidate",
+    "probe_rows": 32,
+    "labels_identical": true,
+    "probabilities_identical": true,
+    "fitted_state_unchanged": true,
+    "performance_evaluation": false
+  },
+  {
+    "artifact": "models/candidates/logistic_regression.joblib",
+    "model": "logistic_regression",
+    "role": "candidate",
+    "probe_rows": 32,
+    "labels_identical": true,
+    "probabilities_identical": true,
+    "fitted_state_unchanged": true,
+    "performance_evaluation": false
+  },
+  {
+    "artifact": "models/candidates/random_forest.joblib",
+    "model": "random_forest",
+    "role": "candidate",
+    "probe_rows": 32,
+    "labels_identical": true,
+    "probabilities_identical": true,
+    "fitted_state_unchanged": true,
+    "performance_evaluation": false
+  },
+  {
+    "artifact": "models/final/wine_quality_classifier.joblib",
+    "model": "lda",
+    "role": "champion",
+    "probe_rows": 32,
+    "labels_identical": true,
+    "probabilities_identical": true,
+    "fitted_state_unchanged": true,
+    "performance_evaluation": false
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "status": "completed",
+  "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate \u2014 Controlled Oversampling",
+  "completed_utc": "2026-10-14T06:45:31.640291+00:00",
+  "total_fits": 12480,
+  "outer_evaluations": 640,
+  "elapsed_seconds": 378.61107716697734,
+  "files": {
+    "inner_assignments.csv": "89a120cd70ce1872e1b2fe9a3cbf39a9e4ca1fdbdd49a4e3e3de60c80b8d9df9",
+    "inner_candidate_scores.csv": "123ff3249bb82ac64e4693319269c5b891041511a714b9032fed9dff44f49338",
+    "inner_class_support.csv": "aeece88dc84c0e90336ca252f4dfbfe5ae72d6ae331b2fff1c56c3b24dd79887",
+    "inner_fold_scores.csv": "eaac8bdac347598ae6a3c8cbbd3ddc99a172b96c8fe37d4cbb36169d09a6ffd6",
+    "metric_comparison.csv": "1af4de4b7aabfd5e364d218354bce6fee8c81eceec1c172b65dd321fbc152006",
+    "outer_assignments.csv": "42870a706e60474d4582f29e5f172311b5426afef66852a3a298561ee1889c37",
+    "outer_class_support.csv": "127597911afb9998f2e9d8d0624f4eb185684578bd0ca4efb6395c08b6328ba4",
+    "outer_fold_metrics.csv": "067d47c0ea89f6c25bb9d454cebeb17b170131353eeb99f91d088a0ab44adfbf",
+    "outer_oof_predictions.csv": "53f8f1d7fd295a0c0b2505b8a43a8726fa5390af31af553882b1e2cff0f2b97d",
+    "outer_per_class.csv": "76157a2d4c0080c39aa3e2d8b8398016a60c7de2e44c9db53dd0a5e2341c55c2",
+    "paired_fold_differences.csv": "b0638ec88fefaa30097c60f77e08567dd7582865531e1bdc98eaf0382ae41dd8",
+    "per_class_comparison.csv": "efe66d75817ef0b73f30c2964fa5537ceb4f362a3327c5efac7a357ae8933391",
+    "plan.json": "80e28183455eb9533f8c461ef5b88bdd4a461d89b0df955ed5cc99a568524e01",
+    "progress.json": "62c3d69aa6ce1099d20add1e767dc9f04724585bbc61f4cf9ffbd6a40e3df694",
+    "rare_precision_diagnostics.csv": "244b691a0d093db2c0a463ec45450439d567eb8b9679eb4a3c354020524188b7",
+    "repeat_per_class.csv": "df469aeb9e92f5e77be606ff6a92deeed39fe2f5b66b47287d2ac7a952c0fcfc",
+    "runtime_by_family_fold.csv": "03076f0df3aa529c21f721c1badbb4db0b9fcb2deee52012d3ce4168667472a3",
+    "sampling_counts.csv": "f2989d894151917b5e41daa5db134afccac82e758fbffc9292a846118bb823f4",
+    "training_audits.json": "54bf4a6eb7aae148683c874ee5761c7021ace48faf2fe936446587a7f0a52849",
+    "warnings.json": "f06798e878c0ae848a59396829fb841be480907906de4f2ed01f42a828752f33"
+  }
+}

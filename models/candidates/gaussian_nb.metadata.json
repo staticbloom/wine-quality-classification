@@ -1,0 +1,393 @@
+{
+  "metadata": {
+    "format_version": 1,
+    "packaging_run_id": "d4a5cf60-7f86-4db5-8bd8-b4d5fb0fa7b3",
+    "selection_run_id": "5096bbc9-6dc2-47bc-8ee6-85c4114da6e0",
+    "selection_lock_sha256": "8dfc01d70c28d62f118b43e4a68e3557a5050e6eabd3096d101a1901b4dd8d87",
+    "model_name": "gaussian_nb",
+    "experiment": "gaussian_nb__original",
+    "selected_champion": false,
+    "algorithm": "sklearn.naive_bayes.GaussianNB",
+    "configuration": {
+      "model_name": "gaussian_nb",
+      "treatment": "original",
+      "tuned_parameters": {
+        "estimator__model__var_smoothing": 1e-09
+      },
+      "estimator_spec": {
+        "class": "wine_quality.modeling.QualityLabelClassifier",
+        "parameters": {
+          "encode_labels": false,
+          "estimator": {
+            "class": "sklearn.pipeline.Pipeline",
+            "parameters": {
+              "memory": null,
+              "steps": [
+                [
+                  "preprocess",
+                  {
+                    "class": "sklearn.pipeline.Pipeline",
+                    "parameters": {
+                      "memory": null,
+                      "steps": [
+                        [
+                          "schema",
+                          {
+                            "class": "wine_quality.preprocessing.NumericFeatureSchema",
+                            "parameters": {}
+                          }
+                        ],
+                        [
+                          "scale",
+                          {
+                            "class": "sklearn.preprocessing._data.StandardScaler",
+                            "parameters": {
+                              "copy": true,
+                              "with_mean": true,
+                              "with_std": true
+                            }
+                          }
+                        ]
+                      ],
+                      "transform_input": null,
+                      "verbose": false
+                    }
+                  }
+                ],
+                [
+                  "model",
+                  {
+                    "class": "sklearn.naive_bayes.GaussianNB",
+                    "parameters": {
+                      "priors": null,
+                      "var_smoothing": 1e-09
+                    }
+                  }
+                ]
+              ],
+              "transform_input": null,
+              "verbose": false
+            }
+          }
+        }
+      },
+      "prior_precision_review_flag": false,
+      "prior_precision_review_reasons": ""
+    },
+    "hyperparameters": {
+      "priors": null,
+      "var_smoothing": 1e-09
+    },
+    "feature_names": [
+      "fixed acidity",
+      "volatile acidity",
+      "citric acid",
+      "residual sugar",
+      "chlorides",
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "density",
+      "pH",
+      "sulphates",
+      "alcohol"
+    ],
+    "quality_classes": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "probability_class_order": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "target_name": "quality",
+    "class_mapping": {
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8
+    },
+    "random_state": 42,
+    "created_at_utc": "2026-10-10T18:40:29.247524+00:00",
+    "source_dataset_filename": "wine-quality-red.csv",
+    "source_sha256": "952286135b2a6583dc47b83ada8503ecbf80bceaa51755c83c46254f179c762a",
+    "split_manifest_sha256": "9e90c4b1563b483b972f2be1dc5918c43c44ab0f7d5249d545af822189d3517b",
+    "development_fingerprint": "344c74a64573901b2c563fe2f3ed6b952eab22f764477527fa7af748e2cc0ce9",
+    "training_scope": "full locked development partition only",
+    "training_rows": 1087,
+    "fit_seconds": 0.0022685829899273813,
+    "training_audit": {
+      "kind": "original",
+      "before_counts": {
+        "3": 8,
+        "4": 42,
+        "5": 461,
+        "6": 428,
+        "7": 134,
+        "8": 14
+      },
+      "after_counts": {
+        "3": 8,
+        "4": 42,
+        "5": 461,
+        "6": 428,
+        "7": 134,
+        "8": 14
+      },
+      "skipped_classes": {},
+      "effective_k": null,
+      "class_weights": {}
+    },
+    "library_versions": {
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.1",
+      "imbalanced-learn": "0.14.2",
+      "sklearn-compat": "0.1.6",
+      "joblib": "1.6.0"
+    },
+    "python_version": "3.12.14",
+    "project_code_sha256": {
+      "imbalance.py": "9793281c7dc366e64e34116d28d5359b57ca65afb470fb224f66f38696792e65",
+      "config.py": "56dbdf028ccc1407323aa71c9e717e9e13f1f6a3b04d9feab337d7c3422431e7",
+      "registry.py": "4f4825a8c5dbde0c3cae9e383bc0e8dc8134ca9b8cc199adb79b6bf627a6ecc5",
+      "partitioning.py": "faed34d5da564e139467960eefa440607a3c16bf0effde4acbd3f9bc037f0105",
+      "evaluation.py": "1e63017b474e64d3913b4ac7a940b87b5dd0fc69b27bf68a7aa4f2c561f5b2c0",
+      "__init__.py": "3604b95fbf71207988c88ac3aff90326d8af4c579786eb90759f353f297fbab9",
+      "eda.py": "04a71d9e1fee6dd58ca93e83e06d57f5ee857ef3aae605973826b459e5dd5d0e",
+      "timing.py": "34a73e52ab3b18a05800e780a4465f0635ecaa777647ec6762bd7564391658f3",
+      "utils.py": "1eeb1ca0d78b0892b7a38fa2cbcc88cb6f9cb05b3dd64a21167fa57e47bc31cd",
+      "preprocessing.py": "4c6d9033e621dae26f68d9a6733ed9b7d8de841757a887f7ca7299b9d03108e3",
+      "tuning.py": "9fd4c34598a2c8b0998ac745a35369a94880bc2597dec6ea66ee50ffa9a63c3c",
+      "selection.py": "cdfd0715b60d0b398a95859ce502cc6ba262922f244ef3f9396124deb17d53f9",
+      "modeling.py": "40a83818c22924ac394feacc992e68bf84d2934b2148e46a5cdc1fba852fb2a6",
+      "data.py": "346fb76c9f895a278dde1bd8c2e40db24c27cedbbd791fe456ac088d8de6c36c",
+      "benchmarking.py": "e7680ef8f28eac0a3e2b399645be65c05c444b235754ac107e43bdef6f69106c",
+      "packaging.py": "009de30a1c9c741e35f5093f0422a0eafeca279379cf2053fe2af3dd599d4192"
+    },
+    "runtime_environment": {
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "machine": "arm64",
+      "processor": "arm",
+      "logical_cpus": 8,
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "thread_environment": {
+        "OMP_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "LOKY_MAX_CPU_COUNT": "1"
+      },
+      "native_threadpools": [
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+          "version": null
+        }
+      ],
+      "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+    },
+    "development_cv": {
+      "scope": "locked development CV; not training or holdout performance",
+      "n_splits": 5,
+      "n_repeats": 5,
+      "primary_metric": "macro_f1",
+      "summary": {
+        "Index": 2,
+        "rank": 3,
+        "experiment": "gaussian_nb__original",
+        "model_name": "gaussian_nb",
+        "treatment": "original",
+        "run_id": "5096bbc9-6dc2-47bc-8ee6-85c4114da6e0",
+        "scope": "development",
+        "n_repeats": 5,
+        "cv_folds": 25,
+        "development_rows": 1087,
+        "prior_precision_review_flag": false,
+        "prior_precision_review_reasons": null,
+        "tuned_parameters_json": "{\"estimator__model__var_smoothing\": 1e-09}",
+        "accuracy_mean": 0.5262419143449034,
+        "accuracy_std": 0.0331632790854384,
+        "accuracy_repeat_mean_std": 0.006178440218876466,
+        "accuracy_oof_repeat_mean": 0.5262189512419504,
+        "accuracy_oof_repeat_std": 0.006184999563559035,
+        "first_repeat_accuracy": 0.5170633746247834,
+        "macro_precision_mean": 0.3230001680639568,
+        "macro_precision_std": 0.05040353271267096,
+        "macro_precision_repeat_mean_std": 0.011462854712636921,
+        "macro_precision_oof_repeat_mean": 0.306514637829605,
+        "macro_precision_oof_repeat_std": 0.006238340131066382,
+        "first_repeat_macro_precision": 0.3324142385132426,
+        "macro_recall_mean": 0.33031467942145293,
+        "macro_recall_std": 0.06412466387373118,
+        "macro_recall_repeat_mean_std": 0.012042409372600218,
+        "macro_recall_oof_repeat_mean": 0.3329305695600955,
+        "macro_recall_oof_repeat_std": 0.00542966612023637,
+        "first_repeat_macro_recall": 0.3398025463896887,
+        "macro_f1_mean": 0.31809517737654064,
+        "macro_f1_std": 0.048294289105755936,
+        "macro_f1_repeat_mean_std": 0.007561400311213716,
+        "macro_f1_oof_repeat_mean": 0.3126614576806724,
+        "macro_f1_oof_repeat_std": 0.00678777541742388,
+        "first_repeat_macro_f1": 0.32217214328133426,
+        "weighted_f1_mean": 0.5313171188873854,
+        "weighted_f1_std": 0.03160465985078648,
+        "weighted_f1_repeat_mean_std": 0.004694841996955155,
+        "weighted_f1_oof_repeat_mean": 0.5326633280070486,
+        "weighted_f1_oof_repeat_std": 0.0046121301814057904,
+        "first_repeat_weighted_f1": 0.5237390680059733,
+        "balanced_accuracy_mean": 0.33031467942145293,
+        "balanced_accuracy_std": 0.06412466387373118,
+        "balanced_accuracy_repeat_mean_std": 0.012042409372600218,
+        "balanced_accuracy_oof_repeat_mean": 0.3329305695600955,
+        "balanced_accuracy_oof_repeat_std": 0.00542966612023637,
+        "first_repeat_balanced_accuracy": 0.3398025463896887,
+        "quadratic_weighted_kappa_mean": 0.48819560411877627,
+        "quadratic_weighted_kappa_std": 0.065138281901624,
+        "quadratic_weighted_kappa_repeat_mean_std": 0.005304852719561851,
+        "quadratic_weighted_kappa_oof_repeat_mean": 0.4884087204429912,
+        "quadratic_weighted_kappa_oof_repeat_std": 0.005978001303978133,
+        "first_repeat_quadratic_weighted_kappa": 0.48307560951553885,
+        "macro_roc_auc_ovr_mean": 0.7234902811769917,
+        "macro_roc_auc_ovr_std": 0.05043493679991847,
+        "macro_roc_auc_ovr_repeat_mean_std": 0.007244973151607847,
+        "macro_roc_auc_ovr_oof_repeat_mean": 0.7115694285651932,
+        "macro_roc_auc_ovr_oof_repeat_std": 0.014087255612826116,
+        "first_repeat_macro_roc_auc_ovr": 0.7147463501257413,
+        "macro_average_precision_ovr_mean": 0.34065117506255854,
+        "macro_average_precision_ovr_std": 0.04417386954441645,
+        "macro_average_precision_ovr_repeat_mean_std": 0.0063313729462134965,
+        "macro_average_precision_ovr_oof_repeat_mean": 0.29011708843723494,
+        "macro_average_precision_ovr_oof_repeat_std": 0.005781836179142559,
+        "first_repeat_macro_average_precision_ovr": 0.3413658922577852,
+        "mae_mean": 0.5606181034118294,
+        "mae_std": 0.05205158967501613,
+        "mae_repeat_mean_std": 0.011237128725437173,
+        "mae_oof_repeat_mean": 0.5606255749770008,
+        "mae_oof_repeat_std": 0.011246150351378928,
+        "first_repeat_mae": 0.5740244366465141,
+        "within_one_accuracy_mean": 0.9217934300088784,
+        "within_one_accuracy_std": 0.021011117949514047,
+        "within_one_accuracy_repeat_mean_std": 0.005454363173812143,
+        "within_one_accuracy_oof_repeat_mean": 0.9218031278748849,
+        "within_one_accuracy_oof_repeat_std": 0.00545810376235191,
+        "first_repeat_within_one_accuracy": 0.9162727772375596,
+        "cv_total_seconds": 0.5506374589749612,
+        "cv_fit_mean_seconds": 0.0024879032000899317,
+        "cv_fit_std_seconds": 0.00038416738284642734,
+        "cv_score_mean_seconds": 0.015344846644438803,
+        "warning_count": 0,
+        "quality_3_precision_mean": 0.13799999999999998,
+        "quality_3_precision_std": 0.1781085811146298,
+        "quality_3_recall_mean": 0.24,
+        "quality_3_recall_std": 0.32,
+        "quality_3_f1_mean": 0.16876190476190478,
+        "quality_3_f1_std": 0.21172900148073057,
+        "quality_4_precision_mean": 0.05442919888460685,
+        "quality_4_precision_std": 0.09070251476326971,
+        "quality_4_recall_mean": 0.07333333333333333,
+        "quality_4_recall_std": 0.12079469369426522,
+        "quality_4_f1_mean": 0.05675338345864661,
+        "quality_4_f1_std": 0.08410191322565616,
+        "quality_5_precision_mean": 0.6667559485896262,
+        "quality_5_precision_std": 0.03729959989371804,
+        "quality_5_recall_mean": 0.5996306685366993,
+        "quality_5_recall_std": 0.06541534685193823,
+        "quality_5_f1_mean": 0.6289461607993664,
+        "quality_5_f1_std": 0.040459788652030364,
+        "quality_6_precision_mean": 0.5166484609076453,
+        "quality_6_precision_std": 0.03449469316185682,
+        "quality_6_recall_mean": 0.54425170998632,
+        "quality_6_recall_std": 0.0775707949768975,
+        "quality_6_f1_mean": 0.5282887972774473,
+        "quality_6_f1_std": 0.051721693093495745,
+        "quality_7_precision_mean": 0.43150073333519584,
+        "quality_7_precision_std": 0.09291180930312608,
+        "quality_7_recall_mean": 0.418005698005698,
+        "quality_7_recall_std": 0.09181225419503222,
+        "quality_7_f1_mean": 0.41814316228422277,
+        "quality_7_f1_std": 0.07581000701289765,
+        "quality_8_precision_mean": 0.13066666666666665,
+        "quality_8_precision_std": 0.23919680414067224,
+        "quality_8_recall_mean": 0.10666666666666666,
+        "quality_8_recall_std": 0.155492050529208,
+        "quality_8_f1_mean": 0.10767765567765569,
+        "quality_8_f1_std": 0.16604749068769828,
+        "selected": false
+      }
+    },
+    "probe_source_row_indices": [
+      0,
+      51,
+      100,
+      151,
+      199,
+      252,
+      301,
+      348,
+      396,
+      447,
+      501,
+      552,
+      608,
+      657,
+      713,
+      761,
+      814,
+      863,
+      916,
+      974,
+      1026,
+      1075,
+      1124,
+      1172,
+      1225,
+      1283,
+      1333,
+      1392,
+      1444,
+      1494,
+      1544,
+      1598
+    ],
+    "test_evaluation_status": "NOT_PERFORMED",
+    "fit_identity": "d4a5cf60-7f86-4db5-8bd8-b4d5fb0fa7b3:gaussian_nb",
+    "artifact_role": "candidate",
+    "fit_reused_from_candidate": false
+  },
+  "artifact": {
+    "filename": "gaussian_nb.joblib",
+    "sha256": "e8942d1313682833f7040c5788f96961ff65ac9ae777354430316ef7b9feee00",
+    "file_size_bytes": 7020,
+    "serialization_seconds": 0.0014958749525249004
+  },
+  "round_trip": {
+    "status": "passed",
+    "probe_rows": 32,
+    "labels_identical": true,
+    "probabilities_identical": true,
+    "load_seconds": 0.008393375028390437,
+    "prediction_scope": "label-free development-feature smoke check, not a performance score",
+    "prediction_seconds": 0.001124959031585604,
+    "prediction_ms_per_sample": 0.035154969737050124,
+    "prediction_samples": 32,
+    "probability_prediction_seconds": 0.0008616250124759972
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "model_status": "FROZEN",
+  "model_sha256": "bd752c6dba6c3b51bd30b9dcb4c875f59a2595c52f2e925bc0f5be1217248059",
+  "new_model_fits": 1,
+  "new_searches": 0,
+  "holdout_evaluations": 0,
+  "files": {
+    "final_audit_report.md": "bda0373bc9dd826733fd88eedfe379858b8feeab9b093a2791974b6c2eb8a94f",
+    "fresh_kernel.json": "854aeb77dfcc0a7930c26dc2bf4f5815ad10a711c978e4dec778c3e1461a96d3",
+    "portable_model.json": "7f7027ea1a5f618815ff43a22eda7df0877e275578ca5accbab39cc86a285e0d",
+    "preservation.json": "02f5a2c09ab188cbcc723fe51210442c0e69bee26289a7bb3d6c1b8f09e0de70"
+  }
+}

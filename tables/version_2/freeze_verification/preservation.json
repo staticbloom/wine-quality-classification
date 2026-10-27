@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "prior_artifacts_unchanged": 449,
+  "prior_cells_unchanged": 463,
+  "all_cells_compile": true,
+  "freeze_checksums_verified": 21,
+  "source_absent": true
+}

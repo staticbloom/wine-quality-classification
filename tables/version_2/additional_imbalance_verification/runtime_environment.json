@@ -1,0 +1,47 @@
+{
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "processor": "arm",
+  "logical_cpus": 8,
+  "python": "3.14.7",
+  "versions": {
+    "numpy": "2.3.5",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": null,
+    "MKL_NUM_THREADS": null,
+    "OPENBLAS_NUM_THREADS": null,
+    "LOKY_MAX_CPU_COUNT": "1"
+  },
+  "native_threadpools": [
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 8,
+      "prefix": "libomp",
+      "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/venv/lib/python3.14/site-packages/sklearn/.dylibs/libomp.dylib",
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 8,
+      "prefix": "libomp",
+      "filepath": "/opt/homebrew/Cellar/libomp/23.1.1/lib/libomp.dylib",
+      "version": null
+    }
+  ],
+  "outer_cv": "sequential; estimator/search parallelism recorded in parameters",
+  "study_dependency_versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.9.1",
+    "imbalanced-learn": "0.14.2",
+    "scipy": "1.18.1",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.4.0"
+  }
+}

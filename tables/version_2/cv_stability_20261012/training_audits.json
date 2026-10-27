@@ -1,0 +1,9272 @@
+[
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 1,
+    "fold": 1,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 345,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 1,
+    "fold": 2,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 1,
+    "fold": 3,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 1,
+    "fold": 4,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 2,
+    "fold": 1,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 345,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 2,
+    "fold": 2,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 2,
+    "fold": 3,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 2,
+    "fold": 4,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 3,
+    "fold": 1,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 345,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 3,
+    "fold": 2,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 3,
+    "fold": 3,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 3,
+    "fold": 4,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 4,
+    "fold": 1,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 345,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 4,
+    "fold": 2,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 4,
+    "fold": 3,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 4,
+    "fold": 4,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 5,
+    "fold": 1,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 345,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 5,
+    "fold": 2,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 5,
+    "fold": 3,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 5,
+    "fold": 4,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 6,
+    "fold": 1,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 345,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 6,
+    "fold": 2,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 6,
+    "fold": 3,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 6,
+    "fold": 4,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 7,
+    "fold": 1,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 345,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 7,
+    "fold": 2,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 7,
+    "fold": 3,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 7,
+    "fold": 4,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 8,
+    "fold": 1,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 345,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 8,
+    "fold": 2,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 8,
+    "fold": 3,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 8,
+    "fold": 4,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 9,
+    "fold": 1,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 345,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 9,
+    "fold": 2,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 9,
+    "fold": 3,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 9,
+    "fold": 4,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 10,
+    "fold": 1,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 345,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 10,
+    "fold": 2,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 10,
+    "fold": 3,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 4,
+    "repeat": 10,
+    "fold": 4,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 1,
+    "fold": 1,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 345,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 1,
+    "fold": 2,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 1,
+    "fold": 3,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 1,
+    "fold": 4,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 2,
+    "fold": 1,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 345,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 2,
+    "fold": 2,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 2,
+    "fold": 3,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 2,
+    "fold": 4,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 3,
+    "fold": 1,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 345,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 3,
+    "fold": 2,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 3,
+    "fold": 3,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 3,
+    "fold": 4,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 4,
+    "fold": 1,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 345,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 4,
+    "fold": 2,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 4,
+    "fold": 3,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 4,
+    "fold": 4,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 5,
+    "fold": 1,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 345,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 5,
+    "fold": 2,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 5,
+    "fold": 3,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 5,
+    "fold": 4,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 6,
+    "fold": 1,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 345,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 6,
+    "fold": 2,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 6,
+    "fold": 3,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 6,
+    "fold": 4,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 7,
+    "fold": 1,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 345,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 7,
+    "fold": 2,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 7,
+    "fold": 3,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 7,
+    "fold": 4,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 8,
+    "fold": 1,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 345,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 8,
+    "fold": 2,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 8,
+    "fold": 3,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 8,
+    "fold": 4,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 9,
+    "fold": 1,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 345,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 9,
+    "fold": 2,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 9,
+    "fold": 3,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 9,
+    "fold": 4,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 10,
+    "fold": 1,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 345,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 10,
+    "fold": 2,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 10,
+    "fold": 3,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 96,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 30
+    },
+    "targets": {
+      "3": 18,
+      "4": 96,
+      "7": 173,
+      "8": 30
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 4,
+    "repeat": 10,
+    "fold": 4,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 93,
+      "5": 346,
+      "6": 321,
+      "7": 173,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 93,
+      "7": 173,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 1,
+    "fold": 1,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 1,
+    "fold": 2,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 1,
+    "fold": 3,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 1,
+    "fold": 4,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 2,
+    "fold": 1,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 2,
+    "fold": 2,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 2,
+    "fold": 3,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 2,
+    "fold": 4,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 3,
+    "fold": 1,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 3,
+    "fold": 2,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 3,
+    "fold": 3,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 3,
+    "fold": 4,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 4,
+    "fold": 1,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 4,
+    "fold": 2,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 4,
+    "fold": 3,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 4,
+    "fold": 4,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 5,
+    "fold": 1,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 5,
+    "fold": 2,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 5,
+    "fold": 3,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 5,
+    "fold": 4,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 6,
+    "fold": 1,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 6,
+    "fold": 2,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 6,
+    "fold": 3,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 6,
+    "fold": 4,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 7,
+    "fold": 1,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 7,
+    "fold": 2,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 7,
+    "fold": 3,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 7,
+    "fold": 4,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 8,
+    "fold": 1,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 8,
+    "fold": 2,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 8,
+    "fold": 3,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 8,
+    "fold": 4,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 9,
+    "fold": 1,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 9,
+    "fold": 2,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 9,
+    "fold": 3,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 9,
+    "fold": 4,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 10,
+    "fold": 1,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 345,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 10,
+    "fold": 2,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 10,
+    "fold": 3,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 32,
+      "5": 346,
+      "6": 321,
+      "7": 100,
+      "8": 10
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 815,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 4,
+    "repeat": 10,
+    "fold": 4,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 31,
+      "5": 346,
+      "6": 321,
+      "7": 101,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 816,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 1,
+    "fold": 1,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 368,
+      "6": 343,
+      "7": 184,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 184,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 1,
+    "fold": 2,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 1,
+    "fold": 3,
+    "kind": "smote",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 1,
+    "fold": 4,
+    "kind": "smote",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 99,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 99,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 1,
+    "fold": 5,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 99,
+      "5": 369,
+      "6": 343,
+      "7": 185,
+      "8": 36
+    },
+    "targets": {
+      "3": 18,
+      "4": 99,
+      "7": 185,
+      "8": 36
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 2,
+    "fold": 1,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 368,
+      "6": 343,
+      "7": 184,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 184,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 2,
+    "fold": 2,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 2,
+    "fold": 3,
+    "kind": "smote",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 2,
+    "fold": 4,
+    "kind": "smote",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 99,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 99,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 2,
+    "fold": 5,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 99,
+      "5": 369,
+      "6": 343,
+      "7": 185,
+      "8": 36
+    },
+    "targets": {
+      "3": 18,
+      "4": 99,
+      "7": 185,
+      "8": 36
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 3,
+    "fold": 1,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 368,
+      "6": 343,
+      "7": 184,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 184,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 3,
+    "fold": 2,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 3,
+    "fold": 3,
+    "kind": "smote",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 3,
+    "fold": 4,
+    "kind": "smote",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 99,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 99,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 3,
+    "fold": 5,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 99,
+      "5": 369,
+      "6": 343,
+      "7": 185,
+      "8": 36
+    },
+    "targets": {
+      "3": 18,
+      "4": 99,
+      "7": 185,
+      "8": 36
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 4,
+    "fold": 1,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 368,
+      "6": 343,
+      "7": 184,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 184,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 4,
+    "fold": 2,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 4,
+    "fold": 3,
+    "kind": "smote",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 4,
+    "fold": 4,
+    "kind": "smote",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 99,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 99,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 4,
+    "fold": 5,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 99,
+      "5": 369,
+      "6": 343,
+      "7": 185,
+      "8": 36
+    },
+    "targets": {
+      "3": 18,
+      "4": 99,
+      "7": 185,
+      "8": 36
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 5,
+    "fold": 1,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 368,
+      "6": 343,
+      "7": 184,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 184,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 5,
+    "fold": 2,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 5,
+    "fold": 3,
+    "kind": "smote",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 5,
+    "fold": 4,
+    "kind": "smote",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 99,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 99,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 5,
+    "fold": 5,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 99,
+      "5": 369,
+      "6": 343,
+      "7": 185,
+      "8": 36
+    },
+    "targets": {
+      "3": 18,
+      "4": 99,
+      "7": 185,
+      "8": 36
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 6,
+    "fold": 1,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 368,
+      "6": 343,
+      "7": 184,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 184,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 6,
+    "fold": 2,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 6,
+    "fold": 3,
+    "kind": "smote",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 6,
+    "fold": 4,
+    "kind": "smote",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 99,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 99,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 6,
+    "fold": 5,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 99,
+      "5": 369,
+      "6": 343,
+      "7": 185,
+      "8": 36
+    },
+    "targets": {
+      "3": 18,
+      "4": 99,
+      "7": 185,
+      "8": 36
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 7,
+    "fold": 1,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 368,
+      "6": 343,
+      "7": 184,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 184,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 7,
+    "fold": 2,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 7,
+    "fold": 3,
+    "kind": "smote",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 7,
+    "fold": 4,
+    "kind": "smote",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 99,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 99,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 7,
+    "fold": 5,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 99,
+      "5": 369,
+      "6": 343,
+      "7": 185,
+      "8": 36
+    },
+    "targets": {
+      "3": 18,
+      "4": 99,
+      "7": 185,
+      "8": 36
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 8,
+    "fold": 1,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 368,
+      "6": 343,
+      "7": 184,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 184,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 8,
+    "fold": 2,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 8,
+    "fold": 3,
+    "kind": "smote",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 8,
+    "fold": 4,
+    "kind": "smote",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 99,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 99,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 8,
+    "fold": 5,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 99,
+      "5": 369,
+      "6": 343,
+      "7": 185,
+      "8": 36
+    },
+    "targets": {
+      "3": 18,
+      "4": 99,
+      "7": 185,
+      "8": 36
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 9,
+    "fold": 1,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 368,
+      "6": 343,
+      "7": 184,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 184,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 9,
+    "fold": 2,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 9,
+    "fold": 3,
+    "kind": "smote",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 9,
+    "fold": 4,
+    "kind": "smote",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 99,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 99,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 9,
+    "fold": 5,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 99,
+      "5": 369,
+      "6": 343,
+      "7": 185,
+      "8": 36
+    },
+    "targets": {
+      "3": 18,
+      "4": 99,
+      "7": 185,
+      "8": 36
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 10,
+    "fold": 1,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 368,
+      "6": 343,
+      "7": 184,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 184,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 10,
+    "fold": 2,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 10,
+    "fold": 3,
+    "kind": "smote",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 10,
+    "fold": 4,
+    "kind": "smote",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 99,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 99,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "lda__smote",
+    "n_splits": 5,
+    "repeat": 10,
+    "fold": 5,
+    "kind": "smote",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 99,
+      "5": 369,
+      "6": 343,
+      "7": 185,
+      "8": 36
+    },
+    "targets": {
+      "3": 18,
+      "4": 99,
+      "7": 185,
+      "8": 36
+    },
+    "skipped_classes": {},
+    "effective_k": 3,
+    "requested_k": 3,
+    "standardize_distance": false,
+    "native_sampler": "SMOTE",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 1,
+    "fold": 1,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 368,
+      "6": 343,
+      "7": 184,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 184,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 1,
+    "fold": 2,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 1,
+    "fold": 3,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 1,
+    "fold": 4,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 99,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 99,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 1,
+    "fold": 5,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 99,
+      "5": 369,
+      "6": 343,
+      "7": 185,
+      "8": 36
+    },
+    "targets": {
+      "3": 18,
+      "4": 99,
+      "7": 185,
+      "8": 36
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 2,
+    "fold": 1,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 368,
+      "6": 343,
+      "7": 184,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 184,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 2,
+    "fold": 2,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 2,
+    "fold": 3,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 2,
+    "fold": 4,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 99,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 99,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 2,
+    "fold": 5,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 99,
+      "5": 369,
+      "6": 343,
+      "7": 185,
+      "8": 36
+    },
+    "targets": {
+      "3": 18,
+      "4": 99,
+      "7": 185,
+      "8": 36
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 3,
+    "fold": 1,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 368,
+      "6": 343,
+      "7": 184,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 184,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 3,
+    "fold": 2,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 3,
+    "fold": 3,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 3,
+    "fold": 4,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 99,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 99,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 3,
+    "fold": 5,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 99,
+      "5": 369,
+      "6": 343,
+      "7": 185,
+      "8": 36
+    },
+    "targets": {
+      "3": 18,
+      "4": 99,
+      "7": 185,
+      "8": 36
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 4,
+    "fold": 1,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 368,
+      "6": 343,
+      "7": 184,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 184,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 4,
+    "fold": 2,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 4,
+    "fold": 3,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 4,
+    "fold": 4,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 99,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 99,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 4,
+    "fold": 5,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 99,
+      "5": 369,
+      "6": 343,
+      "7": 185,
+      "8": 36
+    },
+    "targets": {
+      "3": 18,
+      "4": 99,
+      "7": 185,
+      "8": 36
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 5,
+    "fold": 1,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 368,
+      "6": 343,
+      "7": 184,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 184,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 5,
+    "fold": 2,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 5,
+    "fold": 3,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 5,
+    "fold": 4,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 99,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 99,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 5,
+    "fold": 5,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 99,
+      "5": 369,
+      "6": 343,
+      "7": 185,
+      "8": 36
+    },
+    "targets": {
+      "3": 18,
+      "4": 99,
+      "7": 185,
+      "8": 36
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 6,
+    "fold": 1,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 368,
+      "6": 343,
+      "7": 184,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 184,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 6,
+    "fold": 2,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 6,
+    "fold": 3,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 6,
+    "fold": 4,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 99,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 99,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 6,
+    "fold": 5,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 99,
+      "5": 369,
+      "6": 343,
+      "7": 185,
+      "8": 36
+    },
+    "targets": {
+      "3": 18,
+      "4": 99,
+      "7": 185,
+      "8": 36
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 7,
+    "fold": 1,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 368,
+      "6": 343,
+      "7": 184,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 184,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 7,
+    "fold": 2,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 7,
+    "fold": 3,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 7,
+    "fold": 4,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 99,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 99,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 7,
+    "fold": 5,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 99,
+      "5": 369,
+      "6": 343,
+      "7": 185,
+      "8": 36
+    },
+    "targets": {
+      "3": 18,
+      "4": 99,
+      "7": 185,
+      "8": 36
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 8,
+    "fold": 1,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 368,
+      "6": 343,
+      "7": 184,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 184,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 8,
+    "fold": 2,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 8,
+    "fold": 3,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 8,
+    "fold": 4,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 99,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 99,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 8,
+    "fold": 5,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 99,
+      "5": 369,
+      "6": 343,
+      "7": 185,
+      "8": 36
+    },
+    "targets": {
+      "3": 18,
+      "4": 99,
+      "7": 185,
+      "8": 36
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 9,
+    "fold": 1,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 368,
+      "6": 343,
+      "7": 184,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 184,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 9,
+    "fold": 2,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 9,
+    "fold": 3,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 9,
+    "fold": 4,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 99,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 99,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 9,
+    "fold": 5,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 99,
+      "5": 369,
+      "6": 343,
+      "7": 185,
+      "8": 36
+    },
+    "targets": {
+      "3": 18,
+      "4": 99,
+      "7": 185,
+      "8": 36
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 10,
+    "fold": 1,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 368,
+      "6": 343,
+      "7": 184,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 184,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 10,
+    "fold": 2,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 18,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 10,
+    "fold": 3,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 102,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 102,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 10,
+    "fold": 4,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 21,
+      "4": 99,
+      "5": 369,
+      "6": 342,
+      "7": 185,
+      "8": 33
+    },
+    "targets": {
+      "3": 21,
+      "4": 99,
+      "7": 185,
+      "8": 33
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "logistic_regression__random_over",
+    "n_splits": 5,
+    "repeat": 10,
+    "fold": 5,
+    "kind": "random_over",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 18,
+      "4": 99,
+      "5": 369,
+      "6": 343,
+      "7": 185,
+      "8": 36
+    },
+    "targets": {
+      "3": 18,
+      "4": 99,
+      "7": 185,
+      "8": 36
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "requested_k": null,
+    "standardize_distance": false,
+    "native_sampler": "RandomOverSampler",
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 1,
+    "fold": 1,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 1,
+    "fold": 2,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 1,
+    "fold": 3,
+    "kind": "original",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 1,
+    "fold": 4,
+    "kind": "original",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 1,
+    "fold": 5,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 2,
+    "fold": 1,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 2,
+    "fold": 2,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 2,
+    "fold": 3,
+    "kind": "original",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 2,
+    "fold": 4,
+    "kind": "original",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 2,
+    "fold": 5,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 3,
+    "fold": 1,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 3,
+    "fold": 2,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 3,
+    "fold": 3,
+    "kind": "original",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 3,
+    "fold": 4,
+    "kind": "original",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 3,
+    "fold": 5,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 4,
+    "fold": 1,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 4,
+    "fold": 2,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 4,
+    "fold": 3,
+    "kind": "original",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 4,
+    "fold": 4,
+    "kind": "original",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 4,
+    "fold": 5,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 5,
+    "fold": 1,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 5,
+    "fold": 2,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 5,
+    "fold": 3,
+    "kind": "original",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 5,
+    "fold": 4,
+    "kind": "original",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 5,
+    "fold": 5,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 6,
+    "fold": 1,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 6,
+    "fold": 2,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 6,
+    "fold": 3,
+    "kind": "original",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 6,
+    "fold": 4,
+    "kind": "original",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 6,
+    "fold": 5,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 7,
+    "fold": 1,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 7,
+    "fold": 2,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 7,
+    "fold": 3,
+    "kind": "original",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 7,
+    "fold": 4,
+    "kind": "original",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 7,
+    "fold": 5,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 8,
+    "fold": 1,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 8,
+    "fold": 2,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 8,
+    "fold": 3,
+    "kind": "original",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 8,
+    "fold": 4,
+    "kind": "original",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 8,
+    "fold": 5,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 9,
+    "fold": 1,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 9,
+    "fold": 2,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 9,
+    "fold": 3,
+    "kind": "original",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 9,
+    "fold": 4,
+    "kind": "original",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 9,
+    "fold": 5,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 10,
+    "fold": 1,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 368,
+      "6": 343,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 10,
+    "fold": 2,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 869,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 10,
+    "fold": 3,
+    "kind": "original",
+    "before_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 7,
+      "4": 34,
+      "5": 369,
+      "6": 342,
+      "7": 107,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 10,
+    "fold": 4,
+    "kind": "original",
+    "before_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "after_counts": {
+      "3": 7,
+      "4": 33,
+      "5": 369,
+      "6": 342,
+      "7": 108,
+      "8": 11
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  },
+  {
+    "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+    "baseline": "gaussian_nb__original",
+    "n_splits": 5,
+    "repeat": 10,
+    "fold": 5,
+    "kind": "original",
+    "before_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "after_counts": {
+      "3": 6,
+      "4": 33,
+      "5": 369,
+      "6": 343,
+      "7": 107,
+      "8": 12
+    },
+    "skipped_classes": {},
+    "effective_k": null,
+    "class_weights": {},
+    "scaler_training_rows": 870,
+    "scaler_mean_matches_training": true
+  }
+]

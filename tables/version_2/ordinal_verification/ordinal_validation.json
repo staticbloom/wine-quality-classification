@@ -1,0 +1,376 @@
+{
+  "status": "passed",
+  "completed_at_utc": "2026-10-15T07:17:36.424600+00:00",
+  "scope": "Version 2 ordinal classification: exact cumulative logit, independent ordered binary thresholds with PAVA, and nominal logistic control; 8 candidates per family, inner-only ordinal family selection, 4x10 outer/3-fold inner CV; development data only",
+  "source_notebook_sha256": "e091446fd9de212cbaea2f603d6a688203d37fad5a327e67a22ec3a267ac6eb8",
+  "study_manifest_sha256": "a3c8ebab42d28035eceb88a75f9ffdc422a596f3305d4c6d22c2241dcbbd6e40",
+  "study_files_verified": 19,
+  "kernel_executions": {
+    "run": {
+      "fresh_kernel": true,
+      "guarded_wine_calls": {
+        "fit": 3000,
+        "native_fit": 6000,
+        "optimizer": 1000,
+        "outer_family_calls": 120,
+        "predict": 3000,
+        "scaler": 3000
+      },
+      "evidence_validation": {
+        "coherent_probability_reconstruction": true,
+        "development_predictions": 43480,
+        "development_rows": 1087,
+        "exact_split_reconstruction": true,
+        "holdout_evaluations": 0,
+        "inner_only_selection": true,
+        "inner_score_rows": 2880,
+        "metrics_recomputed": true,
+        "outer_evaluations": 160,
+        "per_class_rows": 960,
+        "status": "passed",
+        "training_audits_checked": true,
+        "training_fits": 3000
+      },
+      "evidence_mutation_checks": {
+        "checks": [
+          "outer_prediction",
+          "crossing_probability",
+          "inner_selection",
+          "training_membership",
+          "training_weight"
+        ],
+        "count": 5,
+        "status": "passed",
+        "wine_fits": 0
+      },
+      "executed_kernel_notebook_sha256": "b29df616084c991413d58f2887511007372728530afc79fb242c9bc9a4b91163"
+    },
+    "replay": {
+      "fresh_kernel": true,
+      "guarded_wine_calls": {
+        "fit": 0,
+        "native_fit": 0,
+        "optimizer": 0,
+        "outer_family_calls": 0,
+        "predict": 0,
+        "scaler": 0
+      },
+      "evidence_validation": {
+        "coherent_probability_reconstruction": true,
+        "development_predictions": 43480,
+        "development_rows": 1087,
+        "exact_split_reconstruction": true,
+        "holdout_evaluations": 0,
+        "inner_only_selection": true,
+        "inner_score_rows": 2880,
+        "metrics_recomputed": true,
+        "outer_evaluations": 160,
+        "per_class_rows": 960,
+        "status": "passed",
+        "training_audits_checked": true,
+        "training_fits": 3000
+      },
+      "evidence_mutation_checks": {
+        "checks": [
+          "outer_prediction",
+          "crossing_probability",
+          "inner_selection",
+          "training_membership",
+          "training_weight"
+        ],
+        "count": 5,
+        "status": "passed",
+        "wine_fits": 0
+      },
+      "executed_kernel_notebook_sha256": "99892bb5dce04c584bd8a269de11f64dad8b78969274a4b94dd75a79e443eb5c"
+    }
+  },
+  "full_notebook_replay": {
+    "status": "COMPLETE",
+    "scope": "notebook_local_self_tests_and_frozen_report_replay",
+    "completed_at_utc": "2026-10-15T07:17:22.084925+00:00",
+    "python_executable": "/Users/shivsharma/Documents/projects/Finesse-Project3/venv/bin/python",
+    "python_version": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "working_directory": "/Users/shivsharma/Documents/projects/Finesse-Project3/notebook",
+    "clean_dependency_install": false,
+    "fresh_kernel": true,
+    "prior_outputs_cleared": true,
+    "code_cells": 250,
+    "self_tests": {
+      "errors": 0,
+      "failures": 0,
+      "tests_run": 71
+    },
+    "project_imports_blocked": true,
+    "source_directory_access_blocked": true,
+    "source_directory_exists": false,
+    "embedded_figures": 21,
+    "wall_seconds_including_kernel_startup": 172.96081725001568,
+    "new_wine_training_calls": 0,
+    "new_test_prediction_calls": 0,
+    "illustrative_prediction_rows": 2,
+    "all_protected_files_unchanged": true,
+    "exact_pre_migration_prediction_match": false,
+    "source_notebook_sha256": "e091446fd9de212cbaea2f603d6a688203d37fad5a327e67a22ec3a267ac6eb8",
+    "executed_copy": "tables/version_2/ordinal_verification/notebook_migration_executed_notebook.ipynb",
+    "executed_copy_sha256": "60156c1604e276955cd7e947b3b46676d432acc74d30f1c03800c19b1b5fbfd7"
+  },
+  "framework_checks": {
+    "nested": {
+      "status": "passed",
+      "checks": 12,
+      "synthetic_fits": 27,
+      "wine_training_rows": 0,
+      "checks_include": "outer-feature/label perturbation invariance, fold membership, preprocessing audits, deterministic ties, invalid folds/parameters"
+    },
+    "rbf": {
+      "status": "passed",
+      "checks": 12,
+      "wine_training_rows": 0,
+      "coverage": "determinism, bounds, independent six-class weights, outer perturbation, AP score semantics, ties, scaler audits and invalid inputs"
+    },
+    "xgboost": {
+      "status": "passed",
+      "checks": 19,
+      "coverage": [
+        "deterministic bounded pool",
+        "matched hyperparameter budgets",
+        "coverage of all nine conservative parameter ranges",
+        "six independently varied moderated multipliers",
+        "unit and inverse-frequency formulas",
+        "moderation cap and mean-one normalization",
+        "native encoded labels, sample_weight routing and no eval_set/early stopping",
+        "all native fits use the exact current training rows and weights",
+        "outer feature/label perturbations leave inner choices and fitting unchanged",
+        "decoded predictions and probability-column alignment",
+        "inner weights cannot be precomputed from outer-training class frequencies",
+        "deterministic candidate-order tie resolution",
+        "invalid input rejection 1",
+        "invalid input rejection 2",
+        "invalid input rejection 3",
+        "invalid input rejection 4",
+        "invalid input rejection 5",
+        "invalid input rejection 6",
+        "invalid input rejection 7"
+      ],
+      "wine_training_rows": 0
+    },
+    "catboost": {
+      "status": "passed",
+      "checks": 19,
+      "coverage": [
+        "deterministic bounded 96-candidate pool",
+        "identical tree recipes and budget across four arms",
+        "all six parameter ranges and independent six-class custom weights",
+        "native Balanced/SqrtBalanced formulas and unmodified explicit custom weights",
+        "native training is silent and disables CatBoost file output",
+        "native SqrtBalanced supported and effective weights verified for every fit",
+        "no eval_set, early stopping, external sample weights or mixed weighting policies",
+        "exact native fold membership",
+        "outer feature/label perturbation leaves multiple-candidate selection unchanged",
+        "native class-label and probability alignment",
+        "automatic weights use inner training counts, not outer-training counts",
+        "sklearn Macro F1 selection with deterministic exact ties",
+        "invalid input rejection 1",
+        "invalid input rejection 2",
+        "invalid input rejection 3",
+        "invalid input rejection 4",
+        "invalid input rejection 5",
+        "invalid input rejection 6",
+        "invalid input rejection 7"
+      ],
+      "wine_training_rows": 0,
+      "sqrt_balanced_supported": true
+    },
+    "lightgbm": {
+      "status": "passed",
+      "checks": 23,
+      "coverage": [
+        "deterministic bounded pool",
+        "matched hyperparameter budgets",
+        "all valid bounded leaves/depth pairs covered",
+        "coverage of all nine conservative parameter ranges",
+        "six independently varied moderated multipliers",
+        "unit and sklearn-balanced sample-weight formulas",
+        "moderation cap and mean-one normalization",
+        "native original labels, sample_weight routing and no eval_set/early stopping",
+        "all native fits use the exact current training rows and weights",
+        "outer feature/label perturbations leave inner choices and fitting unchanged",
+        "decoded predictions and probability-column alignment",
+        "active row bagging, disabled feature prefilter, single-thread silent CPU settings",
+        "inner weights cannot be precomputed from outer-training class frequencies",
+        "deterministic candidate-order tie resolution",
+        "invalid input rejection 1",
+        "invalid input rejection 2",
+        "invalid input rejection 3",
+        "invalid input rejection 4",
+        "invalid input rejection 5",
+        "invalid input rejection 6",
+        "invalid input rejection 7",
+        "invalid input rejection 8",
+        "invalid input rejection 9"
+      ],
+      "wine_training_rows": 0
+    },
+    "forests": {
+      "status": "passed",
+      "checks": 22,
+      "coverage": [
+        "deterministic bounded 96-candidate pool",
+        "all six parameter ranges and four custom dictionaries covered",
+        "matched core settings and budget across eight procedures",
+        "native fits receive only exact training inputs and no external sample weights",
+        "all native family/class-weight/bootstrap settings route correctly",
+        "outer features/labels and importance diagnostics cannot affect inner selection or fits",
+        "probability and original class-label alignment",
+        "every fitted tree obeys depth and minimum unique-leaf-row limits",
+        "native bootstrap samples and root class masses independently reconstructed for every tree",
+        "both estimators support per-bootstrap balancing including missing rare classes",
+        "deterministic within-validation one-feature permutations preserve row membership",
+        "signed permutation values, rank correlation and top3 overlap calculations",
+        "deterministic tie resolution",
+        "invalid input rejection 1",
+        "invalid input rejection 2",
+        "invalid input rejection 3",
+        "invalid input rejection 4",
+        "invalid input rejection 5",
+        "invalid input rejection 6",
+        "invalid input rejection 7",
+        "invalid input rejection 8",
+        "invalid input rejection 9"
+      ],
+      "wine_training_rows": 0
+    },
+    "oversampling": {
+      "status": "passed",
+      "checks": 30,
+      "framework_checks": 15,
+      "summary_checks": 15,
+      "synthetic_model_fits": 36,
+      "wine_training_rows": 0,
+      "framework_coverage": [
+        "deterministic bounded pool and fixed candidate identities",
+        "fixed model recipes isolate sampler changes",
+        "training-derived targets, rare absolute caps and unchanged middle classes",
+        "all 25 sampler candidates preserve real rows and audit native additions",
+        "infeasible fixed k fails without fallback or silent adaptation",
+        "tree SMOTE geometry uses real training moments and restores genuine rows exactly",
+        "all four families and all three methods fit and expose aligned prediction APIs",
+        "model scaling is fitted on original training rows before resampling",
+        "exact source/moment/count provenance and sklearn clone compatibility",
+        "prediction and ranking-score paths never invoke resampling",
+        "misaligned data, unsupported schemas and invalid candidate controls are rejected",
+        "all inner fits and outer refits use only registered training membership",
+        "outer feature/label perturbation cannot change inner selection or training audits",
+        "exact ties prefer fewer additions then fixed order without relaxing primary F1",
+        "caps never discard genuine observations and malformed profiles fail"
+      ],
+      "summary_coverage": "fixed-six counts, undefined precision, rare precision-collapse flags, paired changes, population SD, pooled-label-only metrics and invalid evidence"
+    },
+    "additional_imbalance": {
+      "status": "passed",
+      "checks": 12,
+      "coverage": [
+        "registered bounded method choices and explicit exclusions",
+        "all27 samplers preserve minority genuine observations and obey caps/count equations",
+        "protected Tomek removes only real quality5/6 endpoints with independently reconstructed links",
+        "boundary and matched SMOTE never augment qualities3/8",
+        "no-danger BoundarySMOTE explicitly generates no samples without fallback",
+        "both fixed families and every method fit with training-only scaling and aligned probabilities",
+        "prediction never invokes sampler or cleaner",
+        "all inner/outer fit memberships verified; outer perturbations cannot affect training or selection",
+        "joint sampler selection reuses only its inner-selected method winner",
+        "standard-SMOTE and matched-coverage paired metric/precision summaries",
+        "exact ties prefer fewer additions then fewer deletions then fixed order",
+        "unsupported families, unregistered configurations and row misalignment rejected"
+      ],
+      "synthetic_model_fits": 60,
+      "wine_training_rows": 0
+    },
+    "ordinal": {
+      "status": "passed",
+      "checks": 16,
+      "coverage": [
+        "frozen bounded candidate registry distinguishes two ordinal objectives from nominal control",
+        "exact categorical cumulative-link NLL and every analytic gradient component independently verified",
+        "extreme latent scores and nearly coincident ordered cutpoints retain finite loss and gradient",
+        "PAVA preserves threshold identities; endpoint and interior probability reconstruction is exact",
+        "sample weights use actual six-class training frequencies and have mean one",
+        "all three families clone and fit with training-only canonical schema and scaler statistics",
+        "five binary targets are strictly Y>q and all heads share original six-class sample weights",
+        "nominal class columns and derived survival probabilities preserve six-class identity",
+        "nominal exact ties and native probabilities survive derived-tail roundoff repair unchanged",
+        "every metric uses fixed probability argmax predictions, with exact ties to lower quality",
+        "validation prediction never refits a scaler, classifier or cumulative optimizer",
+        "both ordinal models recover increasing direction on synthetic ordered latent data",
+        "all three model searches use inner-fold training only; outer feature/label perturbations leave fitting and selection identical",
+        "Macro F1 ties use the frozen order, never supporting QWK or outer scores",
+        "invalid probabilities, missing classes, schemas, candidate identities and overlapping rows fail closed",
+        "optimizer failure aborts the candidate and invalidates any previous successful fit"
+      ],
+      "synthetic_model_fits": 48,
+      "forced_failed_synthetic_fits": 1,
+      "wine_training_rows": 0
+    }
+  },
+  "total_tests_and_framework_checks": 241,
+  "prior_notebook_cells_preserved_exactly": 408,
+  "prior_notebook_metadata_preserved_exactly": true,
+  "prior_artifact_hashes_preserved": 413,
+  "source_directory_exists": false,
+  "holdout_evaluations": 0,
+  "study_access_guards": "Experiment blocked historical holdout/model/result reads and all resampling; checked exact raw fitting and validation rows, training-only scaler statistics, native logistic targets and six-class weights, and cumulative optimizer inputs. Inner-only selection, derived ordinal-family choice, class probabilities, monotonicity, class supports, all reported metrics, and solver convergence were validated. Synthetic checks independently verified the exact likelihood gradient and probability reconstruction.",
+  "new_experiment_result_label": "Development CV estimate",
+  "full_development_model_fitted": false,
+  "independent_review": {
+    "status": "passed",
+    "outer_evaluations_recomputed": 160,
+    "primary_metrics_and_per_class_metrics_recomputed": true,
+    "paired_comparisons_and_reconstruction_diagnostics_checked": true,
+    "wine_fits": 0
+  },
+  "synthetic_end_to_end_fixture": {
+    "status": "passed",
+    "rows": 108,
+    "fits": 3000,
+    "wine_data_access_blocked": true,
+    "evidence_mutation_checks": 5
+  },
+  "runtime_environment": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "processor": "arm",
+    "logical_cpus": 8,
+    "python": "3.14.7",
+    "versions": {
+      "numpy": "2.3.5",
+      "scikit-learn": "1.9.1",
+      "joblib": "1.6.0"
+    },
+    "thread_environment": {
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "LOKY_MAX_CPU_COUNT": "1"
+    },
+    "native_threadpools": [
+      {
+        "user_api": "openmp",
+        "internal_api": "openmp",
+        "num_threads": 8,
+        "prefix": "libomp",
+        "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/venv/lib/python3.14/site-packages/sklearn/.dylibs/libomp.dylib",
+        "version": null
+      },
+      {
+        "user_api": "openmp",
+        "internal_api": "openmp",
+        "num_threads": 8,
+        "prefix": "libomp",
+        "filepath": "/opt/homebrew/Cellar/libomp/23.1.1/lib/libomp.dylib",
+        "version": null
+      }
+    ],
+    "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+  }
+}

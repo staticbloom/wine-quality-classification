@@ -1,0 +1,174 @@
+{
+  "status": "passed",
+  "completed_at_utc": "2026-10-13T12:07:30.972187+00:00",
+  "scope": "Version 2 CatBoost nested repeated-CV weighting study plus direct comparison with fixed LDA-SMOTE, tuned SVM and all tuned XGBoost arms; development data only",
+  "source_notebook_sha256": "d8747f25ad5f1eafda3661c6c2c04e987ebdd41d97c3f76ed9c76d4a28aa66d8",
+  "study_manifest_sha256": "cfc25a6e011e053db954f4dd900505cb8ace1d06dbe695c0001f6a8a794eeb7f",
+  "study_files_verified": 25,
+  "kernel_executions": {
+    "run": {
+      "fresh_kernel": true,
+      "guarded_wine_calls": {
+        "fit": 11680,
+        "native_fit": 11680,
+        "predict": 11680,
+        "proba": 160,
+        "outer_folds": 40
+      },
+      "evidence_validation": {
+        "development_rows": 1087,
+        "direct_comparison_evaluations": 360,
+        "direct_comparison_models": 9,
+        "holdout_evaluations": 0,
+        "inner_catboost_fits": 11520,
+        "outer_catboost_fits": 160,
+        "outer_evaluations": 160,
+        "status": "passed"
+      },
+      "executed_kernel_notebook_sha256": "2dbbe174e46ba03290adcfdacfdd62260d49470f8ff0b70bb49b167255689fef"
+    },
+    "replay": {
+      "fresh_kernel": true,
+      "guarded_wine_calls": {
+        "fit": 0,
+        "native_fit": 0,
+        "predict": 0,
+        "proba": 0,
+        "outer_folds": 0
+      },
+      "evidence_validation": {
+        "development_rows": 1087,
+        "direct_comparison_evaluations": 360,
+        "direct_comparison_models": 9,
+        "holdout_evaluations": 0,
+        "inner_catboost_fits": 11520,
+        "outer_catboost_fits": 160,
+        "outer_evaluations": 160,
+        "status": "passed"
+      },
+      "executed_kernel_notebook_sha256": "590711f3101407e40f1108f46e082ecce58b2382d4e36c8c4c2e60de2958b813"
+    }
+  },
+  "full_notebook_replay": {
+    "status": "COMPLETE",
+    "scope": "notebook_local_self_tests_and_frozen_report_replay",
+    "completed_at_utc": "2026-10-13T12:06:00.969999+00:00",
+    "python_executable": "/Users/shivsharma/Documents/projects/Finesse-Project3/venv/bin/python",
+    "python_version": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "working_directory": "/Users/shivsharma/Documents/projects/Finesse-Project3/notebook",
+    "clean_dependency_install": false,
+    "fresh_kernel": true,
+    "prior_outputs_cleared": true,
+    "code_cells": 183,
+    "self_tests": {
+      "errors": 0,
+      "failures": 0,
+      "tests_run": 71
+    },
+    "project_imports_blocked": true,
+    "source_directory_access_blocked": true,
+    "source_directory_exists": false,
+    "embedded_figures": 21,
+    "wall_seconds_including_kernel_startup": 70.46852354198927,
+    "new_wine_training_calls": 0,
+    "new_test_prediction_calls": 0,
+    "illustrative_prediction_rows": 2,
+    "all_protected_files_unchanged": true,
+    "exact_pre_migration_prediction_match": false,
+    "source_notebook_sha256": "d8747f25ad5f1eafda3661c6c2c04e987ebdd41d97c3f76ed9c76d4a28aa66d8",
+    "executed_copy": "tables/version_2/catboost_verification/notebook_migration_executed_notebook.ipynb",
+    "executed_copy_sha256": "0a9ba5fb5e891f71ade57e3ace46a232ca5902e6ea09f4aa7b43b259d7e46158"
+  },
+  "framework_checks": {
+    "nested": {
+      "status": "passed",
+      "checks": 12,
+      "synthetic_fits": 27,
+      "wine_training_rows": 0,
+      "checks_include": "outer-feature/label perturbation invariance, fold membership, preprocessing audits, deterministic ties, invalid folds/parameters"
+    },
+    "rbf": {
+      "status": "passed",
+      "checks": 12,
+      "wine_training_rows": 0,
+      "coverage": "determinism, bounds, independent six-class weights, outer perturbation, AP score semantics, ties, scaler audits and invalid inputs"
+    },
+    "xgboost": {
+      "status": "passed",
+      "checks": 19,
+      "coverage": [
+        "deterministic bounded pool",
+        "matched hyperparameter budgets",
+        "coverage of all nine conservative parameter ranges",
+        "six independently varied moderated multipliers",
+        "unit and inverse-frequency formulas",
+        "moderation cap and mean-one normalization",
+        "native encoded labels, sample_weight routing and no eval_set/early stopping",
+        "all native fits use the exact current training rows and weights",
+        "outer feature/label perturbations leave inner choices and fitting unchanged",
+        "decoded predictions and probability-column alignment",
+        "inner weights cannot be precomputed from outer-training class frequencies",
+        "deterministic candidate-order tie resolution",
+        "invalid input rejection 1",
+        "invalid input rejection 2",
+        "invalid input rejection 3",
+        "invalid input rejection 4",
+        "invalid input rejection 5",
+        "invalid input rejection 6",
+        "invalid input rejection 7"
+      ],
+      "wine_training_rows": 0
+    },
+    "catboost": {
+      "status": "passed",
+      "checks": 19,
+      "coverage": [
+        "deterministic bounded 96-candidate pool",
+        "identical tree recipes and budget across four arms",
+        "all six parameter ranges and independent six-class custom weights",
+        "native Balanced/SqrtBalanced formulas and unmodified explicit custom weights",
+        "native training is silent and disables CatBoost file output",
+        "native SqrtBalanced supported and effective weights verified for every fit",
+        "no eval_set, early stopping, external sample weights or mixed weighting policies",
+        "exact native fold membership",
+        "outer feature/label perturbation leaves multiple-candidate selection unchanged",
+        "native class-label and probability alignment",
+        "automatic weights use inner training counts, not outer-training counts",
+        "sklearn Macro F1 selection with deterministic exact ties",
+        "invalid input rejection 1",
+        "invalid input rejection 2",
+        "invalid input rejection 3",
+        "invalid input rejection 4",
+        "invalid input rejection 5",
+        "invalid input rejection 6",
+        "invalid input rejection 7"
+      ],
+      "wine_training_rows": 0,
+      "sqrt_balanced_supported": true
+    }
+  },
+  "total_tests_and_framework_checks": 133,
+  "prior_notebook_cells_preserved_exactly": 298,
+  "prior_notebook_metadata_preserved_exactly": true,
+  "prior_artifact_hashes_preserved": 271,
+  "source_directory_exists": false,
+  "holdout_evaluations": 0,
+  "study_access_guards": "The experiment kernel blocked reserved holdout/model/unregistered-result reads. Only hash-verified development reference results were allowed. Exact raw fold inputs, native class-weight settings and effective fitted weights were checked for every fit. No eval_set, early stopping or reference retraining was permitted.",
+  "new_experiment_result_label": "Development CV estimate",
+  "full_development_model_fitted": false,
+  "runtime_environment": {
+    "python_executable": "/Users/shivsharma/Documents/projects/Finesse-Project3/venv/bin/python",
+    "python_version": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "packages": {
+      "catboost": "1.2.10",
+      "xgboost": "3.4.1",
+      "numpy": "2.3.5",
+      "scipy": "1.18.1",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.9.1",
+      "imbalanced-learn": "0.14.2",
+      "nbclient": "0.11.0",
+      "nbformat": "5.11.1"
+    }
+  }
+}

@@ -1,0 +1,306 @@
+[
+  {
+    "phase": "screening",
+    "repeat": 1,
+    "outer_fold": 1,
+    "direction": {
+      "kind": "decision",
+      "family": "lda_smote"
+    },
+    "candidate_scores": [
+      0.37387567320931275,
+      0.39728853310356044,
+      0.37198682621583196,
+      0.3801946170167319,
+      0.33852494806253447,
+      0.37402436036661607,
+      0.3620118832652546,
+      0.3748613626945661,
+      0.3726883552906701,
+      0.3509205709539249,
+      0.37327000226570445,
+      0.3218455825644568
+    ],
+    "selected_index": 1,
+    "multiplier": [
+      0.75,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recipe": {
+      "family": "lda_smote",
+      "features": "original",
+      "rule": "multipliers",
+      "weight": null
+    }
+  },
+  {
+    "phase": "screening",
+    "repeat": 1,
+    "outer_fold": 1,
+    "direction": {
+      "kind": "decision",
+      "family": "ordered_logit"
+    },
+    "candidate_scores": [
+      0.3593282747447491,
+      0.3059267459015314,
+      0.3509315098885781,
+      0.324072178327897,
+      0.3085917591709681,
+      0.36878372248484625,
+      0.35629722770322986,
+      0.3599522753687497,
+      0.3639264329304261,
+      0.3855944739909823,
+      0.35724338931504507,
+      0.3153350466288655
+    ],
+    "selected_index": 9,
+    "multiplier": [
+      1.25,
+      1.25,
+      1.0,
+      1.0,
+      1.25,
+      1.25
+    ],
+    "recipe": {
+      "family": "ordered_logit",
+      "features": "original",
+      "rule": "multipliers",
+      "weight": null
+    }
+  },
+  {
+    "phase": "screening",
+    "repeat": 1,
+    "outer_fold": 2,
+    "direction": {
+      "kind": "decision",
+      "family": "lda_smote"
+    },
+    "candidate_scores": [
+      0.32827060327740915,
+      0.3276934027002086,
+      0.32892228134844204,
+      0.32597024613646175,
+      0.32439402961604386,
+      0.351403690378306,
+      0.3178114955501628,
+      0.3287262155531274,
+      0.34259965871049664,
+      0.3143012503745918,
+      0.33335436727047857,
+      0.31450231045167026
+    ],
+    "selected_index": 5,
+    "multiplier": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.75,
+      1.0
+    ],
+    "recipe": {
+      "family": "lda_smote",
+      "features": "original",
+      "rule": "multipliers",
+      "weight": null
+    }
+  },
+  {
+    "phase": "screening",
+    "repeat": 1,
+    "outer_fold": 2,
+    "direction": {
+      "kind": "decision",
+      "family": "ordered_logit"
+    },
+    "candidate_scores": [
+      0.3348722998681506,
+      0.3348722998681506,
+      0.32651436145148005,
+      0.3234463172272264,
+      0.34157214274227216,
+      0.3485361600241604,
+      0.3163778180684951,
+      0.3354828212995096,
+      0.3639328180760908,
+      0.3179460649031069,
+      0.324473551242287,
+      0.32708817995911715
+    ],
+    "selected_index": 8,
+    "multiplier": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.5
+    ],
+    "recipe": {
+      "family": "ordered_logit",
+      "features": "original",
+      "rule": "multipliers",
+      "weight": null
+    }
+  },
+  {
+    "phase": "screening",
+    "repeat": 1,
+    "outer_fold": 3,
+    "direction": {
+      "kind": "decision",
+      "family": "lda_smote"
+    },
+    "candidate_scores": [
+      0.34482984053917587,
+      0.34482984053917587,
+      0.33639159934231394,
+      0.3256100490226022,
+      0.3437090847829216,
+      0.33897647186737373,
+      0.33876436331051146,
+      0.34578697745136894,
+      0.3418682877574855,
+      0.3356740150880591,
+      0.33508441740334455,
+      0.3416608351970642
+    ],
+    "selected_index": 7,
+    "multiplier": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.75
+    ],
+    "recipe": {
+      "family": "lda_smote",
+      "features": "original",
+      "rule": "multipliers",
+      "weight": null
+    }
+  },
+  {
+    "phase": "screening",
+    "repeat": 1,
+    "outer_fold": 3,
+    "direction": {
+      "kind": "decision",
+      "family": "ordered_logit"
+    },
+    "candidate_scores": [
+      0.3212307370563959,
+      0.3212307370563959,
+      0.3264617406086561,
+      0.324599688073699,
+      0.31261182688896955,
+      0.31684309818133194,
+      0.32185637960477725,
+      0.322360975275836,
+      0.31799395129142577,
+      0.3176001723857606,
+      0.3181149278631931,
+      0.3278991367781045
+    ],
+    "selected_index": 11,
+    "multiplier": [
+      0.75,
+      1.25,
+      1.0,
+      1.0,
+      1.25,
+      0.75
+    ],
+    "recipe": {
+      "family": "ordered_logit",
+      "features": "original",
+      "rule": "multipliers",
+      "weight": null
+    }
+  },
+  {
+    "phase": "screening",
+    "repeat": 1,
+    "outer_fold": 4,
+    "direction": {
+      "kind": "decision",
+      "family": "lda_smote"
+    },
+    "candidate_scores": [
+      0.32020749217152195,
+      0.3328758423398721,
+      0.3172583467163524,
+      0.3204269819277598,
+      0.3433274551026892,
+      0.3226981026087321,
+      0.3051286694259469,
+      0.31142697353656396,
+      0.3190893321684456,
+      0.3173984764210579,
+      0.3280585391517672,
+      0.32526582613753074
+    ],
+    "selected_index": 4,
+    "multiplier": [
+      1.0,
+      1.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recipe": {
+      "family": "lda_smote",
+      "features": "original",
+      "rule": "multipliers",
+      "weight": null
+    }
+  },
+  {
+    "phase": "screening",
+    "repeat": 1,
+    "outer_fold": 4,
+    "direction": {
+      "kind": "decision",
+      "family": "ordered_logit"
+    },
+    "candidate_scores": [
+      0.3141693854015883,
+      0.31931798716341,
+      0.35489729907783313,
+      0.32704598940317076,
+      0.3237511085156223,
+      0.3461216885681761,
+      0.30977486620938754,
+      0.31587445486319304,
+      0.3457057075019642,
+      0.3077651452635772,
+      0.3275247545121171,
+      0.3224607272456037
+    ],
+    "selected_index": 2,
+    "multiplier": [
+      1.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recipe": {
+      "family": "ordered_logit",
+      "features": "original",
+      "rule": "multipliers",
+      "weight": null
+    }
+  }
+]

@@ -1,0 +1,15 @@
+model_family,scaling,rationale
+dummy,none,Reference classifier; feature scaling adds no value.
+logistic_regression,StandardScaler,Put numeric features on comparable scales for optimization and regularization.
+knn,StandardScaler,Prevent large measurement units from dominating neighbor distances.
+svm,StandardScaler,Put features on comparable scales for margins and kernel distances.
+gaussian_nb,StandardScaler,Control unit-dependent numerical conditioning and the global variance-smoothing scale; benefit requires validation.
+lda,StandardScaler,Improve numerical conditioning across units; scaling is not a guarantee of improved discrimination.
+decision_tree,none,Axis-aligned tree splits do not require standardization.
+random_forest,none,Tree ensemble; retain original measurement scales.
+extra_trees,none,Tree ensemble; retain original measurement scales.
+gradient_boosting,none,Tree boosting; retain original measurement scales.
+hist_gradient_boosting,none,Histogram tree boosting; no standardization needed.
+xgboost,none,Tree booster policy; a linear booster would require a separate policy.
+lightgbm,none,Tree boosting; no standardization needed.
+catboost,none,Tree boosting on numeric predictors; no standardization needed.

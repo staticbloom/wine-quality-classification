@@ -1,0 +1,24 @@
+{
+  "status": "READY",
+  "completed_utc": "2026-10-24T10:59:34.552154+00:00",
+  "fresh_kernel": true,
+  "sequential": true,
+  "working_directory": "notebook",
+  "python": "3.14.7",
+  "code_cells": 17,
+  "embedded_figures": 6,
+  "guards": {
+    "fit_attempts": 0,
+    "predict_rows": 2,
+    "probability_rows": 2,
+    "model_loads": 1,
+    "raw_data_parses": 0
+  },
+  "retired_package_and_directory_blocked": true,
+  "all_frozen_evidence_unchanged": 506,
+  "clean_dependency_download_tested": false,
+  "wall_seconds": 221.53787787503097,
+  "historical_archive_present": false,
+  "no_new_model_tuning": true,
+  "notebook_source_sha256": "3bb91022883747f2a76a7450cc6a3760945de5ad89fd08762c39d1eda235124d"
+}

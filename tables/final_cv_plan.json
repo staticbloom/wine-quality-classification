@@ -1,0 +1,460 @@
+{
+  "run_id": "5096bbc9-6dc2-47bc-8ee6-85c4114da6e0",
+  "scope": "development only",
+  "development_rows": 1087,
+  "n_splits": 5,
+  "n_repeats": 5,
+  "total_fits": 125,
+  "random_state": 42,
+  "splitter": "RepeatedStratifiedKFold",
+  "first_repeat_is_original_cv": true,
+  "ranking": {
+    "primary": "mean validation-fold Macro F1 across all repetitions",
+    "descending": [
+      "macro_f1_mean",
+      "balanced_accuracy_mean",
+      "quadratic_weighted_kappa_mean",
+      "macro_average_precision_ovr_mean",
+      "macro_roc_auc_ovr_mean"
+    ],
+    "ascending": [
+      "macro_f1_repeat_mean_std",
+      "macro_f1_std",
+      "experiment"
+    ],
+    "rounding_decimals": 12,
+    "runtime_policy": "Descriptive only; clock jitter cannot change the selected configuration.",
+    "accuracy_policy": "Context only; not used in ranking or tie-breaking."
+  },
+  "eligibility": {
+    "macro_precision_drop_gate": 0.1,
+    "pooled_class_precision_drop_gate": 0.2,
+    "policy": "New final-selection gates derived from prior development review flags; frozen before repeated CV. Low absolute precision remains a warning."
+  },
+  "candidate_configs": {
+    "gaussian_nb__original": {
+      "model_name": "gaussian_nb",
+      "treatment": "original",
+      "tuned_parameters": {
+        "estimator__model__var_smoothing": 1e-09
+      },
+      "estimator_spec": {
+        "class": "wine_quality.modeling.QualityLabelClassifier",
+        "parameters": {
+          "encode_labels": false,
+          "estimator": {
+            "class": "sklearn.pipeline.Pipeline",
+            "parameters": {
+              "memory": null,
+              "steps": [
+                [
+                  "preprocess",
+                  {
+                    "class": "sklearn.pipeline.Pipeline",
+                    "parameters": {
+                      "memory": null,
+                      "steps": [
+                        [
+                          "schema",
+                          {
+                            "class": "wine_quality.preprocessing.NumericFeatureSchema",
+                            "parameters": {}
+                          }
+                        ],
+                        [
+                          "scale",
+                          {
+                            "class": "sklearn.preprocessing._data.StandardScaler",
+                            "parameters": {
+                              "copy": true,
+                              "with_mean": true,
+                              "with_std": true
+                            }
+                          }
+                        ]
+                      ],
+                      "transform_input": null,
+                      "verbose": false
+                    }
+                  }
+                ],
+                [
+                  "model",
+                  {
+                    "class": "sklearn.naive_bayes.GaussianNB",
+                    "parameters": {
+                      "priors": null,
+                      "var_smoothing": 1e-09
+                    }
+                  }
+                ]
+              ],
+              "transform_input": null,
+              "verbose": false
+            }
+          }
+        }
+      },
+      "prior_precision_review_flag": false,
+      "prior_precision_review_reasons": ""
+    },
+    "lda__smote": {
+      "model_name": "lda",
+      "treatment": "smote",
+      "tuned_parameters": {
+        "estimator__model__shrinkage": 0.8,
+        "estimator__model__solver": "lsqr"
+      },
+      "estimator_spec": {
+        "class": "wine_quality.modeling.QualityLabelClassifier",
+        "parameters": {
+          "encode_labels": false,
+          "estimator": {
+            "class": "imblearn.pipeline.Pipeline",
+            "parameters": {
+              "memory": null,
+              "steps": [
+                [
+                  "schema",
+                  {
+                    "class": "wine_quality.preprocessing.NumericFeatureSchema",
+                    "parameters": {}
+                  }
+                ],
+                [
+                  "scale",
+                  {
+                    "class": "sklearn.preprocessing._data.StandardScaler",
+                    "parameters": {
+                      "copy": true,
+                      "with_mean": true,
+                      "with_std": true
+                    }
+                  }
+                ],
+                [
+                  "resample",
+                  {
+                    "class": "wine_quality.imbalance.FoldSafeResampler",
+                    "parameters": {
+                      "k_neighbors": 3,
+                      "kind": "smote",
+                      "majority_fraction": 0.5,
+                      "multiplier": 3,
+                      "random_state": 42,
+                      "standardize_distance": false
+                    }
+                  }
+                ],
+                [
+                  "model",
+                  {
+                    "class": "sklearn.discriminant_analysis.LinearDiscriminantAnalysis",
+                    "parameters": {
+                      "covariance_estimator": null,
+                      "n_components": null,
+                      "priors": null,
+                      "shrinkage": 0.8,
+                      "solver": "lsqr",
+                      "store_covariance": false,
+                      "tol": 0.0001
+                    }
+                  }
+                ]
+              ],
+              "transform_input": null,
+              "verbose": false
+            }
+          }
+        }
+      },
+      "prior_precision_review_flag": true,
+      "prior_precision_review_reasons": "Quality 8 recall increased with OOF precision below 10%."
+    },
+    "logistic_regression__random_over": {
+      "model_name": "logistic_regression",
+      "treatment": "random_over",
+      "tuned_parameters": {
+        "estimator__model__C": 6.2101694189156165
+      },
+      "estimator_spec": {
+        "class": "wine_quality.modeling.QualityLabelClassifier",
+        "parameters": {
+          "encode_labels": false,
+          "estimator": {
+            "class": "imblearn.pipeline.Pipeline",
+            "parameters": {
+              "memory": null,
+              "steps": [
+                [
+                  "schema",
+                  {
+                    "class": "wine_quality.preprocessing.NumericFeatureSchema",
+                    "parameters": {}
+                  }
+                ],
+                [
+                  "scale",
+                  {
+                    "class": "sklearn.preprocessing._data.StandardScaler",
+                    "parameters": {
+                      "copy": true,
+                      "with_mean": true,
+                      "with_std": true
+                    }
+                  }
+                ],
+                [
+                  "resample",
+                  {
+                    "class": "wine_quality.imbalance.FoldSafeResampler",
+                    "parameters": {
+                      "k_neighbors": 3,
+                      "kind": "random_over",
+                      "majority_fraction": 0.5,
+                      "multiplier": 3,
+                      "random_state": 42,
+                      "standardize_distance": false
+                    }
+                  }
+                ],
+                [
+                  "model",
+                  {
+                    "class": "sklearn.linear_model._logistic.LogisticRegression",
+                    "parameters": {
+                      "C": 6.2101694189156165,
+                      "class_weight": null,
+                      "dual": false,
+                      "fit_intercept": true,
+                      "intercept_scaling": 1,
+                      "l1_ratio": 0.0,
+                      "max_iter": 1000,
+                      "n_jobs": null,
+                      "penalty": "deprecated",
+                      "random_state": 42,
+                      "solver": "lbfgs",
+                      "tol": 0.0001,
+                      "verbose": 0,
+                      "warm_start": false
+                    }
+                  }
+                ]
+              ],
+              "transform_input": null,
+              "verbose": false
+            }
+          }
+        }
+      },
+      "prior_precision_review_flag": false,
+      "prior_precision_review_reasons": ""
+    },
+    "gradient_boosting__random_over": {
+      "model_name": "gradient_boosting",
+      "treatment": "random_over",
+      "tuned_parameters": {
+        "estimator__model__learning_rate": 0.05,
+        "estimator__model__max_depth": 2,
+        "estimator__model__min_samples_leaf": 10,
+        "estimator__model__n_estimators": 50,
+        "estimator__model__subsample": 0.8
+      },
+      "estimator_spec": {
+        "class": "wine_quality.modeling.QualityLabelClassifier",
+        "parameters": {
+          "encode_labels": false,
+          "estimator": {
+            "class": "imblearn.pipeline.Pipeline",
+            "parameters": {
+              "memory": null,
+              "steps": [
+                [
+                  "schema",
+                  {
+                    "class": "wine_quality.preprocessing.NumericFeatureSchema",
+                    "parameters": {}
+                  }
+                ],
+                [
+                  "scale",
+                  "passthrough"
+                ],
+                [
+                  "resample",
+                  {
+                    "class": "wine_quality.imbalance.FoldSafeResampler",
+                    "parameters": {
+                      "k_neighbors": 3,
+                      "kind": "random_over",
+                      "majority_fraction": 0.5,
+                      "multiplier": 3,
+                      "random_state": 42,
+                      "standardize_distance": false
+                    }
+                  }
+                ],
+                [
+                  "model",
+                  {
+                    "class": "sklearn.ensemble._gb.GradientBoostingClassifier",
+                    "parameters": {
+                      "ccp_alpha": 0.0,
+                      "criterion": "deprecated",
+                      "init": null,
+                      "learning_rate": 0.05,
+                      "loss": "log_loss",
+                      "max_depth": 2,
+                      "max_features": null,
+                      "max_leaf_nodes": null,
+                      "min_impurity_decrease": 0.0,
+                      "min_samples_leaf": 10,
+                      "min_samples_split": 2,
+                      "min_weight_fraction_leaf": 0.0,
+                      "n_estimators": 50,
+                      "n_iter_no_change": null,
+                      "random_state": 42,
+                      "subsample": 0.8,
+                      "tol": 0.0001,
+                      "validation_fraction": 0.1,
+                      "verbose": 0,
+                      "warm_start": false
+                    }
+                  }
+                ]
+              ],
+              "transform_input": null,
+              "verbose": false
+            }
+          }
+        }
+      },
+      "prior_precision_review_flag": false,
+      "prior_precision_review_reasons": ""
+    },
+    "random_forest__class_weight_balanced": {
+      "model_name": "random_forest",
+      "treatment": "class_weight_balanced",
+      "tuned_parameters": {
+        "estimator__model__max_depth": 8,
+        "estimator__model__max_features": 0.75,
+        "estimator__model__min_samples_leaf": 1,
+        "estimator__model__n_estimators": 200
+      },
+      "estimator_spec": {
+        "class": "wine_quality.modeling.QualityLabelClassifier",
+        "parameters": {
+          "encode_labels": false,
+          "estimator": {
+            "class": "sklearn.pipeline.Pipeline",
+            "parameters": {
+              "memory": null,
+              "steps": [
+                [
+                  "preprocess",
+                  {
+                    "class": "sklearn.pipeline.Pipeline",
+                    "parameters": {
+                      "memory": null,
+                      "steps": [
+                        [
+                          "schema",
+                          {
+                            "class": "wine_quality.preprocessing.NumericFeatureSchema",
+                            "parameters": {}
+                          }
+                        ],
+                        [
+                          "scale",
+                          "passthrough"
+                        ]
+                      ],
+                      "transform_input": null,
+                      "verbose": false
+                    }
+                  }
+                ],
+                [
+                  "model",
+                  {
+                    "class": "sklearn.ensemble._forest.RandomForestClassifier",
+                    "parameters": {
+                      "bootstrap": true,
+                      "ccp_alpha": 0.0,
+                      "class_weight": "balanced",
+                      "criterion": "gini",
+                      "max_depth": 8,
+                      "max_features": 0.75,
+                      "max_leaf_nodes": null,
+                      "max_samples": null,
+                      "min_impurity_decrease": 0.0,
+                      "min_samples_leaf": 1,
+                      "min_samples_split": 2,
+                      "min_weight_fraction_leaf": 0.0,
+                      "monotonic_cst": null,
+                      "n_estimators": 200,
+                      "n_jobs": 1,
+                      "oob_score": false,
+                      "random_state": 42,
+                      "verbose": 0,
+                      "warm_start": false
+                    }
+                  }
+                ]
+              ],
+              "transform_input": null,
+              "verbose": false
+            }
+          }
+        }
+      },
+      "prior_precision_review_flag": true,
+      "prior_precision_review_reasons": "Quality 3 recall increased with OOF precision below 10%. Quality 4 recall increased with OOF precision below 10%."
+    }
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "imbalanced-learn": "0.14.2",
+    "sklearn-compat": "0.1.6",
+    "joblib": "1.6.0"
+  },
+  "source_sha256": "952286135b2a6583dc47b83ada8503ecbf80bceaa51755c83c46254f179c762a",
+  "split_manifest_sha256": "9e90c4b1563b483b972f2be1dc5918c43c44ab0f7d5249d545af822189d3517b",
+  "source_path": "/Users/shivsharma/Documents/projects/Finesse-Project3/data/wine-quality-red.csv",
+  "source_code_sha256": {
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/src/wine_quality/imbalance.py": "9793281c7dc366e64e34116d28d5359b57ca65afb470fb224f66f38696792e65",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/src/wine_quality/config.py": "56dbdf028ccc1407323aa71c9e717e9e13f1f6a3b04d9feab337d7c3422431e7",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/src/wine_quality/registry.py": "4f4825a8c5dbde0c3cae9e383bc0e8dc8134ca9b8cc199adb79b6bf627a6ecc5",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/src/wine_quality/partitioning.py": "faed34d5da564e139467960eefa440607a3c16bf0effde4acbd3f9bc037f0105",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/src/wine_quality/evaluation.py": "1e63017b474e64d3913b4ac7a940b87b5dd0fc69b27bf68a7aa4f2c561f5b2c0",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/src/wine_quality/__init__.py": "3604b95fbf71207988c88ac3aff90326d8af4c579786eb90759f353f297fbab9",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/src/wine_quality/eda.py": "04a71d9e1fee6dd58ca93e83e06d57f5ee857ef3aae605973826b459e5dd5d0e",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/src/wine_quality/timing.py": "34a73e52ab3b18a05800e780a4465f0635ecaa777647ec6762bd7564391658f3",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/src/wine_quality/utils.py": "1eeb1ca0d78b0892b7a38fa2cbcc88cb6f9cb05b3dd64a21167fa57e47bc31cd",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/src/wine_quality/preprocessing.py": "4c6d9033e621dae26f68d9a6733ed9b7d8de841757a887f7ca7299b9d03108e3",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/src/wine_quality/tuning.py": "9fd4c34598a2c8b0998ac745a35369a94880bc2597dec6ea66ee50ffa9a63c3c",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/src/wine_quality/selection.py": "cdfd0715b60d0b398a95859ce502cc6ba262922f244ef3f9396124deb17d53f9",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/src/wine_quality/modeling.py": "40a83818c22924ac394feacc992e68bf84d2934b2148e46a5cdc1fba852fb2a6",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/src/wine_quality/data.py": "346fb76c9f895a278dde1bd8c2e40db24c27cedbbd791fe456ac088d8de6c36c",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/src/wine_quality/benchmarking.py": "e7680ef8f28eac0a3e2b399645be65c05c444b235754ac107e43bdef6f69106c"
+  },
+  "development_fingerprint": "344c74a64573901b2c563fe2f3ed6b952eab22f764477527fa7af748e2cc0ce9",
+  "prior_imbalance_run_id": "e7399111-e84d-4cc8-b880-bc1ba247daac",
+  "tuning_run_id": "a41c9614-88f2-4136-a7dd-824d9d8a29a3",
+  "thread_policy": "Serial candidates/folds; native pools limited to one.",
+  "input_artifacts": {
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/class_imbalance_experiments.csv": "3395ebe9f3f571575535ee2837f384082b8e1914a956e859930db6393eb39e89",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/class_imbalance_metadata.json": "125528954bcf3a45ecd97e1b31d728330923fb0bbd7b7dee7714e5a51cc7ac8f",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/best_parameters_by_model.csv": "8b71445fa79ae6c831c78c343cd71422e100c31a30f2870d10a9ff35bc2c652e",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/hyperparameter_tuning_results.csv": "1b9fcb5584586dd51324824bbbcb8ddaa5ceb6eb3079850dfeec569c74d11c98",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/hyperparameter_tuning_metadata.json": "0524652577d667ecb98508810f20083d23d37849309532c1a705ab908faad6f3"
+  },
+  "caveats": [
+    "Previous hyperparameters and treatments used development evidence; repeated CV is not nested or unbiased.",
+    "Repeat/fold observations are dependent; variability is descriptive, not confidence intervals.",
+    "Rare qualities 3 and 8 have very small original support; synthetic observations add no independent evidence."
+  ]
+}

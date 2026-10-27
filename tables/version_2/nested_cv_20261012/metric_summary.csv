@@ -1,0 +1,8 @@
+metric,metric_label,outer_folds,mean,std,minimum,maximum,estimate_label
+macro_f1,Macro F1,40,0.341883708940119,0.053448906282896835,0.1981432573277042,0.4653950514492484,Experiment Version 2 — Development CV Estimate — Repeated nested stratified CV
+balanced_accuracy,Balanced Accuracy,40,0.36127023625017585,0.06216075468733883,0.20794741400186342,0.49873437387958025,Experiment Version 2 — Development CV Estimate — Repeated nested stratified CV
+quadratic_weighted_kappa,Quadratic Weighted Kappa,40,0.5155963735413204,0.043952503818298606,0.40478735274427136,0.5932519073032703,Experiment Version 2 — Development CV Estimate — Repeated nested stratified CV
+macro_average_precision_ovr,"Macro PR-AUC (average precision, OvR)",40,0.3822619654899213,0.05055142083168064,0.3041295156434444,0.5029193472829004,Experiment Version 2 — Development CV Estimate — Repeated nested stratified CV
+macro_roc_auc_ovr,Macro ROC-AUC (OvR),40,0.8013533224917513,0.027133911076657805,0.7244463609486053,0.8541414111729205,Experiment Version 2 — Development CV Estimate — Repeated nested stratified CV
+mae,MAE,40,0.5358879829607119,0.045472683098405846,0.4227941176470588,0.6236162361623616,Experiment Version 2 — Development CV Estimate — Repeated nested stratified CV
+within_one_accuracy,±1 accuracy,40,0.9304458568482744,0.017647233430400394,0.8929889298892989,0.9705882352941176,Experiment Version 2 — Development CV Estimate — Repeated nested stratified CV

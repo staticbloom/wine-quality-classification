@@ -1,0 +1,22 @@
+metric,metric_label,outer_folds,mean,std,minimum,maximum,model,estimate_label
+macro_f1,Macro F1,40,0.28092423842183756,0.02279638982014749,0.23883017869787446,0.36438865643886564,unweighted,Experiment Version 2 — Development CV Estimate — XGBoost weighting comparison
+balanced_accuracy,Balanced Accuracy,40,0.28150556056100756,0.020638088201184516,0.235476173403128,0.3444241938953558,unweighted,Experiment Version 2 — Development CV Estimate — XGBoost weighting comparison
+quadratic_weighted_kappa,Quadratic Weighted Kappa,40,0.5073842660643162,0.044183579273125856,0.3803588290840415,0.5783745204746185,unweighted,Experiment Version 2 — Development CV Estimate — XGBoost weighting comparison
+macro_average_precision_ovr,"Macro PR-AUC (average precision, OvR)",40,0.35313174840122824,0.033534876436020024,0.30183212955264527,0.4140721371536176,unweighted,Experiment Version 2 — Development CV Estimate — XGBoost weighting comparison
+macro_roc_auc_ovr,Macro ROC-AUC (OvR),40,0.7694875496274383,0.04722777584441638,0.6503260396436553,0.8435681267479488,unweighted,Experiment Version 2 — Development CV Estimate — XGBoost weighting comparison
+mae,MAE,40,0.4608961227479922,0.030595457266828097,0.3948339483394834,0.5514705882352942,unweighted,Experiment Version 2 — Development CV Estimate — XGBoost weighting comparison
+within_one_accuracy,±1 accuracy,40,0.9580485538311265,0.010787427090566926,0.9191176470588235,0.9779411764705882,unweighted,Experiment Version 2 — Development CV Estimate — XGBoost weighting comparison
+macro_f1,Macro F1,40,0.3059139909478553,0.03518461736693588,0.2406482172292396,0.37258526332144987,frequency,Experiment Version 2 — Development CV Estimate — XGBoost weighting comparison
+balanced_accuracy,Balanced Accuracy,40,0.3396500564625978,0.05219032857587134,0.24825519129418583,0.45335209662898074,frequency,Experiment Version 2 — Development CV Estimate — XGBoost weighting comparison
+quadratic_weighted_kappa,Quadratic Weighted Kappa,40,0.5151242538134257,0.04458872440293094,0.43051097583471676,0.6019740617468151,frequency,Experiment Version 2 — Development CV Estimate — XGBoost weighting comparison
+macro_average_precision_ovr,"Macro PR-AUC (average precision, OvR)",40,0.3459926618118615,0.033314392546647656,0.2850480273032158,0.43349332077368613,frequency,Experiment Version 2 — Development CV Estimate — XGBoost weighting comparison
+macro_roc_auc_ovr,Macro ROC-AUC (OvR),40,0.7752899178780271,0.034492341715932316,0.666593997982829,0.829692797816388,frequency,Experiment Version 2 — Development CV Estimate — XGBoost weighting comparison
+mae,MAE,40,0.5870251790753201,0.060445295718285746,0.4963235294117647,0.7095588235294118,frequency,Experiment Version 2 — Development CV Estimate — XGBoost weighting comparison
+within_one_accuracy,±1 accuracy,40,0.9157291214456261,0.0256676008525921,0.8639705882352942,0.9669117647058824,frequency,Experiment Version 2 — Development CV Estimate — XGBoost weighting comparison
+macro_f1,Macro F1,40,0.310163634194233,0.03881661471198899,0.24024691358024694,0.3909357738111651,moderated_custom,Experiment Version 2 — Development CV Estimate — XGBoost weighting comparison
+balanced_accuracy,Balanced Accuracy,40,0.3210051115845113,0.05325442835931195,0.2401889681044496,0.4466851511022938,moderated_custom,Experiment Version 2 — Development CV Estimate — XGBoost weighting comparison
+quadratic_weighted_kappa,Quadratic Weighted Kappa,40,0.5242957578455834,0.041608308702147864,0.44249974881945153,0.621503213990735,moderated_custom,Experiment Version 2 — Development CV Estimate — XGBoost weighting comparison
+macro_average_precision_ovr,"Macro PR-AUC (average precision, OvR)",40,0.3625878320862542,0.0341327530387567,0.31090050951857917,0.4270910196700612,moderated_custom,Experiment Version 2 — Development CV Estimate — XGBoost weighting comparison
+macro_roc_auc_ovr,Macro ROC-AUC (OvR),40,0.7892970002091504,0.029724052190309706,0.706427231790708,0.8362822220759503,moderated_custom,Experiment Version 2 — Development CV Estimate — XGBoost weighting comparison
+mae,MAE,40,0.4987057738224442,0.031107332122931493,0.4411764705882353,0.5845588235294118,moderated_custom,Experiment Version 2 — Development CV Estimate — XGBoost weighting comparison
+within_one_accuracy,±1 accuracy,40,0.9427752604731928,0.012239716552736948,0.9154411764705882,0.9669117647058824,moderated_custom,Experiment Version 2 — Development CV Estimate — XGBoost weighting comparison

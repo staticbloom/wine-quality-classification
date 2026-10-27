@@ -1,0 +1,3 @@
+model,inner_search_seconds,outer_fit_seconds,outer_score_seconds,outer_fit_mean_seconds,prediction_mean_ms_per_sample,measured_model_seconds,estimate_label
+lda_smote_fixed,0.0,0.2436112539144233,0.736460794811137,0.006090281347860582,0.0048734803368171535,0.9800720487255603,Experiment Version 2 — Development CV Estimate — RBF SVM nested search
+rbf_svm_tuned,158.43824562401278,0.8931829180219211,1.346741333953105,0.022329572950548028,0.03316556667131957,160.6781698759878,Experiment Version 2 — Development CV Estimate — RBF SVM nested search

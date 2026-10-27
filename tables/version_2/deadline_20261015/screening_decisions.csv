@@ -1,0 +1,9 @@
+kind,family,screen_configuration,mean,std,paired_gain,positive_folds,eligible,promoted
+decision,lda_smote,lda_smote__original__multipliers,0.36215104882158633,0.04134902991479495,0.00783337681839913,2,False,False
+ensemble,ensemble,ensemble__original__argmax__w0.5000,0.3577045431418837,0.046434430451891724,0.00338687113869654,1,False,False
+ensemble,ensemble,ensemble__original__argmax__w0.6667,0.3551750387999505,0.04577490141414521,0.000857366796763348,2,False,False
+features,ordered_logit,ordered_logit__chemistry__argmax,0.3546887434370307,0.045552335314956956,0.005896955872227452,2,False,False
+features,ordered_logit,ordered_logit__compact__argmax,0.3481323655519312,0.058569815731302904,-0.0006594220128720296,2,False,False
+features,lda_smote,lda_smote__compact__argmax,0.3407606482805137,0.05542843350722399,-0.013557023722673436,1,False,False
+features,lda_smote,lda_smote__chemistry__argmax,0.33822211469527796,0.04690572053586052,-0.01609555730790925,1,False,False
+decision,ordered_logit,ordered_logit__original__multipliers,0.3345911348137641,0.049036563850770966,-0.014200652751039114,2,False,False

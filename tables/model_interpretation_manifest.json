@@ -1,0 +1,99 @@
+{
+  "status": "COMPLETE",
+  "identity": {
+    "selected_experiment": "lda__smote",
+    "selection_run_id": "5096bbc9-6dc2-47bc-8ee6-85c4114da6e0",
+    "champion_sha256": "ae353b49129fe8c788039ca68aa99367f91fca8ca10949dee4436b85ab55d7d8",
+    "champion_metadata_sha256": "1bc87d5f81201791b26c641552d372013246cdf34b3eabddbae8f4fec6622ef1",
+    "selection_lock_sha256": "8dfc01d70c28d62f118b43e4a68e3557a5050e6eabd3096d101a1901b4dd8d87",
+    "source_sha256": "952286135b2a6583dc47b83ada8503ecbf80bceaa51755c83c46254f179c762a",
+    "development_fingerprint": "344c74a64573901b2c563fe2f3ed6b952eab22f764477527fa7af748e2cc0ce9",
+    "interpretation_code_sha256": "6aae64a1f56102c509d80254988ca3de2337ae9e73377da0c1480e4d0b0cd024",
+    "split_manifest_sha256": "9e90c4b1563b483b972f2be1dc5918c43c44ab0f7d5249d545af822189d3517b"
+  },
+  "created_at_utc": "2026-10-11T13:21:46.464155+00:00",
+  "scope": "original full-development training observations only",
+  "development_rows": 1087,
+  "model_library_versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "imbalanced-learn": "0.14.2",
+    "sklearn-compat": "0.1.6",
+    "joblib": "1.6.0"
+  },
+  "background_rows": 1087,
+  "quality_order": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "random_state": 42,
+  "local_source_row_indices": [
+    136,
+    1044,
+    1225
+  ],
+  "local_sampling": "Three seed-42 uniformly sampled original development rows; no outcome/confidence/error filtering.",
+  "shap_method": "Exact analytic marginal-background linear Shapley values; no shap package dependency",
+  "shap_formula": "phi[n,j,k] = centered_coef[k,j] * (scaled_X[n,j] - mean_scaled_development[j])",
+  "score_definition": "native LDA class discriminant minus unweighted mean of six class discriminants",
+  "global_aggregation": "mean absolute SHAP over all development observations and six equally weighted classes",
+  "local_definition": "predicted-vs-runner-up score difference equals model log probability ratio",
+  "permutation_metric": "Macro F1",
+  "permutation_repeats": 20,
+  "permutation_sd_ddof": 0,
+  "reference_training_macro_f1": 0.41342176670651515,
+  "reference_score_scope": "descriptive training reference, not new generalization evidence or model selection",
+  "fit_calls": 0,
+  "resampling_calls": 0,
+  "test_rows_used": 0,
+  "checks": {
+    "max_score_additivity_error": 3.552713678800501e-15,
+    "max_probability_reconstruction_error": 8.881784197001252e-16,
+    "fitted_state_unchanged": true,
+    "input_frame_unchanged": true
+  },
+  "timings": {
+    "coefficient_shap_validation_seconds": 0.016358583990950137,
+    "permutation_seconds": 0.47293995798099786,
+    "plot_seconds": 2.2781797500210814,
+    "total_interpretation_seconds": 2.9298691249568947
+  },
+  "causality_note": "Importance describes this model's dependence/association, not causality. Changing a chemical property does not necessarily cause wine quality to change.",
+  "limitations": [
+    "Correlated chemical measurements can share or mask reliance; marginal shuffles may create implausible combinations.",
+    "SHAP ignores conditional feature dependence; centered scores are not probability contributions.",
+    "Training-set permutation drops are optimistic/descriptive; repeat SD is not a confidence interval.",
+    "SMOTE affects learned coefficients and priors; no synthetic rows enter the explanation background.",
+    "Rare classes have few real training examples; their patterns are unstable.",
+    "No explanations are used to revise features, thresholds, hyperparameters, imbalance treatment or model choice."
+  ],
+  "references": [
+    "https://shap.readthedocs.io/en/latest/generated/shap.LinearExplainer.html",
+    "https://scikit-learn.org/stable/modules/permutation_importance.html"
+  ],
+  "files_sha256": {
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/global_feature_importance.csv": "2433ed7a950786267a2301a9dceb21f0c93020c7fe0c3876a0993fe32d02f047",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/lda_feature_coefficients.csv": "20c23fb225b3e2dd000258b7678668660946189d53267fbd13aa2006e74514aa",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/lda_class_baselines.csv": "f47d630c4cfa3a71974746ba10101f98598484f5e016d20de0013e4d80a310bf",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/interpretation_background.csv": "1a636891427847312845bf184ecaa5949d436c399c2acad038ba0a97165eb23c",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/shap_global_by_class.csv": "aa56238e57783aa9c9c4bbefe05964e5c9a2c5a3a6c665f19f5bbceb549cfd5e",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/shap_development_values.csv": "1045f7c0c4bc483cbe53da73cb0dfbd25ccca06ea479767afb4a86d6db72e3aa",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/permutation_importance_repeats.csv": "4e598c63ee2c9179480658f9891cca8c9fc3706e092bb0196376bc15d181005c",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/local_prediction_explanations.csv": "949cbe838a2c6005929a9af17fe4a54ec2276d1df4229834dba60820140e86a6",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/local_feature_contributions.csv": "1e4343473b4bcaa3652404beb1954431e43ae85118619b4d48fb0dbb3d03c024",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/interpretation_development_rows.csv": "c6cd8006aecf185e60733877fa2e0b6318bcaea85cc58e8f3cdf9bfcffed46b1",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/interpretation_feature_correlations.csv": "399caf9440b107d28b3f927844384b39a8c8c10a809b7599fa34259139dd2fd9",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/interpretation_class_support.csv": "f04afdc0190b131acf19a11057fd957ca56afdd250d6779abcbd6365502f74bb",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/tables/model_interpretation_runtime.csv": "5278c3575dbadbe3f551266dee7eee41498a1f028887d5ea743973eaf37d6bc6",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/visuals/global_feature_importance.png": "8bf63c8297c3eb9a49f7466097b5d3124d42142e2d1155b67e9d60cdce17df38",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/visuals/lda_coefficient_heatmap.png": "3b33c52221297fa4886c536b76e828f6d50c1d78a9b5fbaff102c77853cf722e",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/visuals/shap_summary.png": "137f290dcf3ae14beb90d875bf9f62e502697236c3224f9005a8b7c8c6a23401",
+    "/Users/shivsharma/Documents/projects/Finesse-Project3/visuals/local_prediction_explanations.png": "7ced00373818a183de066a9442854df46462d9ae6072e784ed928a73e0bc11b8"
+  }
+}

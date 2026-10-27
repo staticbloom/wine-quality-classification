@@ -1,0 +1,22 @@
+{
+  "status": "READY",
+  "completed_utc": "2026-10-16T08:07:28.029738+00:00",
+  "model_development": "CLOSED",
+  "final_model": "LDA + gentle capped SMOTE(k=1) + protected Tomek",
+  "macro_f1": 0.3665871810250587,
+  "macro_f1_std": 0.054873739965373196,
+  "new_model_fits": 0,
+  "new_searches": 0,
+  "holdout_predictions": 0,
+  "frozen_evidence_unchanged": 506,
+  "active_local_links_verified": 28,
+  "empty_artifacts": 0,
+  "visual_review": "All six figures inspected; titles and labels readable",
+  "execution_checks": [
+    "root",
+    "notebook",
+    "relocated notebook"
+  ],
+  "fresh_dependency_install_tested": false,
+  "notebook": "notebook/Wine-Quality-Classification.ipynb"
+}

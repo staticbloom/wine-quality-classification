@@ -1,0 +1,57 @@
+{
+  "purpose": "Submission presentation and verification artifacts; all model-development evidence remains immutable",
+  "model_sha256": "bd752c6dba6c3b51bd30b9dcb4c875f59a2595c52f2e925bc0f5be1217248059",
+  "files": {
+    "README.md": "059b6f79e85ef2382f72412214ae4f199f4b5166494fee5911e2e6962263e927",
+    "requirements.txt": "893175abe98edd35b5009bd6ba2ca25c8e63f3828a8cac2ce3daa420d59d3ea5",
+    ".gitignore": "7bcce3ecf6fac1fa8f51adb9aecaec668a688274c415c0c7d91ac6ec30d1217a",
+    "notebook/Wine-Quality-Classification.ipynb": "317d2ba2866624e786919b8558311f5f97aa9c537598e058a378dbbbeb7aa77e",
+    "tables/final_leaderboard.csv": "77777d2263fce85774f163a223c028ff8fb5d74506916a09b51d7bb3d7efc524",
+    "tables/submission/archive_provenance.json": "6ac91dd547d2fad6cb6590e52dd66a0f063b6fb696308b19c3ed47315dc9dc7b",
+    "tables/submission/leaderboard_provenance.csv": "4a4121fd4e4fb384394bcba0f4f22a5289c5826a43b86c97ca4b6387417fd6b2",
+    "tables/submission/prediction_example.csv": "cb44f46959a6b3a4b26171975177cca7e1004f6e4f20ea40a405010b39030a88",
+    "tables/submission/manual_macro_f1_checks.csv": "2b9e8db1992c4711451b5e01bbd5a41a9aa051eb2ac49e0269190c0ca9fe6720",
+    "tables/submission/execution_root.json": "03afe87d72c686943893cc95f1f21eef1e237b814d4396ca86b64fda71fbeb0e",
+    "tables/submission/execution_notebook.json": "53d7972050cf3bf1a308ed7c3cbc0a1299b5e273ac8ae2b67ff943dceac9d9be",
+    "tables/submission/frozen_lda_centered_coefficients.csv": "e13cc65b35608bd82e22e70736a6e87d760ce45b8c15cf573155519dcf83a2b1",
+    "tables/submission/SUBMISSION_READINESS_REPORT.md": "3b12f31f954b7663794586baf622e62ccb2608ed5b5136bc744a2776f7a70a60",
+    "tables/submission/notebook_checks.json": "67fdb9225b52c8f3822aff10073dd61d873c09f8a6e2d627c53147ec684dfdd4",
+    "tables/submission/execution_relocated.json": "1e8f2404baa11043c0b304bd56ccd71d80d3885a2daeba1d84e5306ee770c92e",
+    "tables/submission/champion_class_reconstruction.csv": "74f4cdf1c60d405b279ca1828a810ebc55c6c4a2fd8fc1f33bc8be96a66aaf07",
+    "tables/submission/submission_readiness.json": "cf8c7219eb4a9da9fc6dc2b2608205856957624d48aae4975346a2a0724c32d0",
+    "tables/submission/static_audit.json": "48fe9a00413b3edf16df705c1e74563ecb0dcc874d5ac3ccb9ea6d53f80b201e",
+    "tables/submission/cleanup_record.json": "e94912260a2e3fc543554d00c5c74d9d76130280e0b406009747ab73d12524da",
+    "visuals/submission/frozen_lda_coefficients.png": "637acc356e7e0c2d4b219e7ba51963cfc1df2d9059a6f03822d6a9470922b585",
+    "visuals/submission/final_leaderboard.png": "d99a75be6bc38320b967b75a12f79dcbca4861787db16318109ad3ceea717d1a",
+    "visuals/submission/development_class_distribution.png": "e8465b0b5148bacdd35a3414d6766fe240f3c3498320f6bab977baf1216821e3",
+    "visuals/submission/champion_oof_confusion.png": "3c001ae18a271bb69157af449f91c38dedfddcd9fe0afb5cde7e275377072ecd",
+    "visuals/submission/development_feature_correlations.png": "03711f719ff140d738e609cfda9c844f2bf6b5ce400607307e83cdc041424e04",
+    "visuals/submission/champion_per_class_f1.png": "fe3a8d992a034c35b1df2fd1fdc3677ecc567a057dfae668af1fe1492f0b8822",
+    "tables/submission/release_candidate_verification.json": "4fefe46b8f7e25b55d6f7303f96f47ec3373bd507f7a7c6ea9650b860e66c1c9",
+    "predict.py": "e59b72fbeb8b37fce965c8fe730377243e97e1b2c64b4a3982613bd07cb522a1",
+    "verify_notebook_replay.py": "034dc501bfa25fae7c5fa7358825d4bc43e6bb84224a7e0b26a67e3ffae3f009",
+    "train.py": "a72a3611aed4ba22c93258f2e9b4289bd2499a514c3f9d14aade506020e8b89f",
+    "data/example_wines.csv": "052ba002af332a8c3085e81462592cd66ad52420e7c6270b2110c7f39074f6f3",
+    "TECHNICAL_NOTES.md": "47aa21792e8a83455410a29fa734425d92db4a20e10d989ecf8c23825ddf6372"
+  },
+  "inventory_corrections": [
+    {
+      "path": "tables/submission/notebook_checks.json",
+      "previous_manifest_sha256": "4f92d56283c0dce05a6a90d242c2703a707a7ffb098611afdb37d37c7dc8218d",
+      "included_file_sha256": "67fdb9225b52c8f3822aff10073dd61d873c09f8a6e2d627c53147ec684dfdd4",
+      "reason": "The entry was stale before this finalization pass. The historical checklist file is retained byte-for-byte; only this submission inventory is corrected."
+    },
+    {
+      "path": ".gitignore",
+      "previous_manifest_sha256": "a0b811e7d9b2c667f06e1fcfd43df60ed4a2b7713808b3806db2b8f4cee3feec",
+      "included_file_sha256": "7bcce3ecf6fac1fa8f51adb9aecaec668a688274c415c0c7d91ac6ec30d1217a",
+      "reason": "This entry was stale before the October 27 README review. The tracked .gitignore is unchanged; only its inventory hash is corrected."
+    }
+  ],
+  "excluded_historical_files_sha256": {
+    "notebook/archive/development-requirements.record.txt": "b3a7f53f3b6847b0097f7cae831d01fe37c710bfdb8285a42eb8a8b87593f575",
+    "notebook/archive/README.md": "0f0935bd46c94a419b770d09718846013889de0e21575866506b34092f9ff0c1",
+    "notebook/archive/Wine-Quality-Development-2026-10-16.ipynb": "5a7826c5f089919c1c6473a83c7431c7920e115028cdf989370a5b1085a1e1f1"
+  },
+  "excluded_historical_files_note": "These historical archive files are absent from the public copy. Their prior recorded hashes are retained here as provenance, not as claims that the files are included or that historical development can be replayed."
+}

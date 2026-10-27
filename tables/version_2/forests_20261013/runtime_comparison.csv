@@ -1,0 +1,9 @@
+model,inner_search_seconds,outer_fit_seconds,outer_score_seconds,importance_seconds,prediction_mean_ms_per_sample,measured_model_seconds,estimate_label
+random_forest__unweighted,298.3703252431005,10.990029833221342,1.3602457899833098,22.59018858068157,0.0336103746572113,333.31078944698675,Experiment Version 2 — Development CV Estimate — Random Forest / Extra Trees
+random_forest__balanced,299.9659193342086,10.730636333930306,1.3768395864171907,23.32461837196024,0.034392163761876884,335.39801362651633,Experiment Version 2 — Development CV Estimate — Random Forest / Extra Trees
+random_forest__balanced_subsample,370.3856887498405,11.008248749014456,1.3059736270224676,21.03434403805295,0.031048429223122415,403.73425516393036,Experiment Version 2 — Development CV Estimate — Random Forest / Extra Trees
+random_forest__moderated_custom,315.753936749883,11.330671788018662,1.3001854151953012,20.843427211919334,0.03092081084843243,349.2282211650163,Experiment Version 2 — Development CV Estimate — Random Forest / Extra Trees
+extra_trees__unweighted,204.6547499577864,5.552313459978905,1.2529061699751765,19.594587833911646,0.028722665452768192,231.05455742165213,Experiment Version 2 — Development CV Estimate — Random Forest / Extra Trees
+extra_trees__balanced,220.97646037198137,6.854645869927481,1.4490523778949864,25.06196632987121,0.037957471479337125,254.34212494967505,Experiment Version 2 — Development CV Estimate — Random Forest / Extra Trees
+extra_trees__balanced_subsample,295.99405045690946,9.671772082045209,1.3925975022721104,23.29005992092425,0.03508773979144804,330.34847996215103,Experiment Version 2 — Development CV Estimate — Random Forest / Extra Trees
+extra_trees__moderated_custom,222.6259725811542,7.3257101639173925,1.4061102070263587,23.65902479091892,0.03565036625764284,255.01681774301687,Experiment Version 2 — Development CV Estimate — Random Forest / Extra Trees

@@ -1,0 +1,25 @@
+stage,column,missing_count,missing_percentage
+source,fixed acidity,0,0.0
+source,volatile acidity,0,0.0
+source,citric acid,0,0.0
+source,residual sugar,0,0.0
+source,chlorides,0,0.0
+source,free sulfur dioxide,0,0.0
+source,total sulfur dioxide,0,0.0
+source,density,0,0.0
+source,pH,0,0.0
+source,sulphates,0,0.0
+source,alcohol,0,0.0
+source,quality,0,0.0
+cleaned,fixed acidity,0,0.0
+cleaned,volatile acidity,0,0.0
+cleaned,citric acid,0,0.0
+cleaned,residual sugar,0,0.0
+cleaned,chlorides,0,0.0
+cleaned,free sulfur dioxide,0,0.0
+cleaned,total sulfur dioxide,0,0.0
+cleaned,density,0,0.0
+cleaned,pH,0,0.0
+cleaned,sulphates,0,0.0
+cleaned,alcohol,0,0.0
+cleaned,quality,0,0.0

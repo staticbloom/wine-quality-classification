@@ -1,0 +1,4 @@
+model,inner_search_seconds,outer_fit_seconds,outer_score_seconds,outer_fit_mean_seconds,prediction_mean_ms_per_sample,measured_model_seconds,estimate_label
+unweighted,232.98136441700626,4.173152333998587,0.8715326683595777,0.10432880834996468,0.011420020459237647,238.02604941936443,Experiment Version 2 — Development CV Estimate — XGBoost weighting comparison
+frequency,253.84875645593274,3.950186124886386,0.8569809179170989,0.09875465312215966,0.01057458530448806,258.65592349873623,Experiment Version 2 — Development CV Estimate — XGBoost weighting comparison
+moderated_custom,257.2949318350293,2.8413743319688365,0.8297377506969497,0.07103435829922092,0.009213641662823124,260.96604391769506,Experiment Version 2 — Development CV Estimate — XGBoost weighting comparison

@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "estimate_label": "Experiment Version 2 \u2014 Development CV Estimate",
+  "unique_fits": 270,
+  "completed_utc": "2026-10-12T12:21:03.835804+00:00",
+  "elapsed_seconds": 8.608671833004337,
+  "files": {
+    "cv_stability_comparison.csv": "e17624c8120b12fad106427d4a041aeeada2d66ec00a8d1828dadc92981ccb11",
+    "fold_class_support.csv": "a31952cef335b55032f6215e56a6bffeda11fb65d0d858f45e67d3d000883fba",
+    "fold_metrics.csv": "1df3573764b52c99e32f33468e371583bf7d4c1569c251ee7a0b655197908e4a",
+    "oof_predictions.csv": "d72791b162792733432d7b74e2be23dfbe045fab050ea74ee9ccf361cefb186a",
+    "per_class_comparison.csv": "58c9b60fba36702120fc1cd7b32bbcc86ef244bcb6188e9595acd5fd3fcaf74c",
+    "plan.json": "d4d219350630535fedfa109b4dc5c6f6bb18bf0c37ab13489735b6b9f1802870",
+    "repeat_metrics.csv": "2fc3bd3f7b8429f7fa302e7d6b97fad570fc62f1d5b176af8c7511060059dc5e",
+    "selected_validation.json": "77fea91d68aca1a2520ea5caad71dd9309375fff2bad4077b51381c97a079b02",
+    "training_audits.json": "d585da85c104ba4bae5045ee91112547dacb99c622b7b73e3d1ff044387b85b8",
+    "validation_assignments.csv": "14483339d5cca03de97821c75524621800854f53bfc27b4574768a9ec56f1edc",
+    "warnings.json": "cd85dc568cca3a56eee829c63d94d6af869c64facbb2051c685862f59103b8ac"
+  }
+}

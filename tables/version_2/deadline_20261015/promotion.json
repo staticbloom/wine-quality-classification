@@ -1,0 +1,4 @@
+{
+  "directions": [],
+  "rule": "For each direction require >=.01 mean Macro F1 over matched original argmax (ensemble over original LDA) and positive gains in at least3/4 screening folds. Promote at most2 direction/family procedures by screening mean, then SD. No search expansion."
+}

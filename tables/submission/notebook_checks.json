@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "model_status": "FROZEN",
+  "model_development": "CLOSED",
+  "major_models_reported": 10,
+  "manual_champion_fold_checks": 40,
+  "macro_f1": 0.3665871810250587,
+  "macro_f1_std": 0.054873739965373196,
+  "new_fits": 0,
+  "new_searches": 0,
+  "holdout_predictions": 0,
+  "illustrative_predictions": 2,
+  "synthetic_packaging_probes": 3,
+  "evidence": {
+    "status": "passed",
+    "completed_v2_runs": 12,
+    "file_hash_checks": 390,
+    "archived_code_verified": true,
+    "model_development": "CLOSED"
+  },
+  "report_seconds": 2.70179687498603
+}

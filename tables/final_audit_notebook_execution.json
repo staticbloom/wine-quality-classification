@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE",
+  "scope": "fresh_kernel_saved_report_replay",
+  "completed_at_utc": "2026-10-11T22:42:56.078820+00:00",
+  "python_executable": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/bin/python",
+  "python_version": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "working_directory": "/Users/shivsharma/Documents/projects/Finesse-Project3/notebook",
+  "clean_dependency_install": false,
+  "fresh_kernel": true,
+  "prior_outputs_cleared": true,
+  "code_cells": 71,
+  "guard_cells": 2,
+  "embedded_figures": 21,
+  "wall_seconds_including_kernel_startup": 17.81325895799091,
+  "new_wine_training_calls": 0,
+  "new_test_prediction_calls": 0,
+  "illustrative_prediction_rows": 2,
+  "all_protected_files_unchanged": true,
+  "source_notebook_sha256": "4593fc88ff11fe6ca55a2e92da099ce5b8449d982ac8fd88eebdac103e7ed410",
+  "executed_copy": "tables/final_audit_executed_notebook.ipynb",
+  "executed_copy_sha256": "fec812501f07cc33068704a623a4f13e764d7f7d2995f26eb4be42ef7e3df610"
+}

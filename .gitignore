@@ -1,0 +1,61 @@
+# Local environments, caches and build products
+venv/
+.venv*/
+env/
+.python/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.coverage
+htmlcov/
+.jupyter/
+catboost_info/
+# Local configuration and credentials
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+*service-account*.json
+*.local
+*.log
+*.tmp
+*.bak
+*.swp
+# Future runs and prediction exports may contain labelled source records.
+/runs/
+/outputs/*
+!/outputs/.gitkeep
+# Keep documentation and directory markers; never commit source/processed data.
+/data/**
+!/data/**/
+!/data/**/README.md
+!/data/**/.gitkeep
+
+# Handwritten, unlabelled schema example (not a source-data extract).
+!/data/example_wines.csv
+!/data/holdout_lock.json
+!/data/split_manifest.json
+# Duplicate executed report snapshots contain historical row previews/local paths.
+/tables/**/*.ipynb
+# 53.9 MiB detailed training trace; summary/fold evidence remains tracked.
+/tables/version_2/oversampling_20261014/training_audits.json
+# Source-measurement extracts outside data/.
+/tables/model_artifact_probe_features.csv
+/tables/interpretation_background.csv
+/tables/local_feature_contributions.csv
+/tables/eda_development_feature_pairs.csv
+# Historical pickles require the absent wine_quality package; preserve locally only.
+/models/candidates/*.joblib
+/models/final/wine_quality_classifier.joblib

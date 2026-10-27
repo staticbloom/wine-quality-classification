@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "development_rows": 1087,
+  "feature_columns": [
+    "fixed acidity",
+    "volatile acidity",
+    "citric acid",
+    "residual sugar",
+    "chlorides",
+    "free sulfur dioxide",
+    "total sulfur dioxide",
+    "density",
+    "pH",
+    "sulphates",
+    "alcohol"
+  ],
+  "true_class_counts": {
+    "3": 8,
+    "4": 42,
+    "5": 461,
+    "6": 428,
+    "7": 134,
+    "8": 14
+  },
+  "duplicate_feature_rows": 0,
+  "duplicate_complete_rows": 0,
+  "boundaries_checked": 160,
+  "training_audits_compared_to_raw_development": 6960,
+  "raw_source_reads_via_locked_loader": 1,
+  "holdout_rows_parsed": 0,
+  "holdout_evaluations": 0,
+  "model_fits": 0,
+  "development_feature_hash": "74aac24f3106c359e0a8e53f3dfd44b780e5364319ab666777385e84fc993ab3",
+  "source_sha256": "952286135b2a6583dc47b83ada8503ecbf80bceaa51755c83c46254f179c762a",
+  "scope": "Exact numeric duplicate rows; no subject/group identifiers exist to establish broader wine-level independence."
+}

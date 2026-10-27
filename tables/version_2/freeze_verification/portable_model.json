@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "isolated_python": true,
+  "cwd": "/private/tmp",
+  "library_only_pipeline": true,
+  "src_imports_blocked": true,
+  "data_reads": 0,
+  "model_fits": 0,
+  "probe_rows": 3,
+  "predict_equal": true,
+  "probability_equal_tolerance": 1e-15,
+  "class_order": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "invalid_schema_or_nonfinite_inputs_rejected": 5,
+  "model_sha256": "bd752c6dba6c3b51bd30b9dcb4c875f59a2595c52f2e925bc0f5be1217248059"
+}

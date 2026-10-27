@@ -1,0 +1,842 @@
+[
+  {
+    "repeat": 1,
+    "outer_fold": 1,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 1,
+    "outer_fold": 1,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 1,
+    "outer_fold": 1,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 1,
+    "outer_fold": 2,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 1,
+    "outer_fold": 2,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 1,
+    "outer_fold": 2,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 1,
+    "outer_fold": 3,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 1,
+    "outer_fold": 3,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 1,
+    "outer_fold": 3,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 1,
+    "outer_fold": 4,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 1,
+    "outer_fold": 4,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 1,
+    "outer_fold": 4,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 2,
+    "outer_fold": 1,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 2,
+    "outer_fold": 1,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 2,
+    "outer_fold": 1,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 2,
+    "outer_fold": 2,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 2,
+    "outer_fold": 2,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 2,
+    "outer_fold": 2,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 2,
+    "outer_fold": 3,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 2,
+    "outer_fold": 3,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 2,
+    "outer_fold": 3,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 2,
+    "outer_fold": 4,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 2,
+    "outer_fold": 4,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 2,
+    "outer_fold": 4,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 3,
+    "outer_fold": 1,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 3,
+    "outer_fold": 1,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 3,
+    "outer_fold": 1,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 3,
+    "outer_fold": 2,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 3,
+    "outer_fold": 2,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 3,
+    "outer_fold": 2,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 3,
+    "outer_fold": 3,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 3,
+    "outer_fold": 3,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 3,
+    "outer_fold": 3,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 3,
+    "outer_fold": 4,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 3,
+    "outer_fold": 4,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 3,
+    "outer_fold": 4,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 4,
+    "outer_fold": 1,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 4,
+    "outer_fold": 1,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 4,
+    "outer_fold": 1,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 4,
+    "outer_fold": 2,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 4,
+    "outer_fold": 2,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 4,
+    "outer_fold": 2,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 4,
+    "outer_fold": 3,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 4,
+    "outer_fold": 3,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 4,
+    "outer_fold": 3,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 4,
+    "outer_fold": 4,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 4,
+    "outer_fold": 4,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 4,
+    "outer_fold": 4,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 5,
+    "outer_fold": 1,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 5,
+    "outer_fold": 1,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 5,
+    "outer_fold": 1,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 5,
+    "outer_fold": 2,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 5,
+    "outer_fold": 2,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 5,
+    "outer_fold": 2,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 5,
+    "outer_fold": 3,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 5,
+    "outer_fold": 3,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 5,
+    "outer_fold": 3,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 5,
+    "outer_fold": 4,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 5,
+    "outer_fold": 4,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 5,
+    "outer_fold": 4,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 6,
+    "outer_fold": 1,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 6,
+    "outer_fold": 1,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 6,
+    "outer_fold": 1,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 6,
+    "outer_fold": 2,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 6,
+    "outer_fold": 2,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 6,
+    "outer_fold": 2,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 6,
+    "outer_fold": 3,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 6,
+    "outer_fold": 3,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 6,
+    "outer_fold": 3,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 6,
+    "outer_fold": 4,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 6,
+    "outer_fold": 4,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 6,
+    "outer_fold": 4,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 7,
+    "outer_fold": 1,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 7,
+    "outer_fold": 1,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 7,
+    "outer_fold": 1,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 7,
+    "outer_fold": 2,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 7,
+    "outer_fold": 2,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 7,
+    "outer_fold": 2,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 7,
+    "outer_fold": 3,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 7,
+    "outer_fold": 3,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 7,
+    "outer_fold": 3,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 7,
+    "outer_fold": 4,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 7,
+    "outer_fold": 4,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 7,
+    "outer_fold": 4,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 8,
+    "outer_fold": 1,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 8,
+    "outer_fold": 1,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 8,
+    "outer_fold": 1,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 8,
+    "outer_fold": 2,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 8,
+    "outer_fold": 2,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 8,
+    "outer_fold": 2,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 8,
+    "outer_fold": 3,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 8,
+    "outer_fold": 3,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 8,
+    "outer_fold": 3,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 8,
+    "outer_fold": 4,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 8,
+    "outer_fold": 4,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 8,
+    "outer_fold": 4,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 9,
+    "outer_fold": 1,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 9,
+    "outer_fold": 1,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 9,
+    "outer_fold": 1,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 9,
+    "outer_fold": 2,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 9,
+    "outer_fold": 2,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 9,
+    "outer_fold": 2,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 9,
+    "outer_fold": 3,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 9,
+    "outer_fold": 3,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 9,
+    "outer_fold": 3,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 9,
+    "outer_fold": 4,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 9,
+    "outer_fold": 4,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 9,
+    "outer_fold": 4,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 10,
+    "outer_fold": 1,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 10,
+    "outer_fold": 1,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 10,
+    "outer_fold": 1,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 10,
+    "outer_fold": 2,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 10,
+    "outer_fold": 2,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 10,
+    "outer_fold": 2,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 10,
+    "outer_fold": 3,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 10,
+    "outer_fold": 3,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 10,
+    "outer_fold": 3,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 10,
+    "outer_fold": 4,
+    "family": "cumulative_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 10,
+    "outer_fold": 4,
+    "family": "ordered_thresholds",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  },
+  {
+    "repeat": 10,
+    "outer_fold": 4,
+    "family": "nominal_logit",
+    "category": "FutureWarning",
+    "message": "ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"
+  }
+]

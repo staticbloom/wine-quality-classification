@@ -1,0 +1,767 @@
+{
+  "run_id": "a41c9614-88f2-4136-a7dd-824d9d8a29a3",
+  "preliminary_run_id": "4bf08b3e-875b-4233-9f78-3a00a874760b",
+  "leaderboard_sha256": "5a05f59d35a14d8540c10fcceb33b948200bb40e4e0a8760a72b1aae6eadae28",
+  "scope": "development only",
+  "development_rows": 1087,
+  "development_fingerprint": "344c74a64573901b2c563fe2f3ed6b952eab22f764477527fa7af748e2cc0ce9",
+  "fold_assignments_sha256": "bad8dcfcc7b48422381c00fbb66d08c05eee857e44bd7be153b6a5eb969be9bc",
+  "split_manifest_sha256": "9e90c4b1563b483b972f2be1dc5918c43c44ab0f7d5249d545af822189d3517b",
+  "source_sha256": "952286135b2a6583dc47b83ada8503ecbf80bceaa51755c83c46254f179c762a",
+  "cv": "StratifiedKFold(n_splits=5, shuffle=True, random_state=42)",
+  "search": "RandomizedSearchCV over a seeded sample plus the original baseline",
+  "scoring": [
+    "macro_f1"
+  ],
+  "refit": "macro_f1",
+  "random_state": 42,
+  "thread_policy": "Sequential models/search/CV; n_jobs=1; native thread pools limited to one.",
+  "candidate_parameters": {
+    "gaussian_nb": [
+      {
+        "estimator__model__var_smoothing": 1e-09
+      },
+      {
+        "estimator__model__var_smoothing": 1e-08
+      },
+      {
+        "estimator__model__var_smoothing": 0.0021544346900318778
+      },
+      {
+        "estimator__model__var_smoothing": 4.641588833612773e-09
+      },
+      {
+        "estimator__model__var_smoothing": 0.0001
+      },
+      {
+        "estimator__model__var_smoothing": 1e-11
+      },
+      {
+        "estimator__model__var_smoothing": 1e-07
+      },
+      {
+        "estimator__model__var_smoothing": 4.641588833612773e-06
+      },
+      {
+        "estimator__model__var_smoothing": 0.00021544346900318823
+      },
+      {
+        "estimator__model__var_smoothing": 4.641588833612773e-08
+      },
+      {
+        "estimator__model__var_smoothing": 2.1544346900318822e-07
+      },
+      {
+        "estimator__model__var_smoothing": 1e-06
+      }
+    ],
+    "lda": [
+      {
+        "estimator__model__shrinkage": null,
+        "estimator__model__solver": "svd"
+      },
+      {
+        "estimator__model__solver": "lsqr",
+        "estimator__model__shrinkage": null
+      },
+      {
+        "estimator__model__solver": "lsqr",
+        "estimator__model__shrinkage": "auto"
+      },
+      {
+        "estimator__model__solver": "lsqr",
+        "estimator__model__shrinkage": 0.01
+      },
+      {
+        "estimator__model__solver": "lsqr",
+        "estimator__model__shrinkage": 0.05
+      },
+      {
+        "estimator__model__solver": "lsqr",
+        "estimator__model__shrinkage": 0.1
+      },
+      {
+        "estimator__model__solver": "lsqr",
+        "estimator__model__shrinkage": 0.3
+      },
+      {
+        "estimator__model__solver": "lsqr",
+        "estimator__model__shrinkage": 0.5
+      },
+      {
+        "estimator__model__solver": "lsqr",
+        "estimator__model__shrinkage": 0.8
+      }
+    ],
+    "logistic_regression": [
+      {
+        "estimator__model__C": 1.0
+      },
+      {
+        "estimator__model__C": 30.39195382313201
+      },
+      {
+        "estimator__model__C": 0.38566204211634725
+      },
+      {
+        "estimator__model__C": 6.2101694189156165
+      },
+      {
+        "estimator__model__C": 0.8531678524172814
+      },
+      {
+        "estimator__model__C": 0.02395026619987486
+      },
+      {
+        "estimator__model__C": 0.03562247890262444
+      },
+      {
+        "estimator__model__C": 67.23357536499334
+      },
+      {
+        "estimator__model__C": 9.236708571873866
+      },
+      {
+        "estimator__model__C": 0.11721022975334805
+      },
+      {
+        "estimator__model__C": 0.001
+      },
+      {
+        "estimator__model__C": 0.004893900918477494
+      },
+      {
+        "estimator__model__C": 0.5736152510448681
+      },
+      {
+        "estimator__model__C": 0.007278953843983154
+      },
+      {
+        "estimator__model__C": 0.1743328822199989
+      },
+      {
+        "estimator__model__C": 0.07880462815669913
+      }
+    ],
+    "gradient_boosting": [
+      {
+        "estimator__model__learning_rate": 0.05,
+        "estimator__model__max_depth": 3,
+        "estimator__model__min_samples_leaf": 2,
+        "estimator__model__n_estimators": 100,
+        "estimator__model__subsample": 1.0
+      },
+      {
+        "estimator__model__subsample": 0.8,
+        "estimator__model__n_estimators": 100,
+        "estimator__model__min_samples_leaf": 10,
+        "estimator__model__max_depth": 3,
+        "estimator__model__learning_rate": 0.1
+      },
+      {
+        "estimator__model__subsample": 1.0,
+        "estimator__model__n_estimators": 50,
+        "estimator__model__min_samples_leaf": 2,
+        "estimator__model__max_depth": 1,
+        "estimator__model__learning_rate": 0.1
+      },
+      {
+        "estimator__model__subsample": 1.0,
+        "estimator__model__n_estimators": 150,
+        "estimator__model__min_samples_leaf": 2,
+        "estimator__model__max_depth": 2,
+        "estimator__model__learning_rate": 0.1
+      },
+      {
+        "estimator__model__subsample": 1.0,
+        "estimator__model__n_estimators": 50,
+        "estimator__model__min_samples_leaf": 2,
+        "estimator__model__max_depth": 1,
+        "estimator__model__learning_rate": 0.05
+      },
+      {
+        "estimator__model__subsample": 0.8,
+        "estimator__model__n_estimators": 150,
+        "estimator__model__min_samples_leaf": 2,
+        "estimator__model__max_depth": 3,
+        "estimator__model__learning_rate": 0.05
+      },
+      {
+        "estimator__model__subsample": 1.0,
+        "estimator__model__n_estimators": 150,
+        "estimator__model__min_samples_leaf": 5,
+        "estimator__model__max_depth": 2,
+        "estimator__model__learning_rate": 0.03
+      },
+      {
+        "estimator__model__subsample": 1.0,
+        "estimator__model__n_estimators": 150,
+        "estimator__model__min_samples_leaf": 5,
+        "estimator__model__max_depth": 3,
+        "estimator__model__learning_rate": 0.05
+      },
+      {
+        "estimator__model__subsample": 1.0,
+        "estimator__model__n_estimators": 100,
+        "estimator__model__min_samples_leaf": 10,
+        "estimator__model__max_depth": 3,
+        "estimator__model__learning_rate": 0.03
+      },
+      {
+        "estimator__model__subsample": 0.8,
+        "estimator__model__n_estimators": 150,
+        "estimator__model__min_samples_leaf": 5,
+        "estimator__model__max_depth": 3,
+        "estimator__model__learning_rate": 0.05
+      },
+      {
+        "estimator__model__subsample": 0.8,
+        "estimator__model__n_estimators": 50,
+        "estimator__model__min_samples_leaf": 2,
+        "estimator__model__max_depth": 3,
+        "estimator__model__learning_rate": 0.1
+      },
+      {
+        "estimator__model__subsample": 1.0,
+        "estimator__model__n_estimators": 50,
+        "estimator__model__min_samples_leaf": 2,
+        "estimator__model__max_depth": 2,
+        "estimator__model__learning_rate": 0.03
+      },
+      {
+        "estimator__model__subsample": 0.8,
+        "estimator__model__n_estimators": 50,
+        "estimator__model__min_samples_leaf": 10,
+        "estimator__model__max_depth": 2,
+        "estimator__model__learning_rate": 0.05
+      },
+      {
+        "estimator__model__subsample": 1.0,
+        "estimator__model__n_estimators": 100,
+        "estimator__model__min_samples_leaf": 10,
+        "estimator__model__max_depth": 1,
+        "estimator__model__learning_rate": 0.03
+      },
+      {
+        "estimator__model__subsample": 0.8,
+        "estimator__model__n_estimators": 50,
+        "estimator__model__min_samples_leaf": 10,
+        "estimator__model__max_depth": 1,
+        "estimator__model__learning_rate": 0.05
+      },
+      {
+        "estimator__model__subsample": 0.8,
+        "estimator__model__n_estimators": 50,
+        "estimator__model__min_samples_leaf": 5,
+        "estimator__model__max_depth": 2,
+        "estimator__model__learning_rate": 0.03
+      },
+      {
+        "estimator__model__subsample": 0.8,
+        "estimator__model__n_estimators": 50,
+        "estimator__model__min_samples_leaf": 10,
+        "estimator__model__max_depth": 2,
+        "estimator__model__learning_rate": 0.03
+      },
+      {
+        "estimator__model__subsample": 1.0,
+        "estimator__model__n_estimators": 150,
+        "estimator__model__min_samples_leaf": 10,
+        "estimator__model__max_depth": 2,
+        "estimator__model__learning_rate": 0.1
+      },
+      {
+        "estimator__model__subsample": 0.8,
+        "estimator__model__n_estimators": 100,
+        "estimator__model__min_samples_leaf": 10,
+        "estimator__model__max_depth": 3,
+        "estimator__model__learning_rate": 0.05
+      },
+      {
+        "estimator__model__subsample": 0.8,
+        "estimator__model__n_estimators": 100,
+        "estimator__model__min_samples_leaf": 5,
+        "estimator__model__max_depth": 3,
+        "estimator__model__learning_rate": 0.05
+      }
+    ],
+    "random_forest": [
+      {
+        "estimator__model__max_depth": 8,
+        "estimator__model__max_features": "sqrt",
+        "estimator__model__min_samples_leaf": 2,
+        "estimator__model__n_estimators": 100
+      },
+      {
+        "estimator__model__n_estimators": 100,
+        "estimator__model__min_samples_leaf": 1,
+        "estimator__model__max_features": 0.75,
+        "estimator__model__max_depth": null
+      },
+      {
+        "estimator__model__n_estimators": 200,
+        "estimator__model__min_samples_leaf": 4,
+        "estimator__model__max_features": "sqrt",
+        "estimator__model__max_depth": null
+      },
+      {
+        "estimator__model__n_estimators": 200,
+        "estimator__model__min_samples_leaf": 1,
+        "estimator__model__max_features": "sqrt",
+        "estimator__model__max_depth": null
+      },
+      {
+        "estimator__model__n_estimators": 100,
+        "estimator__model__min_samples_leaf": 8,
+        "estimator__model__max_features": 1.0,
+        "estimator__model__max_depth": null
+      },
+      {
+        "estimator__model__n_estimators": 200,
+        "estimator__model__min_samples_leaf": 1,
+        "estimator__model__max_features": 0.75,
+        "estimator__model__max_depth": 8
+      },
+      {
+        "estimator__model__n_estimators": 200,
+        "estimator__model__min_samples_leaf": 8,
+        "estimator__model__max_features": "sqrt",
+        "estimator__model__max_depth": null
+      },
+      {
+        "estimator__model__n_estimators": 200,
+        "estimator__model__min_samples_leaf": 4,
+        "estimator__model__max_features": 1.0,
+        "estimator__model__max_depth": 12
+      },
+      {
+        "estimator__model__n_estimators": 100,
+        "estimator__model__min_samples_leaf": 2,
+        "estimator__model__max_features": 1.0,
+        "estimator__model__max_depth": 8
+      },
+      {
+        "estimator__model__n_estimators": 100,
+        "estimator__model__min_samples_leaf": 1,
+        "estimator__model__max_features": "sqrt",
+        "estimator__model__max_depth": 4
+      },
+      {
+        "estimator__model__n_estimators": 100,
+        "estimator__model__min_samples_leaf": 2,
+        "estimator__model__max_features": 0.75,
+        "estimator__model__max_depth": 4
+      },
+      {
+        "estimator__model__n_estimators": 100,
+        "estimator__model__min_samples_leaf": 1,
+        "estimator__model__max_features": 1.0,
+        "estimator__model__max_depth": 12
+      },
+      {
+        "estimator__model__n_estimators": 100,
+        "estimator__model__min_samples_leaf": 8,
+        "estimator__model__max_features": "sqrt",
+        "estimator__model__max_depth": 8
+      },
+      {
+        "estimator__model__n_estimators": 100,
+        "estimator__model__min_samples_leaf": 2,
+        "estimator__model__max_features": 1.0,
+        "estimator__model__max_depth": 4
+      },
+      {
+        "estimator__model__n_estimators": 100,
+        "estimator__model__min_samples_leaf": 4,
+        "estimator__model__max_features": "sqrt",
+        "estimator__model__max_depth": 4
+      },
+      {
+        "estimator__model__n_estimators": 200,
+        "estimator__model__min_samples_leaf": 8,
+        "estimator__model__max_features": "sqrt",
+        "estimator__model__max_depth": 8
+      },
+      {
+        "estimator__model__n_estimators": 100,
+        "estimator__model__min_samples_leaf": 4,
+        "estimator__model__max_features": 0.75,
+        "estimator__model__max_depth": 4
+      },
+      {
+        "estimator__model__n_estimators": 100,
+        "estimator__model__min_samples_leaf": 8,
+        "estimator__model__max_features": 1.0,
+        "estimator__model__max_depth": 4
+      },
+      {
+        "estimator__model__n_estimators": 200,
+        "estimator__model__min_samples_leaf": 4,
+        "estimator__model__max_features": "sqrt",
+        "estimator__model__max_depth": 12
+      },
+      {
+        "estimator__model__n_estimators": 200,
+        "estimator__model__min_samples_leaf": 4,
+        "estimator__model__max_features": 0.75,
+        "estimator__model__max_depth": null
+      }
+    ]
+  },
+  "spaces": {
+    "gaussian_nb": [
+      {
+        "estimator__model__var_smoothing": [
+          1e-11,
+          2.1544346900318868e-11,
+          4.641588833612773e-11,
+          1e-10,
+          2.1544346900318867e-10,
+          4.6415888336127727e-10,
+          1e-09,
+          2.154434690031878e-09,
+          4.641588833612773e-09,
+          1e-08,
+          2.1544346900318822e-08,
+          4.641588833612773e-08,
+          1e-07,
+          2.1544346900318822e-07,
+          4.6415888336127725e-07,
+          1e-06,
+          2.1544346900318822e-06,
+          4.641588833612773e-06,
+          1e-05,
+          2.1544346900318823e-05,
+          4.641588833612772e-05,
+          0.0001,
+          0.00021544346900318823,
+          0.00046415888336127724,
+          0.001,
+          0.0021544346900318778,
+          0.004641588833612773,
+          0.01
+        ]
+      }
+    ],
+    "lda": [
+      {
+        "estimator__model__solver": [
+          "svd"
+        ],
+        "estimator__model__shrinkage": [
+          null
+        ]
+      },
+      {
+        "estimator__model__solver": [
+          "lsqr"
+        ],
+        "estimator__model__shrinkage": [
+          null,
+          "auto",
+          0.01,
+          0.05,
+          0.1,
+          0.3,
+          0.5,
+          0.8
+        ]
+      }
+    ],
+    "logistic_regression": [
+      {
+        "estimator__model__C": [
+          0.001,
+          0.0014873521072935117,
+          0.00221221629107045,
+          0.0032903445623126675,
+          0.004893900918477494,
+          0.007278953843983154,
+          0.010826367338740546,
+          0.01610262027560939,
+          0.02395026619987486,
+          0.03562247890262444,
+          0.0529831690628371,
+          0.07880462815669913,
+          0.11721022975334805,
+          0.1743328822199989,
+          0.2592943797404667,
+          0.38566204211634725,
+          0.5736152510448681,
+          0.8531678524172814,
+          1.0,
+          1.2689610031679235,
+          1.8873918221350976,
+          2.8072162039411785,
+          4.175318936560405,
+          6.2101694189156165,
+          9.236708571873866,
+          13.738237958832638,
+          20.43359717856944,
+          30.39195382313201,
+          45.2035365636025,
+          67.23357536499334,
+          100.0
+        ]
+      }
+    ],
+    "gradient_boosting": [
+      {
+        "estimator__model__n_estimators": [
+          50,
+          100,
+          150
+        ],
+        "estimator__model__learning_rate": [
+          0.03,
+          0.05,
+          0.1
+        ],
+        "estimator__model__max_depth": [
+          1,
+          2,
+          3
+        ],
+        "estimator__model__min_samples_leaf": [
+          2,
+          5,
+          10
+        ],
+        "estimator__model__subsample": [
+          0.8,
+          1.0
+        ]
+      }
+    ],
+    "random_forest": [
+      {
+        "estimator__model__n_estimators": [
+          100,
+          200
+        ],
+        "estimator__model__max_depth": [
+          4,
+          8,
+          12,
+          null
+        ],
+        "estimator__model__min_samples_leaf": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "estimator__model__max_features": [
+          "sqrt",
+          0.75,
+          1.0
+        ]
+      }
+    ]
+  },
+  "budgets": [
+    {
+      "model_name": "gaussian_nb",
+      "candidate_combinations": 12,
+      "possible_combinations": 28,
+      "cv_folds": 5,
+      "search_cv_fits": 60,
+      "search_refit_fits": 1,
+      "total_search_fits": 61,
+      "post_selection_cv_fits": 5,
+      "total_fits": 66
+    },
+    {
+      "model_name": "lda",
+      "candidate_combinations": 9,
+      "possible_combinations": 9,
+      "cv_folds": 5,
+      "search_cv_fits": 45,
+      "search_refit_fits": 1,
+      "total_search_fits": 46,
+      "post_selection_cv_fits": 5,
+      "total_fits": 51
+    },
+    {
+      "model_name": "logistic_regression",
+      "candidate_combinations": 16,
+      "possible_combinations": 31,
+      "cv_folds": 5,
+      "search_cv_fits": 80,
+      "search_refit_fits": 1,
+      "total_search_fits": 81,
+      "post_selection_cv_fits": 5,
+      "total_fits": 86
+    },
+    {
+      "model_name": "gradient_boosting",
+      "candidate_combinations": 20,
+      "possible_combinations": 162,
+      "cv_folds": 5,
+      "search_cv_fits": 100,
+      "search_refit_fits": 1,
+      "total_search_fits": 101,
+      "post_selection_cv_fits": 5,
+      "total_fits": 106
+    },
+    {
+      "model_name": "random_forest",
+      "candidate_combinations": 20,
+      "possible_combinations": 96,
+      "cv_folds": 5,
+      "search_cv_fits": 100,
+      "search_refit_fits": 1,
+      "total_search_fits": 101,
+      "post_selection_cv_fits": 5,
+      "total_fits": 106
+    }
+  ],
+  "selection_caveat": "Selected-configuration metrics reuse search folds; selection-biased, not nested CV. No test labels accessed.",
+  "environments": {
+    "gaussian_nb": {
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "machine": "arm64",
+      "processor": "arm",
+      "logical_cpus": 8,
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "thread_environment": {
+        "OMP_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "LOKY_MAX_CPU_COUNT": "1"
+      },
+      "native_threadpools": [
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+          "version": null
+        }
+      ],
+      "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+    },
+    "lda": {
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "machine": "arm64",
+      "processor": "arm",
+      "logical_cpus": 8,
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "thread_environment": {
+        "OMP_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "LOKY_MAX_CPU_COUNT": "1"
+      },
+      "native_threadpools": [
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+          "version": null
+        }
+      ],
+      "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+    },
+    "logistic_regression": {
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "machine": "arm64",
+      "processor": "arm",
+      "logical_cpus": 8,
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "thread_environment": {
+        "OMP_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "LOKY_MAX_CPU_COUNT": "1"
+      },
+      "native_threadpools": [
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+          "version": null
+        }
+      ],
+      "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+    },
+    "gradient_boosting": {
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "machine": "arm64",
+      "processor": "arm",
+      "logical_cpus": 8,
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "thread_environment": {
+        "OMP_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "LOKY_MAX_CPU_COUNT": "1"
+      },
+      "native_threadpools": [
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+          "version": null
+        }
+      ],
+      "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+    },
+    "random_forest": {
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "machine": "arm64",
+      "processor": "arm",
+      "logical_cpus": 8,
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "thread_environment": {
+        "OMP_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "LOKY_MAX_CPU_COUNT": "1"
+      },
+      "native_threadpools": [
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libomp",
+          "filepath": "/Users/shivsharma/Documents/projects/Finesse-Project3/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+          "version": null
+        }
+      ],
+      "outer_cv": "sequential; estimator/search parallelism recorded in parameters"
+    }
+  }
+}

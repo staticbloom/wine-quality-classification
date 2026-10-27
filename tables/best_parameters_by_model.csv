@@ -1,0 +1,6 @@
+rank,run_id,model_name,best_cv_macro_f1,best_parameters_json
+1,a41c9614-88f2-4136-a7dd-824d9d8a29a3,lda,0.3473895681275747,"{""estimator__model__shrinkage"": 0.8, ""estimator__model__solver"": ""lsqr""}"
+2,a41c9614-88f2-4136-a7dd-824d9d8a29a3,gaussian_nb,0.32217214328133426,"{""estimator__model__var_smoothing"": 1e-09}"
+3,a41c9614-88f2-4136-a7dd-824d9d8a29a3,gradient_boosting,0.3051882432715054,"{""estimator__model__learning_rate"": 0.05, ""estimator__model__max_depth"": 2, ""estimator__model__min_samples_leaf"": 10, ""estimator__model__n_estimators"": 50, ""estimator__model__subsample"": 0.8}"
+4,a41c9614-88f2-4136-a7dd-824d9d8a29a3,logistic_regression,0.30140271699874027,"{""estimator__model__C"": 6.2101694189156165}"
+5,a41c9614-88f2-4136-a7dd-824d9d8a29a3,random_forest,0.2856465050425224,"{""estimator__model__max_depth"": 8, ""estimator__model__max_features"": 0.75, ""estimator__model__min_samples_leaf"": 1, ""estimator__model__n_estimators"": 200}"
